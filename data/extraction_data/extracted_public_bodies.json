@@ -1,0 +1,346 @@
+[
+  {
+    "email_id": 23454,
+    "message_id": "",
+    "extracted_data": {
+      "public_bodies": [
+        {
+          "name": "None",
+          "context": "None",
+          "confidence": "LOW"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 293863,
+    "message_id": "",
+    "extracted_data": {
+      "public_bodies": [
+        {
+          "name": "Enron Corporation",
+          "context": "published as of 11/26/2001 is now available for viewing on the website.",
+          "confidence": "MEDIUM"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 196133,
+    "message_id": "",
+    "extracted_data": {
+      "public_bodies": [
+        {
+          "name": "",
+          "context": "",
+          "confidence": ""
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 175597,
+    "message_id": "",
+    "extracted_data": {
+      "public_bodies": [
+        {
+          "name": "Federal Energy Regulatory Commission",
+          "context": "",
+          "confidence": ""
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 441216,
+    "message_id": "",
+    "extracted_data": {
+      "public_bodies": [
+        {
+          "name": "PIRA Energy Group",
+          "context": "PIRA Energy Group",
+          "confidence": "HIGH"
+        },
+        {
+          "name": "Morris Greenberg's Department (likely referring to PIRA's Customer Service)",
+          "context": "Contact Morris Greenberg (email: morris@pira.com) or Victoria Watkins (email: vwatkins@pira.com),",
+          "confidence": "MEDIUM"
+        },
+        {
+          "name": "Victoria Watkins' Department (likely referring to PIRA's Customer Service)",
+          "context": "Contact Morris Greenberg (email: morris@pira.com) or Victoria Watkins (email: vwatkins@pira.com),",
+          "confidence": "MEDIUM"
+        },
+        {
+          "name": "PIRA's Customer Service Department",
+          "context": "Contact John Graziano regarding PIRA report distribution and address changes at (212) 686-6808, email: support@pira.com.",
+          "confidence": "LOW"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 90915,
+    "message_id": "",
+    "extracted_data": {
+      "public_bodies": [
+        {
+          "name": "NERCO",
+          "context": "...waiting .......NERCO is waiting ........",
+          "confidence": "HIGH"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 129334,
+    "message_id": "",
+    "extracted_data": {
+      "public_bodies": [
+        {
+          "name": "HOU (Houston Operations Unit)",
+          "context": "(HOU/ECT on 05/01/2000 05:02 PM)",
+          "confidence": "MEDIUM"
+        },
+        {
+          "name": "Corp (Corporate Office)",
+          "context": "(Brandon Oliveira/Corp/Enron@ENRON cc: Don Adam/Corp/Enron@ENRON, Kenneth Gurley/Corp/Enron@Enron )",
+          "confidence": "MEDIUM"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 9974,
+    "message_id": "",
+    "extracted_data": {
+      "public_bodies": [
+        {
+          "name": "Enron North America Corp.",
+          "context": "Enron North America Corp.\nFrom: Eric Bass                           01/31/2000 02:34 PM",
+          "confidence": "HIGH"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 24983,
+    "message_id": "",
+    "extracted_data": {
+      "public_bodies": [
+        {
+          "name": "Federal Energy Regulatory Commission (FERC)",
+          "context": "",
+          "confidence": "LOW"
+        },
+        {
+          "name": "U.S. Department of Justice",
+          "context": "",
+          "confidence": "LOW"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 495421,
+    "message_id": "",
+    "extracted_data": {
+      "public_bodies": [
+        {
+          "name": "Ordinary Life",
+          "context": "A gathering that provides an opportunity to develop an enlightened heart and an awakened mind to the reality of the present moment.",
+          "confidence": "LOW"
+        },
+        {
+          "name": "Riverside Church",
+          "context": "a web site where you can find two talks by Thich Nhat Hanh right after the 9/11 attacks",
+          "confidence": "MEDIUM"
+        },
+        {
+          "name": "Plum Village",
+          "context": "http://www.plumvillage.org, a web site with talks by Thich Nhat Hanh",
+          "confidence": "LOW"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 411389,
+    "message_id": "",
+    "extracted_data": {
+      "public_bodies": []
+    }
+  },
+  {
+    "email_id": 403281,
+    "message_id": "",
+    "extracted_data": {
+      "public_bodies": [
+        {
+          "name": "Enron Gas Pipeline Group",
+          "context": "Here at Enron Gas Pipeline Group I work as the only lawyer for a very busy commercial team.",
+          "confidence": "MEDIUM"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 305685,
+    "message_id": "",
+    "extracted_data": {
+      "public_bodies": [
+        {
+          "name": "King & Spalding",
+          "context": "713-276-7307 (phone), 713-751-3280 (fax), ccampbell@kslaw.com",
+          "confidence": "MEDIUM"
+        },
+        {
+          "name": "Citibank",
+          "context": "",
+          "confidence": "LOW"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 362686,
+    "message_id": "",
+    "extracted_data": {
+      "public_bodies": [
+        {
+          "name": "Legal Department",
+          "context": "Enron North America Corp.",
+          "confidence": "HIGH"
+        },
+        {
+          "name": "City of Houston",
+          "context": "1400 Smith Street, EB 3885",
+          "confidence": "LOW"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 483614,
+    "message_id": "",
+    "extracted_data": {
+      "public_bodies": [
+        {
+          "name": "ENRON",
+          "context": "ENRON@enronXgate",
+          "confidence": "HIGH"
+        },
+        {
+          "name": "CFTC",
+          "context": "CFTC Comments",
+          "confidence": "HIGH"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 234322,
+    "message_id": "",
+    "extracted_data": {
+      "public_bodies": [
+        {
+          "name": "Enron Capital & Trade Resources Corp.",
+          "context": "EnronCapitalandTradeResourcesCorp. ",
+          "confidence": "HIGH"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 422668,
+    "message_id": "",
+    "extracted_data": {
+      "public_bodies": [
+        {
+          "name": "London's tax group",
+          "context": "a question as to what entity our London activity will be done out of but this is already being considered by the correct individuals here in London.",
+          "confidence": "HIGH"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 423121,
+    "message_id": "",
+    "extracted_data": {
+      "public_bodies": [
+        {
+          "name": "ICE Corporation",
+          "context": "www.icecorp.com",
+          "confidence": "LOW"
+        },
+        {
+          "name": "CyberCrop",
+          "context": "www.cybercrop.com",
+          "confidence": "LOW"
+        },
+        {
+          "name": "e-Markets",
+          "context": "www.e-markets.com",
+          "confidence": "LOW"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 230399,
+    "message_id": "",
+    "extracted_data": {
+      "public_bodies": [
+        {
+          "name": "WPTF",
+          "context": "",
+          "confidence": "LOW"
+        },
+        {
+          "name": "PG&E",
+          "context": "instruct Saybrook to seek funding from PG&amp;E and SCE.",
+          "confidence": "HIGH"
+        },
+        {
+          "name": "SCE",
+          "context": "and instruct Saybrook to seek funding from PG&E and SCE.",
+          "confidence": "HIGH"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 357847,
+    "message_id": "",
+    "extracted_data": {
+      "public_bodies": [
+        {
+          "name": "Daily Telegraph",
+          "context": "2. He lay like a filthy leech, exhausted with his repletion. --Jeff Guinn, 'The Ghoul, the Bad, the Ugly,' [3]Arizona Republic, June 7, 1999",
+          "confidence": "MEDIUM"
+        },
+        {
+          "name": "Enron Corporation (referenced through the email subscription link)",
+          "context": "You are currently subscribed to Dictionary.com Word of the Day as: susan.w.pereira@enron.com",
+          "confidence": "LOW"
+        },
+        {
+          "name": "Time Magazine (referenced through the email subscription link)",
+          "context": "1. http://www.time.com/time/",
+          "confidence": "MEDIUM"
+        },
+        {
+          "name": "Arizona Republic",
+          "context": "3. He lay like a filthy leech, exhausted with his repletion. --Jeff Guinn, 'The Ghoul, the Bad, the Ugly,' [3]Arizona Republic, June 7, 1999",
+          "confidence": "MEDIUM"
+        },
+        {
+          "name": "UK Government (referenced through the Daily Telegraph)",
+          "context": "2. He lay like a filthy leech, exhausted with his repletion. --Jeff Guinn, 'The Ghoul, the Bad, the Ugly,' [3]Daily Telegraph, November 14, 1998",
+          "confidence": "MEDIUM"
+        }
+      ]
+    }
+  }
+]

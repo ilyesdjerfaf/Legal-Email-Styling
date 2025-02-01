@@ -1,0 +1,845 @@
+[
+  {
+    "email_id": 23454,
+    "extracted_data": {
+      "subjective_entities": [
+        {
+          "id": "1",
+          "type": "belief or attitude",
+          "holder": "Sally Beck",
+          "content": "Hope that all is well with you.",
+          "properties": {
+            "confidence_level": "high",
+            "sentiment": "positive",
+            "intensity": "weak"
+          }
+        },
+        {
+          "id": "2",
+          "type": "belief or attitude",
+          "holder": "Sally Beck",
+          "content": "We will have to catch up soon.",
+          "properties": {
+            "confidence_level": "high",
+            "sentiment": "positive",
+            "intensity": "weak"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 293863,
+    "extracted_data": {
+      "subjective_entities": [
+        {
+          "id": "TRV Notification: (EMW Positions - 11/26/2001)",
+          "type": "belief or attitude",
+          "holder": "Unknown sender",
+          "content": "The report named EMW Positions has been made available for viewing on the website.",
+          "properties": {
+            "confidence_level": "high",
+            "sentiment": "positive",
+            "intensity": "strong"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 196133,
+    "extracted_data": {
+      "subjective_entities": [
+        {
+          "id": "1",
+          "type": "belief or attitude",
+          "holder": "Tana Jones",
+          "content": "Received executed Letter Agreement",
+          "properties": {
+            "confidence_level": "high",
+            "sentiment": "positive",
+            "intensity": "strong"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 175597,
+    "extracted_data": {
+      "subjective_entities": [
+        {
+          "id": "wayne_mays_answer",
+          "type": "belief or attitude",
+          "holder": "Kevin Hyatt",
+          "content": "Did Wayne Mays get us an answer for Pueblo?",
+          "properties": {
+            "confidence_level": "high",
+            "sentiment": "positive",
+            "intensity": "strong"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 441216,
+    "extracted_data": {
+      "subjective_entities": [
+        {
+          "id": "1",
+          "type": "belief or attitude",
+          "holder": "Morris Greenberg",
+          "content": "prohibition on sharing the report outside a Client's licensed distribution area is strictly enforced.",
+          "properties": {
+            "confidence_level": "high",
+            "sentiment": "neutral",
+            "intensity": "strong"
+          }
+        },
+        {
+          "id": "2",
+          "type": "belief or attitude",
+          "holder": "PIRA Energy Group",
+          "content": "prohibition on sharing the report outside a Client's licensed distribution area is strictly enforced.",
+          "properties": {
+            "confidence_level": "high",
+            "sentiment": "neutral",
+            "intensity": "strong"
+          }
+        },
+        {
+          "id": "3",
+          "type": "belief or attitude",
+          "holder": "PIRA Energy Group",
+          "content": "Clients that are unsure of their licensed distribution or require an extension of their current license should contact their PIRA sales representative, or email to sales@pira.com.",
+          "properties": {
+            "confidence_level": "high",
+            "sentiment": "neutral",
+            "intensity": "strong"
+          }
+        },
+        {
+          "id": "4",
+          "type": "belief or attitude",
+          "holder": "PIRA Energy Group",
+          "content": "Circulation of the report outside a Client's licensed distribution area is strictly prohibited.",
+          "properties": {
+            "confidence_level": "high",
+            "sentiment": "neutral",
+            "intensity": "strong"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 90915,
+    "extracted_data": {
+      "subjective_entities": [
+        {
+          "id": "1",
+          "type": "belief or attitude",
+          "holder": "David W. Delainey",
+          "content": "NERCO is waiting ……",
+          "properties": {
+            "confidence_level": "low",
+            "sentiment": "neutral",
+            "intensity": "weak"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 129334,
+    "extracted_data": {
+      "subjective_entities": [
+        {
+          "id": "1",
+          "type": "belief or attitude",
+          "holder": "Chris Germany",
+          "content": "Alltrade error",
+          "properties": {
+            "confidence_level": "low",
+            "sentiment": "neutral",
+            "intensity": "weak"
+          }
+        },
+        {
+          "id": "2",
+          "type": "belief or attitude",
+          "holder": "Brandon Oliveira",
+          "content": "Seen this one?",
+          "properties": {
+            "confidence_level": "low",
+            "sentiment": "neutral",
+            "intensity": "weak"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 9974,
+    "extracted_data": {
+      "subjective_entities": [
+        {
+          "id": "1",
+          "type": "belief or attitude",
+          "holder": "Eric Bass",
+          "content": "reunion tour of our glorious victory in the Enron tournament.",
+          "properties": {
+            "confidence_level": "high",
+            "sentiment": "positive",
+            "intensity": "strong"
+          }
+        },
+        {
+          "id": "2",
+          "type": "belief or attitude",
+          "holder": "Eric Bass",
+          "content": "interested in playing in a flag football league starting in March.",
+          "properties": {
+            "confidence_level": "high",
+            "sentiment": "positive",
+            "intensity": "strong"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 24983,
+    "extracted_data": {
+      "subjective_entities": [
+        {
+          "id": "1",
+          "type": "belief or attitude",
+          "holder": "Christina Valdez",
+          "content": "Common Settlements Process (Jim x39641) is a good idea.",
+          "properties": {
+            "confidence_level": "low",
+            "sentiment": "positive",
+            "intensity": "weak"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 495421,
+    "extracted_data": {
+      "subjective_entities": [
+        {
+          "id": "1",
+          "type": "belief or attitude",
+          "holder": "Bill Kerley",
+          "content": "the very effort to find a safe and secure place is what causes us so much suffering",
+          "properties": {
+            "confidence_level": "high",
+            "sentiment": "negative",
+            "intensity": "strong"
+          }
+        },
+        {
+          "id": "2",
+          "type": "belief or attitude",
+          "holder": "Bill Kerley",
+          "content": "fearful times are present on both personal and global levels",
+          "properties": {
+            "confidence_level": "high",
+            "sentiment": "negative",
+            "intensity": "strong"
+          }
+        },
+        {
+          "id": "3",
+          "type": "belief or attitude",
+          "holder": "Bill Kerley",
+          "content": "there will be a tape available of Michael Butera's presentation, but little of what he says is on paper",
+          "properties": {
+            "confidence_level": "medium",
+            "sentiment": "neutral",
+            "intensity": "weak"
+          }
+        },
+        {
+          "id": "4",
+          "type": "belief or attitude",
+          "holder": "Bill Kerley",
+          "content": "It is impossible to provide a summary of what he did, but Michael always does an outstanding job",
+          "properties": {
+            "confidence_level": "high",
+            "sentiment": "positive",
+            "intensity": "strong"
+          }
+        },
+        {
+          "id": "5",
+          "type": "belief or attitude",
+          "holder": "Bill Kerley",
+          "content": "these are certainly fearful times on personal and global levels, but we can find resources to draw on for these troubling times",
+          "properties": {
+            "confidence_level": "high",
+            "sentiment": "positive",
+            "intensity": "strong"
+          }
+        },
+        {
+          "id": "6",
+          "type": "belief or attitude",
+          "holder": "Bill Kerley",
+          "content": "one of her points is that the very effort to find a safe and secure place is what causes us so much suffering",
+          "properties": {
+            "confidence_level": "high",
+            "sentiment": "negative",
+            "intensity": "strong"
+          }
+        },
+        {
+          "id": "7",
+          "type": "belief or attitude",
+          "holder": "Bill Kerley",
+          "content": "I look forward to seeing you this coming Sunday, and I hope these resources can provide comfort in difficult times",
+          "properties": {
+            "confidence_level": "medium",
+            "sentiment": "positive",
+            "intensity": "weak"
+          }
+        },
+        {
+          "id": "8",
+          "type": "belief or attitude",
+          "holder": "Bill Kerley",
+          "content": "the material in this on-line newsletter is copyrighted, but it may be reproduced and printed elsewhere as long as it is not changed in any way and credit is given to this source",
+          "properties": {
+            "confidence_level": "high",
+            "sentiment": "neutral",
+            "intensity": "weak"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 411389,
+    "extracted_data": {
+      "subjective_entities": []
+    }
+  },
+  {
+    "email_id": 403281,
+    "extracted_data": {
+      "subjective_entities": [
+        {
+          "id": "1",
+          "type": "belief or attitude",
+          "holder": "Susan Scott",
+          "content": "I am in no rush to have kids.",
+          "properties": {
+            "confidence_level": "high",
+            "sentiment": "negative",
+            "intensity": "weak"
+          }
+        },
+        {
+          "id": "2",
+          "type": "belief or attitude",
+          "holder": "Susan Scott",
+          "content": "I just can't imagine my boyfriend hanging around the house helping with diapers.",
+          "properties": {
+            "confidence_level": "high",
+            "sentiment": "negative",
+            "intensity": "weak"
+          }
+        },
+        {
+          "id": "3",
+          "type": "belief or attitude",
+          "holder": "Brian Scott",
+          "content": "I am in no hurry to have kids.",
+          "properties": {
+            "confidence_level": "high",
+            "sentiment": "negative",
+            "intensity": "weak"
+          }
+        },
+        {
+          "id": "4",
+          "type": "belief or attitude",
+          "holder": "Brian Scott",
+          "content": "I am in no hurry to get married.",
+          "properties": {
+            "confidence_level": "high",
+            "sentiment": "negative",
+            "intensity": "weak"
+          }
+        },
+        {
+          "id": "5",
+          "type": "belief or attitude",
+          "holder": "Brian Scott",
+          "content": "I would be a good dad, although I would have to settle down a bit.",
+          "properties": {
+            "confidence_level": "medium",
+            "sentiment": "positive",
+            "intensity": "weak"
+          }
+        },
+        {
+          "id": "6",
+          "type": "belief or attitude",
+          "holder": "Brian Scott",
+          "content": "I think I would be good at being a dad, although that won't happen anytime soon.",
+          "properties": {
+            "confidence_level": "medium",
+            "sentiment": "positive",
+            "intensity": "weak"
+          }
+        },
+        {
+          "id": "7",
+          "type": "belief or attitude",
+          "holder": "Brian Scott",
+          "content": "I am enjoying the Tampa area too much to get married anytime soon.",
+          "properties": {
+            "confidence_level": "high",
+            "sentiment": "positive",
+            "intensity": "strong"
+          }
+        },
+        {
+          "id": "8",
+          "type": "belief or attitude",
+          "holder": "Brian Scott",
+          "content": "I just thought I would drop you a line and see how you are doing.",
+          "properties": {
+            "confidence_level": "medium",
+            "sentiment": "neutral",
+            "intensity": "weak"
+          }
+        },
+        {
+          "id": "9",
+          "type": "belief or attitude",
+          "holder": "Brian Scott",
+          "content": "Well enough?'s, I have to go.",
+          "properties": {
+            "confidence_level": "low",
+            "sentiment": "neutral",
+            "intensity": "weak"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 305685,
+    "extracted_data": {
+      "subjective_entities": [
+        {
+          "id": "1",
+          "type": "belief or attitude",
+          "holder": "Carolyn M. Campbell",
+          "content": "Thank you",
+          "properties": {
+            "confidence_level": "low",
+            "sentiment": "positive",
+            "intensity": "weak"
+          }
+        },
+        {
+          "id": "2",
+          "type": "belief or attitude",
+          "holder": "Lari Paradee",
+          "content": "Happy New Year!",
+          "properties": {
+            "confidence_level": "medium",
+            "sentiment": "positive",
+            "intensity": "weak"
+          }
+        },
+        {
+          "id": "3",
+          "type": "attitude",
+          "holder": "Lari Paradee",
+          "content": "Do you have the wiring instructions yet",
+          "properties": {
+            "confidence_level": "medium",
+            "sentiment": "neutral",
+            "intensity": "strong"
+          }
+        },
+        {
+          "id": "4",
+          "type": "belief or attitude",
+          "holder": "Carolyn M. Campbell",
+          "content": "Do you have the wiring instructions yet so I can put them in the escrow documents and circulate those docs as final??",
+          "properties": {
+            "confidence_level": "low",
+            "sentiment": "positive",
+            "intensity": "weak"
+          }
+        },
+        {
+          "id": "5",
+          "type": "attitude",
+          "holder": "Shelly Steward",
+          "content": "Good Morning Lari!",
+          "properties": {
+            "confidence_level": "medium",
+            "sentiment": "neutral",
+            "intensity": "moderate"
+          }
+        },
+        {
+          "id": "6",
+          "type": "belief or attitude",
+          "holder": "Shelly Steward",
+          "content": "This message is being sent by or on behalf of a lawyer",
+          "properties": {
+            "confidence_level": "medium",
+            "sentiment": "neutral",
+            "intensity": "strong"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 362686,
+    "extracted_data": {
+      "subjective_entities": [
+        {
+          "id": "1",
+          "type": "belief or attitude",
+          "holder": "Debra Perlingiere",
+          "content": "Dallas is her team",
+          "properties": {
+            "confidence_level": "high",
+            "sentiment": "positive",
+            "intensity": "strong"
+          }
+        },
+        {
+          "id": "2",
+          "type": "belief or attitude",
+          "holder": "Debra Perlingiere",
+          "content": "we three would be coming",
+          "properties": {
+            "confidence_level": "high",
+            "sentiment": "positive",
+            "intensity": "strong"
+          }
+        },
+        {
+          "id": "3",
+          "type": "belief or attitude",
+          "holder": "Debra Perlingiere",
+          "content": "warned her we three would be coming",
+          "properties": {
+            "confidence_level": "high",
+            "sentiment": "positive",
+            "intensity": "strong"
+          }
+        },
+        {
+          "id": "4",
+          "type": "belief or attitude",
+          "holder": "Debra Perlingiere",
+          "content": "coming",
+          "properties": {
+            "confidence_level": "high",
+            "sentiment": "positive",
+            "intensity": "strong"
+          }
+        },
+        {
+          "id": "5",
+          "type": "belief or attitude",
+          "holder": "Debra Perlingiere",
+          "content": "we three will be coming",
+          "properties": {
+            "confidence_level": "high",
+            "sentiment": "positive",
+            "intensity": "strong"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 483614,
+    "extracted_data": {
+      "subjective_entities": [
+        {
+          "id": "1",
+          "type": "belief or attitude",
+          "holder": "Mark E Taylor (Legal)",
+          "content": "He should send it to Ken as soon as Chris signs off.",
+          "properties": {
+            "confidence_level": "low",
+            "sentiment": "positive",
+            "intensity": "weak"
+          }
+        },
+        {
+          "id": "2",
+          "type": "belief or attitude",
+          "holder": "Jim Steffes",
+          "content": "He doesn't think he did any major damage.",
+          "properties": {
+            "confidence_level": "medium",
+            "sentiment": "positive",
+            "intensity": "moderate"
+          }
+        },
+        {
+          "id": "3",
+          "type": "belief or attitude",
+          "holder": "Jim Steffes",
+          "content": "He wants Enron to say that all volatility is not due to deregulation.",
+          "properties": {
+            "confidence_level": "medium",
+            "sentiment": "positive",
+            "intensity": "moderate"
+          }
+        },
+        {
+          "id": "4",
+          "type": "belief or attitude",
+          "holder": "Vicki Sharp",
+          "content": "She is concerned about the CFTC comments.",
+          "properties": {
+            "confidence_level": "medium",
+            "sentiment": "negative",
+            "intensity": "weak"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 234322,
+    "extracted_data": {
+      "subjective_entities": [
+        {
+          "id": "1",
+          "type": "belief or attitude",
+          "holder": "Ken",
+          "content": "will keep David on until May 15 to finish up some things he is working on for Ken",
+          "properties": {
+            "confidence_level": "high",
+            "sentiment": "neutral",
+            "intensity": "weak"
+          }
+        },
+        {
+          "id": "2",
+          "type": "belief or attitude",
+          "holder": "Sherri Sera",
+          "content": "Guess David Haug is still around?",
+          "properties": {
+            "confidence_level": "medium",
+            "sentiment": "neutral",
+            "intensity": "weak"
+          }
+        },
+        {
+          "id": "3",
+          "type": "belief or attitude",
+          "holder": "Sherri Sera",
+          "content": "Apologies if I'm being too bold!",
+          "properties": {
+            "confidence_level": "high",
+            "sentiment": "positive",
+            "intensity": "weak"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 422668,
+    "extracted_data": {
+      "subjective_entities": [
+        {
+          "id": "1",
+          "type": "belief or attitude",
+          "holder": "John Greene",
+          "content": "waiting anxiously for a ruling on tax and legal matters before starting trading",
+          "properties": {
+            "confidence_level": "high",
+            "sentiment": "positive",
+            "intensity": "strong"
+          }
+        },
+        {
+          "id": "2",
+          "type": "belief or attitude",
+          "holder": "John Greene",
+          "content": "expecting additional documentation/agreements to be required after the entity is determined",
+          "properties": {
+            "confidence_level": "high",
+            "sentiment": "positive",
+            "intensity": "moderate"
+          }
+        },
+        {
+          "id": "3",
+          "type": "belief or attitude",
+          "holder": "John Greene",
+          "content": "requesting that no activity be executed on the systems until a final ruling is received from London's tax, legal and regulatory personnel",
+          "properties": {
+            "confidence_level": "high",
+            "sentiment": "positive",
+            "intensity": "strong"
+          }
+        },
+        {
+          "id": "4",
+          "type": "belief or attitude",
+          "holder": "Sara Shackleton",
+          "content": "asking John to provide an immediate response and copy the tax lawyers on his proposed activity",
+          "properties": {
+            "confidence_level": "medium",
+            "sentiment": "neutral",
+            "intensity": "weak"
+          }
+        },
+        {
+          "id": "5",
+          "type": "belief or attitude",
+          "holder": "Sara Shackleton",
+          "content": "expressing concern that the proposed activity may be done without proper U.K. tax consideration",
+          "properties": {
+            "confidence_level": "medium",
+            "sentiment": "negative",
+            "intensity": "moderate"
+          }
+        },
+        {
+          "id": "6",
+          "type": "belief or attitude",
+          "holder": "Sara Shackleton",
+          "content": "requesting that the ENA tax lawyers review the implications of John's proposed activity",
+          "properties": {
+            "confidence_level": "medium",
+            "sentiment": "neutral",
+            "intensity": "weak"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 423121,
+    "extracted_data": {
+      "subjective_entities": [
+        {
+          "id": "1",
+          "type": "attitude",
+          "holder": "Robert Bruce",
+          "content": "obviously one of the issues we're looking into from a legal/regulatory perspective",
+          "properties": {
+            "confidence_level": "medium",
+            "sentiment": "negative",
+            "intensity": "strong"
+          }
+        },
+        {
+          "id": "2",
+          "type": "belief",
+          "holder": "Robert Bruce",
+          "content": "these sites are up and running doesn't necessarily mean that they pass regulatory muster",
+          "properties": {
+            "confidence_level": "high",
+            "sentiment": "negative",
+            "intensity": "strong"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 230399,
+    "extracted_data": {
+      "subjective_entities": [
+        {
+          "id": "1",
+          "type": "belief or attitude",
+          "holder": "Gary Ackerman",
+          "content": "he thinks that a proper counter proposal would be to meet in LA, organize a credit committee, and instruct Saybrook to seek funding from PG&E and SCE",
+          "properties": {
+            "confidence_level": "medium",
+            "sentiment": "positive",
+            "intensity": "moderate"
+          }
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 357847,
+    "extracted_data": {
+      "subjective_entities": [
+        {
+          "id": "1",
+          "type": "attitude",
+          "holder": "Pico Iyer",
+          "content": "We have to earn silence, then, to work for it: to make it not an absence but a presence; not emptiness but repletion.",
+          "properties": {
+            "confidence_level": "high",
+            "sentiment": "positive",
+            "intensity": "strong"
+          }
+        },
+        {
+          "id": "2",
+          "type": "attitude",
+          "holder": "Kenneth Rose",
+          "content": "With distended belly and bursting waistcoat, his eyes glazed with repletion, he picks listlessly at his teeth with a fork.",
+          "properties": {
+            "confidence_level": "high",
+            "sentiment": "negative",
+            "intensity": "strong"
+          }
+        },
+        {
+          "id": "3",
+          "type": "attitude",
+          "holder": "Jeff Guinn",
+          "content": "He lay like a filthy leech, exhausted with his repletion.",
+          "properties": {
+            "confidence_level": "high",
+            "sentiment": "negative",
+            "intensity": "strong"
+          }
+        },
+        {
+          "id": "4",
+          "type": "beliefs",
+          "holder": "Author (unknown)",
+          "content": "Repletion is derived from Latin replere, \"to fill again, to fill up,\" from re- + plere, \" to fill.\" Plenty is a related word.",
+          "properties": {
+            "confidence_level": "medium",
+            "sentiment": "neutral",
+            "intensity": "weak"
+          }
+        },
+        {
+          "id": "5",
+          "type": "beliefs",
+          "holder": "Author (unknown)",
+          "content": "Repletion is a noun that refers to the condition of being completely filled or supplied.",
+          "properties": {
+            "confidence_level": "medium",
+            "sentiment": "neutral",
+            "intensity": "weak"
+          }
+        }
+      ]
+    }
+  }
+]
