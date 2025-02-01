@@ -1,0 +1,392 @@
+[
+  {
+    "id": "enterprise_23454_enron",
+    "label": "Entreprise",
+    "properties": {},
+    "metadata": {},
+    "nom": "Enron",
+    "adresse": null,
+    "telephone": null,
+    "site_web": "https://www.enron.com"
+  },
+  {
+    "id": "enterprise_293863_emw",
+    "label": "Entreprise",
+    "properties": {},
+    "metadata": {},
+    "nom": "EMW",
+    "adresse": null,
+    "telephone": null,
+    "site_web": "http://trv.corp.enron.com/linkFromExcel.asp?report_cd=33&report_name=EMW+Positions&category_cd=9&category_name=EMW&toc_hide=1&sTV1=9&TV1Exp=Y&current_efct_date=11/26/2001"
+  },
+  {
+    "id": "enterprise_196133_midland_cogeneration_venture_limited",
+    "label": "Entreprise",
+    "properties": {},
+    "metadata": {},
+    "nom": "Midland Cogeneration Venture Limited",
+    "adresse": null,
+    "telephone": null,
+    "site_web": null
+  },
+  {
+    "id": "enterprise_196133_enron_corporation",
+    "label": "Entreprise",
+    "properties": {},
+    "metadata": {},
+    "nom": "Enron Corporation",
+    "adresse": "2222 West Loop South, Suite 1600, Houston, TX 77027-4037",
+    "telephone": "713.275.3000",
+    "site_web": "http://www.enron.com"
+  },
+  {
+    "id": "enterprise_441216_pira_energy_group",
+    "label": "Entreprise",
+    "properties": {},
+    "metadata": {},
+    "nom": "PIRA Energy Group",
+    "adresse": null,
+    "telephone": "(212) 686-6808",
+    "site_web": "http://www.pira.com"
+  },
+  {
+    "id": "enterprise_441216_client's_(implied)",
+    "label": "Entreprise",
+    "properties": {},
+    "metadata": {},
+    "nom": "Client's (implied)",
+    "adresse": null,
+    "telephone": null,
+    "site_web": null
+  },
+  {
+    "id": "enterprise_90915_nerco",
+    "label": "Entreprise",
+    "properties": {},
+    "metadata": {},
+    "nom": "NERCO",
+    "adresse": null,
+    "telephone": null,
+    "site_web": "http://www.nerco.com"
+  },
+  {
+    "id": "enterprise_90915_blackberry",
+    "label": "Entreprise",
+    "properties": {},
+    "metadata": {},
+    "nom": "BlackBerry",
+    "adresse": null,
+    "telephone": null,
+    "site_web": "http://www.BlackBerry.net"
+  },
+  {
+    "id": "enterprise_129334_alltrade",
+    "label": "Entreprise",
+    "properties": {},
+    "metadata": {},
+    "nom": "Alltrade",
+    "adresse": null,
+    "telephone": null,
+    "site_web": null
+  },
+  {
+    "id": "enterprise_129334_hou/ect",
+    "label": "Entreprise",
+    "properties": {},
+    "metadata": {},
+    "nom": "HOU/ECT",
+    "adresse": null,
+    "telephone": null,
+    "site_web": null
+  },
+  {
+    "id": "enterprise_129334_corp/enron",
+    "label": "Entreprise",
+    "properties": {},
+    "metadata": {},
+    "nom": "Corp/Enron",
+    "adresse": null,
+    "telephone": null,
+    "site_web": null
+  },
+  {
+    "id": "enterprise_9974_enron_north_america_corp.",
+    "label": "Entreprise",
+    "properties": {},
+    "metadata": {},
+    "nom": "Enron North America Corp.",
+    "adresse": null,
+    "telephone": null,
+    "site_web": "null"
+  },
+  {
+    "id": "enterprise_24983_sbc",
+    "label": "Entreprise",
+    "properties": {},
+    "metadata": {},
+    "nom": "SBC",
+    "adresse": null,
+    "telephone": "x39641",
+    "site_web": null
+  },
+  {
+    "id": "enterprise_495421_plum_village",
+    "label": "Entreprise",
+    "properties": {},
+    "metadata": {},
+    "nom": "Plum Village",
+    "adresse": null,
+    "telephone": null,
+    "site_web": "http://www.plumvillage.org"
+  },
+  {
+    "id": "enterprise_495421_bks_speaks",
+    "label": "Entreprise",
+    "properties": {},
+    "metadata": {},
+    "nom": "BKS Speaks",
+    "adresse": "6300 West Loop South, Suite 480 Bellaire, TX 77401",
+    "telephone": "713-663-7771",
+    "site_web": "http://www.bkspeaks.com"
+  },
+  {
+    "id": "enterprise_495421_st._paul's_umc",
+    "label": "Entreprise",
+    "properties": {},
+    "metadata": {},
+    "nom": "St. Paul's UMC",
+    "adresse": "5501 South Main, Houston, Texas",
+    "telephone": null,
+    "site_web": null
+  },
+  {
+    "id": "enterprise_411389_ubs_warburg_energy,_llc",
+    "label": "Entreprise",
+    "properties": {},
+    "metadata": {},
+    "nom": "UBS Warburg Energy, LLC",
+    "adresse": "824 SW First Avenue (upstairs)",
+    "telephone": null,
+    "site_web": null
+  },
+  {
+    "id": "enterprise_403281_enron_gas_pipeline_group",
+    "label": "Entreprise",
+    "properties": {},
+    "metadata": {},
+    "nom": "Enron Gas Pipeline Group",
+    "adresse": null,
+    "telephone": null,
+    "site_web": "http://www.enrgas.com"
+  },
+  {
+    "id": "enterprise_403281_msn_hotmail",
+    "label": "Entreprise",
+    "properties": {},
+    "metadata": {},
+    "nom": "MSN Hotmail",
+    "adresse": null,
+    "telephone": null,
+    "site_web": "http://www.hotmail.com"
+  },
+  {
+    "id": "enterprise_305685_king_&_spalding",
+    "label": "Entreprise",
+    "properties": {},
+    "metadata": {},
+    "nom": "King & Spalding",
+    "adresse": null,
+    "telephone": "713-276-7307",
+    "site_web": null
+  },
+  {
+    "id": "enterprise_305685_kslaw",
+    "label": "Entreprise",
+    "properties": {},
+    "metadata": {},
+    "nom": "KSLAW",
+    "adresse": null,
+    "telephone": null,
+    "site_web": null
+  },
+  {
+    "id": "enterprise_305685_citibank",
+    "label": "Entreprise",
+    "properties": {},
+    "metadata": {},
+    "nom": "Citibank",
+    "adresse": null,
+    "telephone": null,
+    "site_web": "https://www.citibank.com"
+  },
+  {
+    "id": "enterprise_305685_intergen",
+    "label": "Entreprise",
+    "properties": {},
+    "metadata": {},
+    "nom": "INTERGEN",
+    "adresse": null,
+    "telephone": null,
+    "site_web": null
+  },
+  {
+    "id": "enterprise_483614_hou/ees",
+    "label": "Entreprise",
+    "properties": {},
+    "metadata": {},
+    "nom": "HOU/EES",
+    "adresse": null,
+    "telephone": null,
+    "site_web": null
+  },
+  {
+    "id": "enterprise_483614_ees@ees",
+    "label": "Entreprise",
+    "properties": {},
+    "metadata": {},
+    "nom": "EES@EES",
+    "adresse": null,
+    "telephone": null,
+    "site_web": null
+  },
+  {
+    "id": "enterprise_234322_enron_capital_&_trade_resources_corp.",
+    "label": "Entreprise",
+    "properties": {},
+    "metadata": {},
+    "nom": "Enron Capital & Trade Resources Corp.",
+    "adresse": "",
+    "telephone": null,
+    "site_web": "null"
+  },
+  {
+    "id": "enterprise_422668_instinet_corporation",
+    "label": "Entreprise",
+    "properties": {},
+    "metadata": {},
+    "nom": "Instinet Corporation",
+    "adresse": null,
+    "telephone": null,
+    "site_web": "null"
+  },
+  {
+    "id": "enterprise_423121_icecorp",
+    "label": "Entreprise",
+    "properties": {},
+    "metadata": {},
+    "nom": "IceCorp",
+    "adresse": null,
+    "telephone": null,
+    "site_web": "http://www.icecorp.com"
+  },
+  {
+    "id": "enterprise_423121_cybercrop",
+    "label": "Entreprise",
+    "properties": {},
+    "metadata": {},
+    "nom": "CyberCrop",
+    "adresse": null,
+    "telephone": null,
+    "site_web": "http://www.cybercrop.com"
+  },
+  {
+    "id": "enterprise_423121_e-markets",
+    "label": "Entreprise",
+    "properties": {},
+    "metadata": {},
+    "nom": "E-Markets",
+    "adresse": null,
+    "telephone": null,
+    "site_web": "http://www.e-markets.com"
+  },
+  {
+    "id": "enterprise_230399_saybrook_capital",
+    "label": "Entreprise",
+    "properties": {},
+    "metadata": {},
+    "nom": "Saybrook Capital",
+    "adresse": "null",
+    "telephone": "null",
+    "site_web": "null"
+  },
+  {
+    "id": "enterprise_230399_pg&e",
+    "label": "Entreprise",
+    "properties": {},
+    "metadata": {},
+    "nom": "PG&E",
+    "adresse": "null",
+    "telephone": "null",
+    "site_web": "http://www.pge.com"
+  },
+  {
+    "id": "enterprise_230399_sce",
+    "label": "Entreprise",
+    "properties": {},
+    "metadata": {},
+    "nom": "SCE",
+    "adresse": "null",
+    "telephone": "null",
+    "site_web": "http://www.sce.com"
+  },
+  {
+    "id": "enterprise_357847_dictionary.com",
+    "label": "Entreprise",
+    "properties": {},
+    "metadata": {},
+    "nom": "Dictionary.com",
+    "adresse": "null",
+    "telephone": "null",
+    "site_web": "http://www.dictionary.com/"
+  },
+  {
+    "id": "enterprise_357847_uproar",
+    "label": "Entreprise",
+    "properties": {},
+    "metadata": {},
+    "nom": "Uproar",
+    "adresse": "null",
+    "telephone": "null",
+    "site_web": "http://by.advertising.com/1/c/62072/34057/114911/114911"
+  },
+  {
+    "id": "enterprise_357847_aol",
+    "label": "Entreprise",
+    "properties": {},
+    "metadata": {},
+    "nom": "AOL",
+    "adresse": "null",
+    "telephone": "null",
+    "site_web": "http://by.advertising.com/1/c/62072/34057/114911/114911"
+  },
+  {
+    "id": "enterprise_357847_time",
+    "label": "Entreprise",
+    "properties": {},
+    "metadata": {},
+    "nom": "Time",
+    "adresse": "null",
+    "telephone": "null",
+    "site_web": "http://www.time.com/time/"
+  },
+  {
+    "id": "enterprise_357847_daily_telegraph",
+    "label": "Entreprise",
+    "properties": {},
+    "metadata": {},
+    "nom": "Daily Telegraph",
+    "adresse": "null",
+    "telephone": "null",
+    "site_web": "http://www.dailytelegraph.co.uk/"
+  },
+  {
+    "id": "enterprise_357847_arizona_republic",
+    "label": "Entreprise",
+    "properties": {},
+    "metadata": {},
+    "nom": "Arizona Republic",
+    "adresse": "null",
+    "telephone": "null",
+    "site_web": "http://www.arizonarepublic.com/"
+  }
+]

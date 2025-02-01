@@ -1,0 +1,1302 @@
+[
+  {
+    "id": "actor_sally.beck@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Beck",
+    "prenom": "Sally",
+    "adresse_email": "sally.beck@enron.com",
+    "departement": "HR",
+    "poste": "Manager",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_sarah.davis@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Davis",
+    "prenom": "Sarah",
+    "adresse_email": "sarah.davis@enron.com",
+    "departement": "N/A",
+    "poste": "N/A",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_daryll.fuentes@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Fuentes",
+    "prenom": "Daryll",
+    "adresse_email": "daryll.fuentes@enron.com",
+    "departement": "Engineering",
+    "poste": "Truckee River Energy Operations Manager",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_lee.fascetti@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Fascetti",
+    "prenom": "Lee",
+    "adresse_email": "lee.fascetti@enron.com",
+    "departement": "Enron",
+    "poste": "TRV Positions Manager",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_kay.classen@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Classen",
+    "prenom": "Kay",
+    "adresse_email": "kay.classen@enron.com",
+    "departement": "HR",
+    "poste": "N/A",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_m..love@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "",
+    "prenom": "M",
+    "adresse_email": "m.love@enron.com",
+    "departement": "Operations",
+    "poste": "Field Operations Manager",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_hal.mckinney@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Mckinney",
+    "prenom": "Hal",
+    "adresse_email": "hal.mckinney@enron.com",
+    "departement": "Marketing",
+    "poste": "Senior Manager",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_mark.mixon@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Mixon",
+    "prenom": "Mark",
+    "adresse_email": "mark.mixon@enron.com",
+    "departement": "Finance",
+    "poste": "Manager",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_richard.tomaski@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Tomaski",
+    "prenom": "Richard",
+    "adresse_email": "richard.tomaski@enron.com",
+    "departement": "Corporate",
+    "poste": "Senior Analyst",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_robin.rodrigue@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Rodrigue",
+    "prenom": "Robin",
+    "adresse_email": "robin.rodrigue@enron.com",
+    "departement": "Human Resources",
+    "poste": "Manager",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_tana.jones@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Jones",
+    "prenom": "Tana",
+    "adresse_email": "tana.jones@enron.com",
+    "departement": "Operations",
+    "poste": "Vice President",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_frank.davis@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Davis",
+    "prenom": "Frank",
+    "adresse_email": "frank.davis@enron.com",
+    "departement": "Corporate",
+    "poste": "General Counsel",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_stephanie.sever@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Sever",
+    "prenom": "Stephanie",
+    "adresse_email": "stephanie.sever@enron.com",
+    "departement": "Corporate",
+    "poste": "Senior Staff",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_david.forster@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Forster",
+    "prenom": "David",
+    "adresse_email": "david.forster@enron.com",
+    "departement": "Operations",
+    "poste": "Senior Vice President",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_kevin.hyatt@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Hyatt",
+    "prenom": "Kevin",
+    "adresse_email": "kevin.hyatt@enron.com",
+    "departement": "Unknown",
+    "poste": "Unknown",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_alex@pira.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "",
+    "prenom": "Alex",
+    "adresse_email": "alex@pira.com",
+    "departement": "Sales",
+    "poste": "Sales Representative",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_w..delainey@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "",
+    "prenom": "W",
+    "adresse_email": "w.delainey@enron.com",
+    "departement": "NERC",
+    "poste": "N/A",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_marksmuller@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "",
+    "prenom": "Marksmuller",
+    "adresse_email": "marksmuller@enron.com",
+    "departement": "Unknown",
+    "poste": "Unknown",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_chris.germany@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Germany",
+    "prenom": "Chris",
+    "adresse_email": "chris.germany@enron.com",
+    "departement": "Corp",
+    "poste": "Enron@ENRON",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_robert.stump@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Stump",
+    "prenom": "Robert",
+    "adresse_email": "robert.stump@enron.com",
+    "departement": "Corp",
+    "poste": "none specified",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_eric.bass@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Bass",
+    "prenom": "Eric",
+    "adresse_email": "eric.bass@enron.com",
+    "departement": "HOU/ECT",
+    "poste": "ECT",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_michael.walters@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Walters",
+    "prenom": "Michael",
+    "adresse_email": "michael.walters@enron.com",
+    "departement": "HOU/ECT",
+    "poste": "Unknown",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_christina.valdez@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Valdez",
+    "prenom": "Christina",
+    "adresse_email": "christina.valdez@enron.com",
+    "departement": "Unknown",
+    "poste": "Unknown",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_john.watson@pdq.net",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Watson",
+    "prenom": "John",
+    "adresse_email": "john.watson@pdq.net",
+    "departement": "none",
+    "poste": "Pastor/Teacher/Educator",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_kimberly.watson@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Watson",
+    "prenom": "Kimberly",
+    "adresse_email": "kimberly.watson@enron.com",
+    "departement": "Spiritual guidance/Leadership",
+    "poste": "Pastor/Teacher",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_f..calger@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "",
+    "prenom": "F",
+    "adresse_email": "f.calger@enron.com",
+    "departement": "Legal",
+    "poste": "null",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_susan.amador@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Amador",
+    "prenom": "Susan",
+    "adresse_email": "susan.amador@enron.com",
+    "departement": "Legal",
+    "poste": "Hall",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_john.anderson@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Anderson",
+    "prenom": "John",
+    "adresse_email": "john.anderson@enron.com",
+    "departement": "Legal",
+    "poste": "null",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_tim.belden@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Belden",
+    "prenom": "Tim",
+    "adresse_email": "tim.belden@enron.com",
+    "departement": "Legal",
+    "poste": "null",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_victor.bulbes@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Bulbes",
+    "prenom": "Victor",
+    "adresse_email": "victor.bulbes@enron.com",
+    "departement": "Legal",
+    "poste": "null",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_fran.chang@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Chang",
+    "prenom": "Fran",
+    "adresse_email": "fran.chang@enron.com",
+    "departement": "UBS Warburg Energy, LLC - Legal",
+    "poste": "N/A",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_jill.chatterton@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Chatterton",
+    "prenom": "Jill",
+    "adresse_email": "jill.chatterton@enron.com",
+    "departement": "Legal",
+    "poste": "Hall",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_sean.crandall@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Crandall",
+    "prenom": "Sean",
+    "adresse_email": "sean.crandall@enron.com",
+    "departement": "Legal",
+    "poste": "null",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_diane.cutsforth@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Cutsforth",
+    "prenom": "Diane",
+    "adresse_email": "diane.cutsforth@enron.com",
+    "departement": "Legal",
+    "poste": "N/A",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_debra.davidson@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Davidson",
+    "prenom": "Debra",
+    "adresse_email": "debra.davidson@enron.com",
+    "departement": "UBS Warburg Energy LLC",
+    "poste": "President",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_craig.dean@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Dean",
+    "prenom": "Craig",
+    "adresse_email": "craig.dean@enron.com",
+    "departement": "Legal",
+    "poste": "Lawyer",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_heather.dunton@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Dunton",
+    "prenom": "Heather",
+    "adresse_email": "heather.dunton@enron.com",
+    "departement": "Human Resources",
+    "poste": "Senior Manager",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_michael.etringer@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Etringer",
+    "prenom": "Michael",
+    "adresse_email": "michael.etringer@enron.com",
+    "departement": "Legal",
+    "poste": "N/A",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_scotty.gilbert@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Gilbert",
+    "prenom": "Scotty",
+    "adresse_email": "scotty.gilbert@enron.com",
+    "departement": "Legal",
+    "poste": "N/A",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_mollie.gustafson@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Gustafson",
+    "prenom": "Mollie",
+    "adresse_email": "mollie.gustafson@enron.com",
+    "departement": "N/A",
+    "poste": "N/A",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_tim.heizenrader@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Heizenrader",
+    "prenom": "Tim",
+    "adresse_email": "tim.heizenrader@enron.com",
+    "departement": "Legal",
+    "poste": "None",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_bala.kandaswamy@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Kandaswamy",
+    "prenom": "Bala",
+    "adresse_email": "bala.kandaswamy@enron.com",
+    "departement": "Legal",
+    "poste": "null",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_chris.lackey@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Lackey",
+    "prenom": "Chris",
+    "adresse_email": "chris.lackey@enron.com",
+    "departement": "Legal",
+    "poste": "Lawyer/Legal Advisor",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_eugene.lee@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Lee",
+    "prenom": "Eugene",
+    "adresse_email": "eugene.lee@enron.com",
+    "departement": "Legal",
+    "poste": " <.hall@enron.com>",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_chris.mallory@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Mallory",
+    "prenom": "Chris",
+    "adresse_email": "chris.mallory@enron.com",
+    "departement": "Legal",
+    "poste": "null",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_jim.meyer@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Meyer",
+    "prenom": "Jim",
+    "adresse_email": "jim.meyer@enron.com",
+    "departement": "Corporate/Management",
+    "poste": "N/A",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_albert.meyers@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Meyers",
+    "prenom": "Albert",
+    "adresse_email": "albert.meyers@enron.com",
+    "departement": "Legal",
+    "poste": "null",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_michael.mier@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Mier",
+    "prenom": "Michael",
+    "adresse_email": "michael.mier@enron.com",
+    "departement": "Legal",
+    "poste": "N/A",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_kourtney.nelson@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Nelson",
+    "prenom": "Kourtney",
+    "adresse_email": "kourtney.nelson@enron.com",
+    "departement": "Legal",
+    "poste": "Lawyer/attorney",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_john.oh@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Oh",
+    "prenom": "John",
+    "adresse_email": "john.oh@enron.com",
+    "departement": "N/A",
+    "poste": "CEO",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_phillip.platter@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Platter",
+    "prenom": "Phillip",
+    "adresse_email": "phillip.platter@enron.com",
+    "departement": "Corporate/HR",
+    "poste": "Co-Founder/President",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_john.postlethwaite@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Postlethwaite",
+    "prenom": "John",
+    "adresse_email": "john.postlethwaite@enron.com",
+    "departement": "N/A",
+    "poste": "N/A",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_jeff.richter@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Richter",
+    "prenom": "Jeff",
+    "adresse_email": "jeff.richter@enron.com",
+    "departement": "Legal",
+    "poste": "Hall <.hall@enron.com>",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_donald.robinson@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Robinson",
+    "prenom": "Donald",
+    "adresse_email": "donald.robinson@enron.com",
+    "departement": "Legal",
+    "poste": "LLC",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_holden.salisbury@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Salisbury",
+    "prenom": "Holden",
+    "adresse_email": "holden.salisbury@enron.com",
+    "departement": "Legal",
+    "poste": "General Counsel",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_diana.scholtes@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Scholtes",
+    "prenom": "Diana",
+    "adresse_email": "diana.scholtes@enron.com",
+    "departement": "Legal",
+    "poste": "null",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_cara.semperger@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Semperger",
+    "prenom": "Cara",
+    "adresse_email": "cara.semperger@enron.com",
+    "departement": "Legal",
+    "poste": "Hall",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_donna.sheidun@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Sheidun",
+    "prenom": "Donna",
+    "adresse_email": "donna.sheidun@enron.com",
+    "departement": "Legal",
+    "poste": "not found",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_jeff.shields@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Shields",
+    "prenom": "Jeff",
+    "adresse_email": "jeff.shields@enron.com",
+    "departement": "Legal",
+    "poste": "N/A",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_ryan.slinger@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Slinger",
+    "prenom": "Ryan",
+    "adresse_email": "ryan.slinger@enron.com",
+    "departement": "Legal",
+    "poste": "null",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_geir.solberg@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Solberg",
+    "prenom": "Geir",
+    "adresse_email": "geir.solberg@enron.com",
+    "departement": "legal",
+    "poste": "N/A",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_david.steiner@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Steiner",
+    "prenom": "David",
+    "adresse_email": "david.steiner@enron.com",
+    "departement": "Legal",
+    "poste": "None found with high confidence",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_chris.stokley@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Stokley",
+    "prenom": "Chris",
+    "adresse_email": "chris.stokley@enron.com",
+    "departement": "N/A",
+    "poste": "N/A",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_steve.swain@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Swain",
+    "prenom": "Steve",
+    "adresse_email": "steve.swain@enron.com",
+    "departement": "Legal",
+    "poste": "null",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_mike.swerzbin@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Swerzbin",
+    "prenom": "Mike",
+    "adresse_email": "mike.swerzbin@enron.com",
+    "departement": "Legal",
+    "poste": "N/A",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_jake.thomas@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Thomas",
+    "prenom": "Jake",
+    "adresse_email": "jake.thomas@enron.com",
+    "departement": "Legal",
+    "poste": "N/A",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_stephen.thome@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Thome",
+    "prenom": "Stephen",
+    "adresse_email": "stephen.thome@enron.com",
+    "departement": "N/A",
+    "poste": "N/A",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_maria.van@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Van",
+    "prenom": "Maria",
+    "adresse_email": "maria.van@enron.com",
+    "departement": "Corporate/Finance",
+    "poste": "Senior Vice President",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_theresa.villeggiante@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Villeggiante",
+    "prenom": "Theresa",
+    "adresse_email": "theresa.villeggiante@enron.com",
+    "departement": "Legal",
+    "poste": "N/A",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_laura.wente@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Wente",
+    "prenom": "Laura",
+    "adresse_email": "laura.wente@enron.com",
+    "departement": "Legal",
+    "poste": " attorney",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_bill.williams@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Williams",
+    "prenom": "Bill",
+    "adresse_email": "bill.williams@enron.com",
+    "departement": "N/A",
+    "poste": "N/A",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_andrea.woodland@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Woodland",
+    "prenom": "Andrea",
+    "adresse_email": "andrea.woodland@enron.com",
+    "departement": "Legal",
+    "poste": "null",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_christian.yoder@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Yoder",
+    "prenom": "Christian",
+    "adresse_email": "christian.yoder@enron.com",
+    "departement": "Legal",
+    "poste": "None",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_susan.scott@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Scott",
+    "prenom": "Susan",
+    "adresse_email": "susan.scott@enron.com",
+    "departement": "Enron Gas Pipeline Group",
+    "poste": "Lawyer for a very busy commercial team",
+    "roles": [
+      "employee",
+      "attorney"
+    ]
+  },
+  {
+    "id": "actor_brianscott67@hotmail.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "",
+    "prenom": "Brianscott67",
+    "adresse_email": "brianscott67@hotmail.com",
+    "departement": "Enron Gas Pipeline Group",
+    "poste": "only lawyer for a very busy commercial team",
+    "roles": [
+      "employee",
+      "attorney"
+    ]
+  },
+  {
+    "id": "actor_kay.mann@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Mann",
+    "prenom": "Kay",
+    "adresse_email": "kay.mann@enron.com",
+    "departement": "Corp/Enron",
+    "poste": "N/A",
+    "roles": [
+      "employee",
+      "attorney"
+    ]
+  },
+  {
+    "id": "actor_kathleen.carnahan@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Carnahan",
+    "prenom": "Kathleen",
+    "adresse_email": "kathleen.carnahan@enron.com",
+    "departement": "Corp/Enron",
+    "poste": "Corp",
+    "roles": [
+      "employee",
+      "attorney"
+    ]
+  },
+  {
+    "id": "actor_debra.perlingiere@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Perlingiere",
+    "prenom": "Debra",
+    "adresse_email": "debra.perlingiere@enron.com",
+    "departement": "Legal Department",
+    "poste": "N/A",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_genia.fitzgerald@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Fitzgerald",
+    "prenom": "Genia",
+    "adresse_email": "genia.fitzgerald@enron.com",
+    "departement": "Legal",
+    "poste": "N/A",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_vicki.sharp@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Sharp",
+    "prenom": "Vicki",
+    "adresse_email": "vicki.sharp@enron.com",
+    "departement": "Legal",
+    "poste": "Legal",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_steven.kean@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Kean",
+    "prenom": "Steven",
+    "adresse_email": "steven.kean@enron.com",
+    "departement": "Corporate",
+    "poste": "NA",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_sherri.sera@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Sera",
+    "prenom": "Sherri",
+    "adresse_email": "sherri.sera@enron.com",
+    "departement": "Corp",
+    "poste": "Resources",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_john.greene@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Greene",
+    "prenom": "John",
+    "adresse_email": "john.greene@enron.com",
+    "departement": "London's tax group",
+    "poste": "N/A",
+    "roles": [
+      "employee",
+      "regulator",
+      "attorney",
+      "manager"
+    ]
+  },
+  {
+    "id": "actor_sara.shackleton@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Shackleton",
+    "prenom": "Sara",
+    "adresse_email": "sara.shackleton@enron.com",
+    "departement": "Legal",
+    "poste": "Senior Manager/LON/ECT@ECT",
+    "roles": [
+      "employee",
+      "regulator",
+      "attorney",
+      "manager"
+    ]
+  },
+  {
+    "id": "actor_robert.bruce@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Bruce",
+    "prenom": "Robert",
+    "adresse_email": "robert.bruce@enron.com",
+    "departement": "Legal/Regulatory Affairs",
+    "poste": "Legal/Regulatory Specialist",
+    "roles": [
+      "employee",
+      "regulator"
+    ]
+  },
+  {
+    "id": "actor_elsa.piekielniak@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Piekielniak",
+    "prenom": "Elsa",
+    "adresse_email": "elsa.piekielniak@enron.com",
+    "departement": "Legal/Regulatory",
+    "poste": "N/A",
+    "roles": [
+      "employee",
+      "regulator"
+    ]
+  },
+  {
+    "id": "actor_michael.tribolet@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Tribolet",
+    "prenom": "Michael",
+    "adresse_email": "michael.tribolet@enron.com",
+    "departement": "Corporate",
+    "poste": "Business Development Officer",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_richard.shapiro@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Shapiro",
+    "prenom": "Richard",
+    "adresse_email": "richard.shapiro@enron.com",
+    "departement": "Finance",
+    "poste": "Executive",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_james.steffes@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Steffes",
+    "prenom": "James",
+    "adresse_email": "james.steffes@enron.com",
+    "departement": "Enron",
+    "poste": "Senior Executive",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_susan.mara@enron.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "Mara",
+    "prenom": "Susan",
+    "adresse_email": "susan.mara@enron.com",
+    "departement": "Corporate Finance",
+    "poste": "Vice President",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_doctor@dictionary.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "",
+    "prenom": "Doctor",
+    "adresse_email": "doctor@dictionary.com",
+    "departement": "N/A",
+    "poste": "N/A",
+    "roles": [
+      "employee"
+    ]
+  },
+  {
+    "id": "actor_wordoftheday@lists.lexico.com",
+    "label": "Acteur",
+    "properties": {},
+    "metadata": {},
+    "nom": "",
+    "prenom": "Wordoftheday",
+    "adresse_email": "wordoftheday@lists.lexico.com",
+    "departement": "none",
+    "poste": "none",
+    "roles": [
+      "employee"
+    ]
+  }
+]

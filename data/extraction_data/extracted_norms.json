@@ -1,0 +1,355 @@
+[
+  {
+    "email_id": 23454,
+    "message_id": "",
+    "extracted_data": {
+      "norms": [
+        {
+          "text": "The full text describing the norm, rule, or policy",
+          "type": "",
+          "source": "",
+          "context": "",
+          "confidence": ""
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 293863,
+    "message_id": "",
+    "extracted_data": {
+      "norms": [
+        {
+          "text": "The full text describing the norm, rule, or policy",
+          "type": "POLICY",
+          "source": "specific law, policy document",
+          "context": "report named: EMW Positions <http://trv.corp.enron.com/linkFromExcel.asp?report_cd=33&report_name=EMW+Positions&category_cd=9&category_name=EMW&toc_hide=1&sTV1=9&TV1Exp=Y&current_efct_date=11/26/2001>, published as of 11/26/2001 is now available for viewing on the website.",
+          "confidence": "LOW"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 196133,
+    "message_id": "",
+    "extracted_data": {
+      "norms": [
+        {
+          "text": "amending the Electronic Trading Agreement",
+          "type": "REGULATION",
+          "source": "referenced Counterparty",
+          "context": "We have received the executed Letter Agreement dated 8/23/00 amending the Electronic Trading Agreement with the referenced Counterparty.",
+          "confidence": "MEDIUM"
+        },
+        {
+          "text": "Electronic Trading Agreement",
+          "type": "REGULATION",
+          "source": "",
+          "context": "amending the Electronic Trading Agreement",
+          "confidence": "MEDIUM"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 175597,
+    "message_id": "",
+    "extracted_data": {
+      "norms": []
+    }
+  },
+  {
+    "email_id": 441216,
+    "message_id": "",
+    "extracted_data": {
+      "norms": [
+        {
+          "text": "Circulation of the \"Electricity Daily Demand Forecast\" outside a Client's licensed distribution area is strictly prohibited.",
+          "type": "POLICY",
+          "source": "PIRA Energy Group",
+          "context": "NOTE: Circulation of the \"Electricity Daily Demand Forecast\" outside a Client's licensed distribution area is strictly prohibited.",
+          "confidence": "HIGH"
+        },
+        {
+          "text": "Clients that are unsure of their licensed distribution or require an extension of their current license should contact their PIRA sales representative, or email to sales@pira.com.",
+          "type": "POLICY",
+          "source": "PIRA Energy Group",
+          "context": "Clients that are unsure of their licensed distribution or require an extension of their current license should contact their PIRA sales representative, or email to sales@pira.com.",
+          "confidence": "HIGH"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 90915,
+    "message_id": "",
+    "extracted_data": {
+      "norms": [
+        {
+          "text": "Section 10(b) of the Securities Exchange Act",
+          "type": "LAW",
+          "source": "Securities Exchange Act",
+          "context": "not specified",
+          "confidence": "HIGH"
+        },
+        {
+          "text": "Non-Privileged",
+          "type": "POLICY",
+          "source": "sent item's properties",
+          "context": "X-FileName: ddelain2 (Non-Privileged).pst",
+          "confidence": "MEDIUM"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 129334,
+    "message_id": "",
+    "extracted_data": {
+      "norms": [
+        {
+          "text": "Section 10(b) of the Securities Exchange Act",
+          "type": "LAW",
+          "source": "Securities Exchange Act",
+          "context": "",
+          "confidence": "HIGH"
+        },
+        {
+          "text": "Company policies or internal rules (e.g. Alltrade error)",
+          "type": "POLICY",
+          "source": "None mentioned",
+          "context": "",
+          "confidence": "MEDIUM"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 9974,
+    "message_id": "",
+    "extracted_data": {
+      "norms": [
+        {
+          "text": "Industry standard for corporate communication",
+          "type": "INDUSTRY STANDARD",
+          "source": "None mentioned",
+          "context": "X-From: Eric Bass X-To: Michael Walters",
+          "confidence": "LOW"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 24983,
+    "message_id": "",
+    "extracted_data": {
+      "norms": []
+    }
+  },
+  {
+    "email_id": 495421,
+    "message_id": "",
+    "extracted_data": {
+      "norms": [
+        {
+          "text": "One of her points is that the very effort to find a safe and secure place is what causes us so much suffering.",
+          "type": "GUIDELINE",
+          "source": "Pema Chodron's book 'When Things Fall Apart: Heart Advice for Difficult Times'",
+          "context": "Book recommendation by Bill Kerley",
+          "confidence": "HIGH"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 411389,
+    "message_id": "",
+    "extracted_data": {
+      "norms": []
+    }
+  },
+  {
+    "email_id": 403281,
+    "message_id": "",
+    "extracted_data": {
+      "norms": [
+        {
+          "text": "",
+          "type": "GUIDELINE",
+          "source": "None mentioned",
+          "context": "",
+          "confidence": "LOW"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 305685,
+    "message_id": "",
+    "extracted_data": {
+      "norms": [
+        {
+          "text": "This message is being sent by or on behalf of a lawyer.  It is intended exclusively for the individual or entity to which it is addressed.",
+          "type": "GUIDELINE",
+          "source": "",
+          "context": "Confidentiality Notice",
+          "confidence": "HIGH"
+        },
+        {
+          "text": "If you are not the named addressee, you are not authorized to read, print, retain, copy or disseminate this message or any part of it.",
+          "type": "GUIDELINE",
+          "source": "",
+          "context": " Confidentiality Notice ",
+          "confidence": "HIGH"
+        },
+        {
+          "text": "Do you have the wiring instructions yet so I can put them in the escrow documents and circulate those docs as final??",
+          "type": "GUIDELINE",
+          "source": "",
+          "context": " Citibank Schedule of Fees ",
+          "confidence": "MEDIUM"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 362686,
+    "message_id": "",
+    "extracted_data": {
+      "norms": [
+        {
+          "text": "Section 10(b) of the Securities Exchange Act",
+          "type": "LAW",
+          "source": "Securities Exchange Act",
+          "context": "None",
+          "confidence": "HIGH"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 483614,
+    "message_id": "",
+    "extracted_data": {
+      "norms": [
+        {
+          "text": "with these and my comments ( which I did not forward to Ken, have you?) we should be done",
+          "type": "POLICY",
+          "source": "",
+          "context": "We should be done with these and my comments",
+          "confidence": "MEDIUM"
+        },
+        {
+          "text": "I don't think that I did any major damage, just didn't want Enron to say that all volatility was and is the result of deregulation.",
+          "type": "GUIDELINE",
+          "source": "",
+          "context": "I don't think that I did any major damage",
+          "confidence": "MEDIUM"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 234322,
+    "message_id": "",
+    "extracted_data": {
+      "norms": [
+        {
+          "text": "",
+          "type": "",
+          "source": "",
+          "context": "",
+          "confidence": ""
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 422668,
+    "message_id": "",
+    "extracted_data": {
+      "norms": [
+        {
+          "text": "Please do not have anyone do any work on this aside from the install agreement.",
+          "type": "POLICY",
+          "source": "None mentioned",
+          "context": "Request to adhere to specific installation process",
+          "confidence": "MEDIUM"
+        },
+        {
+          "text": "I am waiting on a ruling from London's tax group and no trading will be done whatsoever until that point.",
+          "type": "REGULATORY REQUIREMENT",
+          "source": "London's tax group",
+          "context": "Waiting for regulatory approval before proceeding with trading",
+          "confidence": "HIGH"
+        },
+        {
+          "text": "Please provide an immediate response and copy the tax lawyers noted above.",
+          "type": "POLICY",
+          "source": "None mentioned",
+          "context": "Request to respond promptly and involve relevant authorities",
+          "confidence": "MEDIUM"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 423121,
+    "message_id": "",
+    "extracted_data": {
+      "norms": [
+        {
+          "text": "regulatory muster",
+          "type": "GUIDELINE",
+          "source": "",
+          "context": "fyi, just b/c these sites are up and running doesn't necessarily mean that they pass regulatory muster",
+          "confidence": "MEDIUM"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 230399,
+    "message_id": "",
+    "extracted_data": {
+      "norms": [
+        {
+          "text": "The full text describing the norm, rule, or policy",
+          "type": "LAW",
+          "source": "",
+          "context": null,
+          "confidence": "LOW"
+        },
+        {
+          "text": "counter proposal would be to meet in LA, organize a credit committee, and instruct Saybrook to seek funding from PGé and SCE.",
+          "type": "GUIDELINE",
+          "source": "Company Policy/Industry Standard",
+          "context": null,
+          "confidence": "MEDIUM"
+        },
+        {
+          "text": "",
+          "type": "POLICY",
+          "source": "Internal Rule/Company Policy",
+          "context": "- WPTF jmw_.doc",
+          "confidence": "LOW"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 357847,
+    "message_id": "",
+    "extracted_data": {
+      "norms": [
+        {
+          "text": "to fill again, to fill up",
+          "type": "GUIDELINE",
+          "source": "Latin replere",
+          "context": "",
+          "confidence": "LOW"
+        }
+      ]
+    }
+  }
+]

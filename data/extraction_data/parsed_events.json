@@ -1,0 +1,84 @@
+{
+  "events": [
+    {
+      "id": "event_20011028_ordinarylifegatheringledbydrbi_495421",
+      "label": "Evenement",
+      "properties": {
+        "source_email": true,
+        "original_text": ""
+      },
+      "metadata": {
+        "extraction_source": "email_495421",
+        "extraction_date": "2025-02-01T14:55:21.049992"
+      },
+      "type": "meeting",
+      "date": "2001-10-28T00:00:00",
+      "start_date": null,
+      "end_date": null,
+      "lieu": "Fondren Hall at St. Paul's UMC - 5501 South Main, Houston, Texas",
+      "description": "Ordinary Life gathering led by Dr. Bill Kerley focusing on the topic of fear and how to deal with it."
+    },
+    {
+      "id": "event_20011104_ordinarylifegatheringtakingpla_495421",
+      "label": "Evenement",
+      "properties": {
+        "source_email": true,
+        "original_text": ""
+      },
+      "metadata": {
+        "extraction_source": "email_495421",
+        "extraction_date": "2025-02-01T14:55:21.050030"
+      },
+      "type": "meeting",
+      "date": "2001-11-04T00:00:00",
+      "start_date": null,
+      "end_date": null,
+      "lieu": "Fondren Hall at St. Paul's UMC - 5501 South Main, Houston, Texas",
+      "description": "Ordinary Life gathering taking place on Sunday mornings at 9:45 am."
+    },
+    {
+      "id": "event_20020208_breakfastat815amandhappyhourat_411389",
+      "label": "Evenement",
+      "properties": {
+        "source_email": true,
+        "original_text": ""
+      },
+      "metadata": {
+        "extraction_source": "email_411389",
+        "extraction_date": "2025-02-01T14:55:23.917378"
+      },
+      "type": "social",
+      "date": "2002-02-08T00:00:00",
+      "start_date": null,
+      "end_date": null,
+      "lieu": "3rd floor",
+      "description": "Breakfast at 8:15 a.m. and Happy Hour at 3:00 p.m. with appetizers and drinks at Fernando's Hideaway, 824 SW First Avenue (upstairs)."
+    }
+  ],
+  "relations": [
+    {
+      "id": "has_event_495421_event_20011028_ordinarylifegatheringledbydrbi_495421",
+      "source": "email_495421",
+      "target": "event_20011028_ordinarylifegatheringledbydrbi_495421",
+      "type": "HAS_EVENT",
+      "properties": {},
+      "metadata": {}
+    },
+    {
+      "id": "has_event_495421_event_20011104_ordinarylifegatheringtakingpla_495421",
+      "source": "email_495421",
+      "target": "event_20011104_ordinarylifegatheringtakingpla_495421",
+      "type": "HAS_EVENT",
+      "properties": {},
+      "metadata": {}
+    },
+    {
+      "id": "has_event_411389_event_20020208_breakfastat815amandhappyhourat_411389",
+      "source": "email_411389",
+      "target": "event_20020208_breakfastat815amandhappyhourat_411389",
+      "type": "HAS_EVENT",
+      "properties": {},
+      "metadata": {}
+    }
+  ]
+}

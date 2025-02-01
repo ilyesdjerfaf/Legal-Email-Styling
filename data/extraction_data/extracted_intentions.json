@@ -1,0 +1,397 @@
+[
+  {
+    "email_id": 23454,
+    "extracted_data": {
+      "intentions": [
+        {
+          "intention_id": "int_0_0",
+          "email_id": 0,
+          "description": "will be in the London office",
+          "date": null,
+          "context": "I can not attend as I will be in the London office for the remainder of the week.",
+          "confidence": "HIGH"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 293863,
+    "extracted_data": {
+      "intentions": [
+        {
+          "intention_id": "int_1_0",
+          "email_id": 1,
+          "description": "The planned action or intention",
+          "date": "null",
+          "context": "report named EMW Positions published as of 11/26/2001 is now available for viewing on the website.",
+          "confidence": "LOW"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 196133,
+    "extracted_data": {
+      "intentions": [
+        {
+          "intention_id": "int_2_0",
+          "email_id": 2,
+          "description": "We plan to implement the Midland Cogeneration Venture Limited Partnership",
+          "date": null,
+          "context": "We have received the executed Letter Agreement dated 8/23/00 amending the Electronic Trading Agreement with the referenced Counterparty.",
+          "confidence": "MEDIUM"
+        },
+        {
+          "intention_id": "int_2_1",
+          "email_id": 2,
+          "description": "Will distribute copies to",
+          "date": null,
+          "context": "Copies will be distributed.",
+          "confidence": "LOW"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 175597,
+    "extracted_data": {
+      "intentions": [
+        {
+          "intention_id": "int_3_0",
+          "email_id": 3,
+          "description": "Will assign a new task",
+          "date": null,
+          "context": "TASK ASSIGNMENT",
+          "confidence": "HIGH"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 441216,
+    "extracted_data": {
+      "intentions": [
+        {
+          "intention_id": "int_4_0",
+          "email_id": 4,
+          "description": "Will distribute the report to clients",
+          "date": null,
+          "context": "If you have any questions regarding the report's content, please contact Morris Greenberg (email: morris@pira.com) or Victoria Watkins (email: vwatkins@pira.com), at (212) 686-6808.",
+          "confidence": "HIGH"
+        },
+        {
+          "intention_id": "int_4_1",
+          "email_id": 4,
+          "description": "Distribute PIRA report distribution and address changes",
+          "date": null,
+          "context": "Contact John Graziano regarding PIRA report distribution and address changes at (212) 686-6808, email: support@pira.com.",
+          "confidence": "HIGH"
+        },
+        {
+          "intention_id": "int_4_2",
+          "email_id": 4,
+          "description": "Prevent circulation of the report outside a Client's licensed distribution area",
+          "date": null,
+          "context": "NOTE: Circulation of the \"Electricity Daily Demand Forecast\" outside a Client's licensed distribution area is strictly prohibited.",
+          "confidence": "HIGH"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 90915,
+    "extracted_data": {
+      "intentions": [
+        {
+          "intention_id": "int_5_0",
+          "email_id": 5,
+          "description": "will review and provide feedback on the proposal by end of week",
+          "date": null,
+          "context": "NERCO is waiting ………",
+          "confidence": "LOW"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 129334,
+    "extracted_data": {
+      "intentions": [
+        {
+          "intention_id": "int_6_0",
+          "email_id": 6,
+          "description": "Will investigate alltrade error",
+          "date": null,
+          "context": "Chris Germany",
+          "confidence": "HIGH"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 9974,
+    "extracted_data": {
+      "intentions": [
+        {
+          "intention_id": "int_7_0",
+          "email_id": 7,
+          "description": "playing in a flag football league starting in March",
+          "date": null,
+          "context": "I need to know who of you is interested in playing in a flag football league starting in March.",
+          "confidence": "HIGH"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 24983,
+    "extracted_data": {
+      "intentions": [
+        {
+          "intention_id": "int_8_0",
+          "email_id": 8,
+          "description": "Meet with James Scribner to discuss Common Settlements Process",
+          "date": null,
+          "context": "Requested by Jim Scribner",
+          "confidence": "LOW"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 495421,
+    "extracted_data": {
+      "intentions": [
+        {
+          "intention_id": "int_9_0",
+          "email_id": 9,
+          "description": "He will have more eye surgery if the scar tissue can't be dealt with by medication",
+          "date": null,
+          "context": "This seems to be true on my own personal level, the eye surgeon discovered scar tissue growing on my retina last week.",
+          "confidence": "LOW"
+        },
+        {
+          "intention_id": "int_9_1",
+          "email_id": 9,
+          "description": "To visit a web site where you can find two talks by Thich Nhat Hanh",
+          "date": null,
+          "context": "The other resource is to visit a web site where you can find two talks by Thich Nhat Hanh.",
+          "confidence": "LOW"
+        },
+        {
+          "intention_id": "int_9_2",
+          "email_id": 9,
+          "description": "To meet on Sunday mornings at 9:45 am in Fondren Hall at St. Paul's UMC",
+          "date": null,
+          "context": "Ordinary Life is a gathering that provides an opportunity to develop an enlightened heart and an awakened mind to the reality of the present moment.\nThe gathering meets on Sunday mornings at 9:45 am in Fondren Hall at St. Paul's UMC - 5501 South Main, Houston, Texas",
+          "confidence": "MEDIUM"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 411389,
+    "extracted_data": {
+      "intentions": []
+    }
+  },
+  {
+    "email_id": 403281,
+    "extracted_data": {
+      "intentions": [
+        {
+          "intention_id": "int_11_0",
+          "email_id": 11,
+          "description": "I will take little Grayson off their hands for a weekend when she is old enough to understand the command",
+          "date": null,
+          "context": "I told them that when my niece is old enough to understand the command",
+          "confidence": "HIGH"
+        },
+        {
+          "intention_id": "int_11_1",
+          "email_id": 11,
+          "description": "Will not be enjoying FL too much for the next few months",
+          "date": null,
+          "context": "I just got done taking the CPA exam and am scheduled to take the FL Bar exam in July",
+          "confidence": "MEDIUM"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 305685,
+    "extracted_data": {
+      "intentions": [
+        {
+          "intention_id": "int_12_0",
+          "email_id": 12,
+          "description": "Can ENA provide wiring instructions for insertion into the Escrow Agreements",
+          "date": null,
+          "context": "Kay Mann to Kathleen Carnahan",
+          "confidence": "HIGH"
+        },
+        {
+          "intention_id": "int_12_1",
+          "email_id": 12,
+          "description": "Do you have the wiring instructions yet so I can put them in the escrow documents and circulate those docs as final??",
+          "date": null,
+          "context": "Lari Paradee to Carolyn Campbell",
+          "confidence": "MEDIUM"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 362686,
+    "extracted_data": {
+      "intentions": [
+        {
+          "intention_id": "int_13_0",
+          "email_id": 13,
+          "description": "Warned mom that they three would be coming",
+          "date": null,
+          "context": "Yes, I talked to mom last night about the football game, Dallas is her team, and warned her we three would be coming.",
+          "confidence": "LOW"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 483614,
+    "extracted_data": {
+      "intentions": [
+        {
+          "intention_id": "int_14_0",
+          "email_id": 14,
+          "description": "I will send it on to him as soon as Chris signs off",
+          "date": null,
+          "context": "I have forwarded these on to Chris Long (who will get back to me on Monday) and left a message for Ken to let him know I will send it on to him as soon as Chris signs off.",
+          "confidence": "HIGH"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 234322,
+    "extracted_data": {
+      "intentions": [
+        {
+          "intention_id": "int_15_0",
+          "email_id": 15,
+          "description": "He would like to keep David on until May 15 to finish up some things he is working on for Ken.",
+          "date": "null",
+          "context": "I talked with Ken yesterday.",
+          "confidence": "HIGH"
+        },
+        {
+          "intention_id": "int_15_1",
+          "email_id": 15,
+          "description": "Waiting to hear back from the meeting with him the day before yesterday.",
+          "date": "null",
+          "context": "Ken was meeting with him the day before yesterday.",
+          "confidence": "LOW"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 422668,
+    "extracted_data": {
+      "intentions": [
+        {
+          "intention_id": "int_16_0",
+          "email_id": 16,
+          "description": "No activity will be executed on these systems until we get a final ruling from London's tax, legal and regulatory personnel.",
+          "date": null,
+          "context": "Please do not have anyone do any work on this aside from the install agreement.",
+          "confidence": "HIGH"
+        },
+        {
+          "intention_id": "int_16_1",
+          "email_id": 16,
+          "description": "I fully expect that additional documentation/agreements will be required once we know exactly which entity we will be operating out of and have told Instinet (as well as ITG and eventually Autex) this.",
+          "date": null,
+          "context": "The reason I am setting up a desktop in London under existing documents is that I want to begin trading as soon as I get the go ahead from tax and legal.",
+          "confidence": "HIGH"
+        },
+        {
+          "intention_id": "int_16_2",
+          "email_id": 16,
+          "description": "I will try to speak with you Monday before things go too far. Please provide an immediate response and copy the tax lawyers noted above.",
+          "date": null,
+          "context": "John:  I hear that you are trying to trade in the name of Enron North America Corp. while you sit in London.",
+          "confidence": "MEDIUM"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 423121,
+    "extracted_data": {
+      "intentions": [
+        {
+          "intention_id": "int_17_0",
+          "email_id": 17,
+          "description": "Check out online ag trading sites",
+          "date": null,
+          "context": "www.icecorp.com, www.cybercrop.com, and www.e-markets.com",
+          "confidence": "LOW"
+        },
+        {
+          "intention_id": "int_17_1",
+          "email_id": 17,
+          "description": "Looking into online ag trading from a legal/regulatory perspective",
+          "date": null,
+          "context": "on-line ag trading is obviously one of the issues we're looking into from a legal/regulatory perspective; fyi",
+          "confidence": "MEDIUM"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 230399,
+    "extracted_data": {
+      "intentions": [
+        {
+          "intention_id": "int_18_0",
+          "email_id": 18,
+          "description": "to meet in LA, organize a credit committee, and instruct Saybrook to seek funding from PG&E and SCE",
+          "date": null,
+          "context": "Based on the conversation you and I had yesterday, I think that a proper counter proposal would be to meet in LA, organize a credit committee, and instruct Saybrook to seek funding from PG&E and SCE.",
+          "confidence": "HIGH"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 357847,
+    "extracted_data": {
+      "intentions": [
+        {
+          "intention_id": "int_19_0",
+          "email_id": 19,
+          "description": "Come play game shows online for free for a chance to win cash and prizes",
+          "date": null,
+          "context": "We have to earn silence, then, to work for it: to make it not an absence but a presence; not emptiness but repletion.",
+          "confidence": "LOW"
+        },
+        {
+          "intention_id": "int_19_1",
+          "email_id": 19,
+          "description": "to send a blank message to join-WordoftheDay@lists.lexico.com to subscribe",
+          "date": null,
+          "context": "To subscribe to the list by email, send a blank message to: join-WordoftheDay@lists.lexico.com",
+          "confidence": "LOW"
+        },
+        {
+          "intention_id": "int_19_2",
+          "email_id": 19,
+          "description": "to send a blank message to leave-wordoftheday-301289Q@lists.lexico.com to unsubscribe",
+          "date": null,
+          "context": "To unsubscribe via email, send a blank message to: leave-wordoftheday-301289Q@lists.lexico.com",
+          "confidence": "LOW"
+        }
+      ]
+    }
+  }
+]

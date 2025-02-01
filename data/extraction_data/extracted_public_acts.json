@@ -1,0 +1,307 @@
+[
+  {
+    "email_id": 23454,
+    "extracted_data": {
+      "public_acts": []
+    }
+  },
+  {
+    "email_id": 293863,
+    "extracted_data": {
+      "public_acts": [
+        {
+          "type": "",
+          "description": "",
+          "date": null,
+          "jurisdiction": "",
+          "confidence": "",
+          "context": ""
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 196133,
+    "extracted_data": {
+      "public_acts": [
+        {
+          "type": "REGULATORY_APPROVAL",
+          "description": "Amendment to Electronic Trading Agreement",
+          "date": "2000-08-23T00:00:00+00:00",
+          "jurisdiction": "",
+          "confidence": "HIGH",
+          "context": "We have received the executed Letter Agreement dated 8/23/00 amending the"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 175597,
+    "extracted_data": {
+      "public_acts": []
+    }
+  },
+  {
+    "email_id": 441216,
+    "extracted_data": {
+      "public_acts": [
+        {
+          "type": "REGULATORY_ENFORCEMENT_ACTION",
+          "description": "Circulation of the report outside a Client's licensed distribution area is strictly prohibited.",
+          "date": "",
+          "jurisdiction": "Licensed distribution area",
+          "confidence": "HIGH"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 90915,
+    "extracted_data": {
+      "public_acts": [
+        {
+          "type": "REGULATORY_APPROVAL",
+          "description": "NERCO is waiting",
+          "date": "",
+          "jurisdiction": "",
+          "confidence": "LOW",
+          "context": ""
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 129334,
+    "extracted_data": {
+      "public_acts": [
+        {
+          "type": "ADMINISTRATIVE_DECISION",
+          "description": "Error in Alltrade system",
+          "date": "2000-05-01T05:02:00Z",
+          "jurisdiction": "Germany",
+          "confidence": "MEDIUM",
+          "context": "Forwarded by Chris Germany/HOU/ECT on 05/01/2000 05:02 PM"
+        },
+        {
+          "type": "REGULATORY_ENFORCEMENT_ACTION",
+          "description": "Error in Alltrade system (potential violation)",
+          "date": "2000-04-13T11:31:00Z",
+          "jurisdiction": "Corp/Enron@ENRON",
+          "confidence": "LOW",
+          "context": "To: Brandon Oliveira/Corp/Enron@ENRON,cc: Don Adam/Corp/Enron@ENRON, Kenneth Gurley/Corp/Enron@Enron"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 9974,
+    "extracted_data": {
+      "public_acts": [
+        {
+          "type": "LEGISLATIVE_APPROVAL",
+          "description": "Reunion tour of Enron's glorious victory",
+          "date": "N/A",
+          "jurisdiction": "Enron North America Corp.",
+          "confidence": "LOW",
+          "context": ""
+        },
+        {
+          "type": "Administrative Decision",
+          "description": "Start of Spring Flag Football League in March",
+          "date": "N/A",
+          "jurisdiction": "Enron North America Corp.",
+          "confidence": "LOW",
+          "context": "I need to know who of you is interested..."
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 24983,
+    "extracted_data": {
+      "public_acts": [
+        {
+          "type": "REGULATORY_APPROVAL",
+          "description": "Common Settlements Process (Jim x39641)",
+          "date": null,
+          "jurisdiction": null,
+          "confidence": "LOW",
+          "context": ""
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 495421,
+    "extracted_data": {
+      "public_acts": [
+        {
+          "type": "ADMINISTRATIVE DECISION",
+          "description": "Decision to provide medical treatment for the author's scar tissue on their retina",
+          "date": null,
+          "jurisdiction": null,
+          "confidence": "LOW",
+          "context": null
+        },
+        {
+          "type": "REGULATORY ENFORCEMENT ACTION",
+          "description": "Author's eye surgeon informs them of a possible side-effect from previous surgeries that requires further medical attention",
+          "date": null,
+          "jurisdiction": null,
+          "confidence": "LOW",
+          "context": null
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 411389,
+    "extracted_data": {
+      "public_acts": []
+    }
+  },
+  {
+    "email_id": 403281,
+    "extracted_data": {
+      "public_acts": [
+        {
+          "type": "REGULATORY_ENFORCEMENT_ACTION",
+          "description": "No specific regulatory action mentioned",
+          "date": null,
+          "jurisdiction": "Commercial team at Enron Gas Pipeline Group",
+          "confidence": "LOW"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 305685,
+    "extracted_data": {
+      "public_acts": [
+        {
+          "type": "REGULATORY_APPROVAL",
+          "description": "ENa can provide wiring instructions for insertion into the Escrow Agreements.",
+          "date": "2001-01-02T14:58:00+0000",
+          "jurisdiction": "Enron Corporation",
+          "confidence": "MEDIUM",
+          "context": "\"Can ENA provide wiring instructions for insertion into the Escrow Agreements.\""
+        },
+        {
+          "type": "REGULATORY_ENFORCEMENT",
+          "description": "Confidentiality Notice: This message is being sent by or on behalf of a lawyer.",
+          "date": "2001-01-02T09:24:00+0000",
+          "jurisdiction": "King & Spalding Law Firm",
+          "confidence": "MEDIUM",
+          "context": "\"This message is being sent by or on behalf of a lawyer.\""
+        },
+        {
+          "type": "REGULATORY_VIOLATION",
+          "description": "Exclusively for the individual or entity to which it is addressed.",
+          "date": "",
+          "jurisdiction": "Citibank",
+          "confidence": "LOW",
+          "context": "\"This communication may contain information that is proprietary, privileged or confidential...\""
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 362686,
+    "extracted_data": {
+      "public_acts": []
+    }
+  },
+  {
+    "email_id": 483614,
+    "extracted_data": {
+      "public_acts": [
+        {
+          "type": "REGULATORY_ENFORCEMENT_ACTION",
+          "description": "Enron not wanting to say that all volatility is the result of deregulation",
+          "date": "",
+          "jurisdiction": "CFTC",
+          "confidence": "MEDIUM"
+        },
+        {
+          "type": "LEGISLATIVE_RECOMMENDATION",
+          "description": "Jim's changes to No-Action Request - CFTC(v8).doc",
+          "date": "",
+          "jurisdiction": "CFTC",
+          "confidence": "LOW"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 234322,
+    "extracted_data": {
+      "public_acts": [
+        {
+          "type": "REGULATORY_APPROVAL",
+          "description": "approval of David Haug until May 15 to finish up some things he is working on for Ken",
+          "date": "",
+          "jurisdiction": "Enron Capital & Trade Resources Corp.",
+          "confidence": "LOW"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 422668,
+    "extracted_data": {
+      "public_acts": [
+        {
+          "type": "REGULATORY_APPROVAL",
+          "description": "Waiting on a ruling from London's tax group",
+          "date": "2000-09-11T01:58:00+00:00",
+          "jurisdiction": "U.K.",
+          "confidence": "MEDIUM",
+          "context": ""
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 423121,
+    "extracted_data": {
+      "public_acts": [
+        {
+          "type": "REGULATORY_APPROVAL",
+          "description": "Ensuring the sites comply with legal and regulatory requirements",
+          "date": "",
+          "jurisdiction": "global/US",
+          "confidence": "LOW"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 230399,
+    "extracted_data": {
+      "public_acts": [
+        {
+          "type": "LEGISLATIVE_APPROVAL",
+          "description": "Counter proposal from Gary Ackerman to meet in LA, organize a credit committee, and instruct Saybrook to seek funding from PG&E and SCE",
+          "date": "",
+          "jurisdiction": "LA (Los Angeles)",
+          "confidence": "MEDIUM"
+        }
+      ]
+    }
+  },
+  {
+    "email_id": 357847,
+    "extracted_data": {
+      "public_acts": [
+        {
+          "type": "REGULATORY_APPROVAL",
+          "description": "Relevant to subscription management for Dictionary.com Word of the Day",
+          "date": null,
+          "jurisdiction": "Dictionary.com",
+          "confidence": "LOW",
+          "context": "References provided for subscription details"
+        }
+      ]
+    }
+  }
+]
