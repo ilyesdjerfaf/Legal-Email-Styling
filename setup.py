@@ -1,0 +1,30 @@
+from setuptools import setup, find_packages
+
+setup(
+    name='Legal-Email-Styling',
+    version='1.0',
+    author='Ilyes DJERFAF',
+    author_email='idjerfaf@gmail.com',
+    description='Legal Email Styling',
+    url='https://github.com/ilyesdjerfaf/Legal-Email-Styling',
+    packages=find_packages(),
+    include_package_data=True,
+    install_requires=[
+        'numpy==1.26.4',
+        'pandas==2.2.2',
+        'matplotlib==3.8',
+        'tqdm==4.66.1',
+        'dash==2.8.1',
+        'plotly==5.24.1',
+        'flake8==4.0.1',
+        'statsmodels==0.14.4',
+        'notebook==7.2.2',
+        'ipywidgets==8.1.5',
+        'xgboost==2.1.3',
+        'mlflow==2.18.0',
+        'optuna==4.1.0',
+        'scikit-learn==1.5.2',
+        'ipykernel==6.29.5',
+    ],
+    python_requires='>=3.10',
+)
