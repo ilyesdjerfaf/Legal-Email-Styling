@@ -1,0 +1,732 @@
+@font-face {
+    font-family: 'Sofia Pro';
+    src: url('../fonts/Sofia Pro Regular Az.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Variables globales */
+:root {
+    --primary: #ff5f5f;
+    --bg-dark: #202141;
+    --bg-light: #353863;
+    --text: #ffffff;
+    --shadow: rgba(0, 0, 0, 0.2);
+}
+
+/* Styles généraux */
+body {
+    font-family: 'Sofia Pro', -apple-system, BlinkMacSystemFont, sans-serif !important;
+    background-color: #202141;
+    color: white;
+}
+
+/* Style des containers */
+.stApp {
+    background-color: #202141;
+}
+
+/* Style des boutons unifié */
+.stButton > button {
+    background-color: var(--bg-light) !important;
+    color: var(--text);
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    min-height: 46px;
+    width: 100%;
+    text-align: left;
+    transition: all 0.2s ease;
+}
+
+.stButton > button:hover {
+    background-color: var(--primary) !important;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px var(--shadow);
+}
+
+/* Style des inputs */
+.stTextInput > div > div > input {
+    background-color: #353863;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Style des selectbox amélioré */
+.stSelectbox > div > div {
+    background-color: var(--bg-light);
+    border-radius: 8px;
+    border: 1px solid transparent;
+    transition: all 0.2s ease;
+}
+
+.stSelectbox > div > div:hover {
+    border-color: var (--primary);
+}
+
+/* Container pour la grille de tuiles */
+.tile-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    padding: 0.5rem;
+}
+
+.grid-container {
+    width: 100%;
+    padding: 1rem 0;
+}
+
+/* Style des tuiles amélioré avec plus d'effets */
+.tile {
+    width: 100%;
+    height: 180px !important; /* Force la même hauteur */
+    min-height: 160px;
+    margin: 0.5rem 0;
+    padding: 1.5rem;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    position: relative;
+    overflow: hidden;
+    backdrop-filter: blur(10px);
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.tile::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        120deg,
+        transparent,
+        rgba(255, 255, 255, 0.2),
+        transparent
+    );
+    transition: 0.6s ease;
+}
+
+.tile:hover {
+    transform: translateY(-8px) scale(1.02);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+    border-color: rgba(255, 255, 255, 0.3);
+}
+
+.tile:hover::before {
+    left: 100%;
+}
+
+.tile-meta {
+    position: relative;
+    z-index: 1;
+}
+
+.tile-title {
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: var(--text);
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.tile-subtitle {
+    font-size: 0.85rem;
+    color: rgba(255, 255, 255, 0.8);
+    transition: color 0.3s ease;
+}
+
+.tile-value {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: right;
+    color: var(--text);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    letter-spacing: -0.02em;
+    transition: transform 0.3s ease;
+}
+
+.tile:hover .tile-value {
+    transform: scale(1.1);
+}
+
+/* Style amélioré des métriques */
+[data-testid="stMetric"] {
+    background: var(--bg-light);
+    padding: 1.5rem;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+[data-testid="stMetricLabel"] {
+    color: rgba(255, 255, 255, 0.8) !important;
+    font-size: 0.9rem !important;
+}
+
+[data-testid="stMetricValue"] {
+    color: var(--text) !important;
+    font-size: 1.75rem !important;
+    font-weight: 600 !important;
+}
+
+/* Style des messages du chat */
+.chat-message {
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.user-message {
+    background-color: #353863;
+    margin-left: 20%;
+}
+
+.bot-message {
+    background-color: #202141;
+    margin-right: 20%;
+    border: 1px solid #353863;
+}
+
+/* Style des graphiques */
+.chart-container {
+    background-color: #353863;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.chart-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.chart-container .caption {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+/* Reset des styles redondants */
+[data-testid="stSidebar"], 
+section[data-testid="stSidebar"],
+.css-1d391kg {
+    background: linear-gradient(180deg, var(--bg-dark) 0%, var(--bg-light) 100%);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Style de la sidebar */
+section[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, var(--bg-dark) 0%, var(--bg-light) 100%);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, var(--bg-dark) 0%, var(--bg-light) 100%);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Reset des styles de la sidebar */
+[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, var(--bg-dark) 0%, var(--bg-light) 100%);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Style du header de la sidebar */
+.sidebar-header {
+    padding: 1rem;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 1rem;
+}
+
+/* Container de navigation */
+.nav-container {
+    padding: 0.5rem;
+}
+
+/* Style des boutons de navigation */
+.nav-button {
+    display: flex !important;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.75rem 1rem;
+    background: var(--bg-light);
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+    transition: all 0.2s ease;
+}
+
+.nav-button svg {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+}
+
+.nav-button span {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* Hover et état actif */
+.nav-button:hover {
+    background: var(--primary);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px var(--shadow);
+}
+
+.nav-active {
+    background: var(--primary);
+}
+
+/* Style des boutons Streamlit dans la sidebar */
+[data-testid="stSidebar"] .stButton > button {
+    background: transparent;
+    border: none;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+/* Suppression des styles inutiles */
+.nav-button-container,
+.nav-icon,
+.nav-link {
+    display: none;
+}
+
+[data-testid="stSidebarNav"] {
+    display: block !important;
+}
+
+.nav-button-container {
+    position: relative;
+    width: 100%;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+
+.nav-button-container button {
+    display: none !important;
+}
+
+.nav-button {
+    display: flex !important;
+    align-items: center !important;
+    width: 100%;
+    padding: 0.75rem 1rem;
+    background: var(--bg-light);
+    color: white;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+}
+
+.nav-button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    filter: invert(1);
+}
+
+.nav-button:hover {
+    border-color: var(--primary);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px var(--shadow);
+}
+
+.nav-button span {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* Style des liens de navigation */
+.css-1p05t8e {
+    display: flex !important;
+    align-items: center !important;
+    gap: 10px;
+    padding: 10px;
+}
+
+/* Style du logo container */
+.stSidebar .logo-container {
+    background-color: #353863;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+/* Style des liens de navigation avec icônes */
+/*
+.nav-link,
+.icon-svg,
+.icon-wrapper,
+.nav-icon {
+    display: none !important;
+}
+*/
+
+.nav-link svg {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+}
+
+.nav-link span {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* Position du logo */
+.sidebar-logo {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+}
+
+.sidebar-logo {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+/* Style des boutons de navigation */
+[data-testid="stSidebar"] .stButton > button {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    background: var(--bg-light);
+    border: 1px solid transparent;
+    border-radius: 8px;
+    transition: all 0.2s ease;
+}
+
+[data-testid="stSidebar"] .stButton > button:hover {
+    background: var(--primary);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px var(--shadow);
+}
+
+/* Suppression des styles inutiles */
+.nav-button-container,
+.nav-button,
+.icon-wrapper,
+.nav-icon {
+    display: none !important;
+}
+
+/* Style pour masquer le bouton Streamlit tout en le gardant cliquable */
+.nav-button-container .element-container {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 1;
+}
+
+/* Reset complet des styles de navigation */
+.nav-button {
+    display: flex !important;
+    align-items: center;
+    width: 100%;
+    padding: 0.75rem 1rem;
+    background: var(--bg-light);
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.icon-wrapper {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 0.75rem;
+}
+
+.nav-icon {
+    width: 20px !important;
+    height: 20px !important;
+    fill: currentColor;
+}
+
+.nav-label {
+    color: var(--text);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* Suppression des styles redondants et nettoyage */
+[data-testid="stSidebar"] .stButton > button {
+    background: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Supprimer tous les styles redondants */
+.nav-button-container,
+.nav-link,
+section[data-testid="stSidebar"] div:has(> .stButton) {
+    all: unset;
+}
+
+.icon-img {
+    width: 20px;
+    height: 20px;
+    filter: invert(1);
+    margin-right: 0.5rem;
+}
+
+/* Container for the inline SVG */
+.icon-svg svg {
+    width: 20px;
+    height: 20px;
+}
+
+/* Style des suggestions du chatbot */
+
+/* Style spécifique pour le sélecteur de graphique */
+[data-testid="stSelectbox"] {
+    background: var(--bg-light);
+    border-radius: 8px;
+    padding: 0.5rem;
+}
+
+[data-testid="stSelectbox"] > div {
+    background: transparent !important;
+}
+
+/* Style amélioré pour le sélecteur de graphique */
+div[data-testid="stSelectbox"] {
+    background-color: var(--bg-light);
+    border-radius: 8px;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+div[data-testid="stSelectbox"] > div > div {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Style amélioré de la sidebar */
+[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, var(--bg-dark) 0%, var(--bg-light) 100%);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Style des boutons de navigation dans la sidebar */
+[data-testid="stSidebar"] .stButton > button {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    margin: 0.25rem 0;
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    color: var(--text) !important;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+[data-testid="stSidebar"] .stButton > button:hover {
+    background: rgba(255, 95, 95, 0.15) !important;
+    border-color: var(--primary);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+[data-testid="stSidebar"] .stButton > button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        120deg,
+        transparent,
+        rgba(255, 255, 255, 0.1),
+        transparent
+    );
+    transition: 0.5s ease;
+}
+
+[data-testid="stSidebar"] .stButton > button:hover::before {
+    left: 100%;
+}
+
+/* Style du logo dans la sidebar */
+.stSidebar .logo-container {
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Amélioration des icônes dans la sidebar */
+[data-testid="stSidebar"] img {
+    opacity: 0.9;
+    transition: all 0.2s ease;
+}
+
+[data-testid="stSidebar"] .stButton:hover img {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+/* Style spécifique pour les suggestions */
+
+/* Cache le bouton Streamlit mais garde la fonctionnalité */
+[data-testid="element-container"] .stButton {
+    position: absolute;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+
+/* Style spécifique pour les graphiques du dashboard */
+[data-testid="stHorizontalBlock"] .element-container {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+/* Suppression des boutons vides dans le Dashboard */
+[data-testid="stHorizontalBlock"] button:empty {
+    display: none !important;
+}
+
+/* Fix pour les graphiques */
+.js-plotly-plot {
+    margin: 0 !important;
+}
+
+/* Style des boutons de recommandation du chatbot */
+[data-testid="element-container"] .stButton > button {
+    background-color: var(--bg-light) !important;
+    color: white !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 12px;
+    padding: 1rem !important;
+    min-height: 100px !important;
+    width: 100%;
+    text-align: center !important;
+    transition: all 0.3s ease;
+}
+
+[data-testid="element-container"] .stButton > button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    border-color: rgba(255, 255, 255, 0.3) !important;
+    background-color: var(--bg-light) !important;
+}
+
+[data-testid="element-container"] .stButton > button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        120deg,
+        transparent,
+        rgba(255, 255, 255, 0.2),
+        transparent
+    );
+    transition: 0.6s ease;
+}
+
+[data-testid="element-container"] .stButton > button:hover::before {
+    left: 100%;
+}
+
+/* Surcharge du style des boutons pour le chatbot */
+[data-testid="element-container"] .stButton > button:hover {
+    background-color: var(--bg-light) !important;  /* Force la couleur de fond à rester --bg-light */
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    border-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+/* Désactiver l'effet de survol rouge par défaut pour les boutons du chatbot */
+[data-testid="element-container"] .stButton > button {
+    background-color: var(--bg-light) !important;
+}
+
+/* Style des boutons de suggestion du chatbot avec spécificité accrue */
+[data-testid="element-container"] .stButton > button,
+[data-testid="element-container"] .stButton:hover > button,
+[data-testid="element-container"] .stButton:active > button,
+[data-testid="element-container"] .stButton:focus > button {
+    background-color: var(--bg-light) !important;
+    color: white !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 12px;
+    padding: 1rem !important;
+    min-height: 100px !important;
+    width: 100%;
+    text-align: center !important;
+    transition: all 0.3s ease;
+}
+
+[data-testid="element-container"] .stButton > button:hover,
+[data-testid="element-container"] .stButton:hover > button {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    border-color: rgba(255, 255, 255, 0.3) !important;
+    background-color: var(--bg-light) !important;
+}
+
+/* Supprimer les autres styles qui pourraient interférer */
+[data-testid="element-container"] .stButton[data-testid="baseButton-secondary"]:hover {
+    background-color: var(--bg-light) !important;
+}
+
+/* Style spécifique pour les boutons du chatbot - Haute priorité */
+div[data-testid="stHorizontalBlock"] [data-testid="element-container"] .stButton > button,
+div[data-testid="stHorizontalBlock"] [data-testid="element-container"] .stButton > button:hover,
+div[data-testid="stHorizontalBlock"] [data-testid="element-container"] .stButton > button:active,
+div[data-testid="stHorizontalBlock"] [data-testid="element-container"] .stButton > button:focus {
+    background-color: var(--bg-light) !important;
+    color: var(--text) !important;
+    min-height: 100px !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Hover effet sans couleur rouge */
+div[data-testid="stHorizontalBlock"] [data-testid="element-container"] .stButton > button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    border-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+/* Suppression de tous les autres styles pour les boutons du chatbot */
+div[data-testid="stHorizontalBlock"] [data-testid="element-container"] .stButton > button::before,
+div[data-testid="stHorizontalBlock"] [data-testid="element-container"] .stButton > button::after {
+    display: none !important;
+}
