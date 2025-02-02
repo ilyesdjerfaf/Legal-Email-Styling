@@ -53,8 +53,8 @@ api_key = os.getenv("OPENAI_API_KEY")
 
 # Configuration du LLM Llama-3
 llm = ChatOpenAI(
-    model="gpt-3.5-turbo",
-    openai_api_key=api_key,
+    model="gpt-4o-mini",
+    api_key=api_key,
     temperature=0.0
 )
 
@@ -589,4 +589,35 @@ def style_profile_to_instructions(style_profile_json):
 
 
 def style_juridique():
-    pass
+    
+    # instructions : 
+    instructions = """
+    **Tone**  
+Use a formal, professional register without slang.  
+Maintain a neutral to slightly firm tone, avoiding excessive emotional expressions.  
+Use direct language, fewer modals, and confident phrasing.  
+
+**Vocabulary**  
+Prioritize clarity over broad vocabulary while incorporating precise and technical terms where necessary.  
+Avoid heavy jargon but maintain a professional and authoritative word choice.  
+Balance sophistication with accessibility to ensure readability.  
+
+**Structure**  
+Write in a free-flow manner with minimal but effective transitions.  
+Use connectives only as needed for coherence.  
+
+**Syntax**  
+Use a mix of simple and complex sentences, incorporating subordination where it enhances clarity.  
+
+**Recurrence of Patterns**  
+Incorporate the word 'person' where applicable.  
+Ensure the frequent use of 'the' for clarity and specificity.  
+
+**Politeness & Social Conventions**  
+Use polite expressions sparingly, ensuring a direct and professional tone.  
+Minimal or no formal closing is needed.  
+
+**Rhythm & Cadence**  
+Vary sentence lengths to maintain a dynamic and engaging flow.  
+Use punctuation (commas, dashes) effectively to structure ideas and improve readability.
+    """
