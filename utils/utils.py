@@ -83,3 +83,8 @@ def keep_valid_senders(X) -> Tuple[List[str], List[str]]:
     matching_re = re.compile(r'^[a-zA-Z]+(?:\.[a-zA-Z]+)?@enron\.com$')
     enron_valid = [sender for sender in concat_good_senders if matching_re.match(sender) is not None]
     return concat_good_senders, enron_valid
+
+
+############################################
+# Generating Users ID Functions
+############################################
