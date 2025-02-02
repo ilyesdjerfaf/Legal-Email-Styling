@@ -589,35 +589,46 @@ def style_profile_to_instructions(style_profile_json):
 
 
 def style_juridique():
-    
-    # instructions : 
+    """
+    This function return the instructions for a legal style email
+    It is based on the clustering of the emails done by the groupe 3
+    As well as our previous work on the legal style email
+    """
     instructions = """
-    **Tone**  
+### Tone  
 Use a formal, professional register without slang.  
 Maintain a neutral to slightly firm tone, avoiding excessive emotional expressions.  
 Use direct language, fewer modals, and confident phrasing.  
 
-**Vocabulary**  
+### Vocabulary 
 Prioritize clarity over broad vocabulary while incorporating precise and technical terms where necessary.  
 Avoid heavy jargon but maintain a professional and authoritative word choice.  
 Balance sophistication with accessibility to ensure readability.  
 
-**Structure**  
+### Structure  
 Write in a free-flow manner with minimal but effective transitions.  
 Use connectives only as needed for coherence.  
 
-**Syntax**  
+### Syntax  
 Use a mix of simple and complex sentences, incorporating subordination where it enhances clarity.  
 
-**Recurrence of Patterns**  
+### Recurrence of Patterns  
 Incorporate the word 'person' where applicable.  
 Ensure the frequent use of 'the' for clarity and specificity.  
 
-**Politeness & Social Conventions**  
+### Politeness & Social Conventions  
 Use polite expressions sparingly, ensuring a direct and professional tone.  
 Minimal or no formal closing is needed.  
 
-**Rhythm & Cadence**  
+### Rhythm & Cadence  
 Vary sentence lengths to maintain a dynamic and engaging flow.  
-Use punctuation (commas, dashes) effectively to structure ideas and improve readability.
-    """
+Use punctuation (commas, dashes) effectively to structure ideas and improve readability."""
+
+    return instructions
+
+################################################
+# Graph Parsing to get the facts of a user
+################################################
+
+def get_facts_from_graph(user: str) -> List[str]:
+    pass
