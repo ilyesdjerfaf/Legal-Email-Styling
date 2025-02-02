@@ -1,3 +1,4 @@
+#%%
 # Imports
 import pandas as pd
 import pickle
@@ -5,7 +6,12 @@ from typing import List, Tuple
 import matplotlib.pyplot as plt
 import re
 
+# Ignore warnings
+import warnings
+warnings.filterwarnings('ignore')
+warnings.simplefilter('ignore')
 
+#%%
 def plot_na(data:pd.DataFrame) -> None:
     """
     Plot the missing values in the dataset
@@ -40,6 +46,8 @@ def plot_na(data:pd.DataFrame) -> None:
     plt.grid(axis='y', linestyle='--', alpha=0.7)
     plt.tight_layout()
 
+
+#%%
 def keep_valid_senders(X) -> Tuple[List[str], List[str]]:
     """Keep only valid senders
 
@@ -66,6 +74,7 @@ def keep_valid_senders(X) -> Tuple[List[str], List[str]]:
     enron_valid = [sender for sender in concat_good_senders if matching_re.match(sender) is not None]
     return concat_good_senders, enron_valid
 
+#%%
 def get_n_mails_to_keep(X:pd.DataFrame, n_words:int) -> pd.DataFrame:
     """Get the number of mails to keep per user that satisfies the condition of n words
 
@@ -82,13 +91,17 @@ def get_n_mails_to_keep(X:pd.DataFrame, n_words:int) -> pd.DataFrame:
     return X
 
 
-
+#%%
 # emails : pd.DataFrame, represents the initial emails dataset after few preprocessing steps by TEAM 1
 df = pd.read_csv('emails.csv', low_memory=False)
 plot_na(df)
+
+#%%
 df.sort_values(by=['from', 'date'], inplace=True)
 df.drop(columns=['id', 'date', 'xto', 'xcc', 'to'], inplace=True)
 plot_na(df)
+
+#%%
 df.dropna(inplace=True)
 unique_senders = df['from'].unique()
 concat_good_senders, enron_valid = keep_valid_senders(unique_senders)
@@ -111,10 +124,13 @@ X_graph = X[X['from'].isin(graph_users)]
 # number of mails per user
 print(X_graph['from'].value_counts())
 
+#%%
 X_graph['body_length'] = X_graph['body'].apply(lambda x: len(x.split()))
 print(X_graph.groupby('from')['body_length'].mean())
 # sum of number of words per user
 print(X_graph.groupby('from')['body_length'].sum())
+
+#%%
 # we have a limit of 6k body length per user
 n_words = 6000
 n_mails_to_keep = get_n_mails_to_keep(X_graph, n_words)
@@ -128,21 +144,24 @@ n_mails_to_keep.to_csv('sample_graph.csv', index=False)
 with open('sample_users_graph.pkl', 'wb') as f:
     pickle.dump(list(n_mails_to_keep["from"].unique()), f)
 
-
+#%%
 sender_counts = X['from'].value_counts()
 # save enron senders
 with open('valid_enron_senders.pkl', 'wb') as f:
     pickle.dump(enron_valid, f)
 
+#%%
 max_mails = X['from'].value_counts().max()
 # identify the corresponding user	
 user_with_max_mails = X['from'].value_counts()[X['from'].value_counts() == max_mails]
 
+#%%
 # plot the top 10 mails per senders
 plt.figure(figsize=(15, 10))
 X['from'].value_counts().head(11).plot(kind='bar')
 plt.show()
 
+#%%
 # count the number of mails per sender
 sender_counts = X['from'].value_counts()
 # Créer un boxplot
@@ -152,6 +171,7 @@ plt.title("Boxplot du nombre de mails par expéditeur")
 plt.xlabel("Nombre de mails")
 plt.show()
 
+#%%
 # keep only users with more than 10 mails
 X = X[X['from'].isin(sender_counts[sender_counts >= 19].index)]
 sender_counts = X['from'].value_counts()
@@ -162,11 +182,13 @@ plt.title("Boxplot du nombre de mails par expéditeur")
 plt.xlabel("Nombre de mails")
 plt.show()
 
+#%%
 X.to_csv('enron.csv', index=False)
 X['word_count'] = X['body'].apply(lambda x: len(x.split()))
 max_tokens = X['word_count'].max()
 user_with_max_tokens = X[X['word_count'] == max_tokens]['from']
 
+#%%
 plt.figure(figsize=(15, 10))
 X.groupby('from')['word_count'].sum().sort_values(ascending=False).head(10).plot(kind='bar')
 plt.title('Top 10 Senders by Word Count')
@@ -174,6 +196,7 @@ plt.xlabel('Sender')
 plt.ylabel('Total Word Count')
 plt.show()
 
+#%%
 avg_word_count = X.groupby('from')['word_count'].mean()
 plt.figure(figsize=(15, 10))
 avg_word_count.sort_values(ascending=False).head(10).plot(kind='bar')
@@ -182,12 +205,14 @@ plt.xlabel('Sender')
 plt.ylabel('Average Word Count')
 plt.show()
 
+#%%
 sender_counts = X['from'].value_counts()
 # keep only users with less than 6k words (future work : contexte size of llama3 70B)
 X = X[X['from'].isin(avg_word_count[avg_word_count < 6000].index)]
 # keep the top 10 senders with the highest average word count less than 6k
 X = X[X['from'].isin(avg_word_count.sort_values(ascending=False).head(16).index)]
 
+#%%
 # mails per user
 plt.figure(figsize=(15, 10))
 X['from'].value_counts().plot(kind='bar')
