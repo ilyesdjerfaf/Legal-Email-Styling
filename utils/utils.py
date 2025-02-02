@@ -475,3 +475,118 @@ def build_user_style_profile(user_id, emails):
         }
     }
     return style_profile
+
+def style_profile_to_instructions(style_profile_json):
+    """
+    Convertit le JSON en un bloc de texte (instructions) à donner au LLM.
+    """
+    sp = style_profile_json["style_profile"]
+
+    # 1) Tone
+    tone_ins = []
+    if sp["tone"]["formality_degree"] == "mostly_formal":
+        tone_ins.append("Use a formal, professional register without slang.")
+    elif sp["tone"]["formality_degree"] == "mostly_informal":
+        tone_ins.append("Use a casual, informal register with friendly language.")
+    else:
+        tone_ins.append("Mix formal and informal language, but mostly stay professional.")
+
+    if sp["tone"]["emotional_expression"] == "emotional":
+        tone_ins.append("Inject noticeable emotional words or expressions.")
+    else:
+        tone_ins.append("Maintain a neutral emotional tone.")
+    
+    if sp["tone"]["attitude"] == "assertive":
+        tone_ins.append("Use direct language, fewer modals, and confident phrasing.")
+    else:
+        tone_ins.append("Use more modal verbs and hedging for an attenuated approach.")
+
+    # 2) Vocabulary
+    vocab = sp["vocabulary"]
+    vocab_ins = []
+    if vocab["word_type"] == "sophisticated":
+        vocab_ins.append("Prefer sophisticated or technical vocabulary if relevant.")
+    else:
+        vocab_ins.append("Use simpler, common words to maintain clarity.")
+
+    if vocab["lexical_richness_TTR"] > 0.4:
+        vocab_ins.append("Maintain a relatively high lexical diversity.")
+    else:
+        vocab_ins.append("Focus on clarity rather than broad vocabulary.")
+
+    if vocab["jargon_presence"] == "high":
+        vocab_ins.append("Include domain-specific jargon (finance, legal, etc.) where appropriate.")
+    else:
+        vocab_ins.append("Avoid heavy jargon and keep technical terms minimal.")
+
+    # 3) Structure
+    structure_ins = []
+    if sp["structure"]["internal_logic"] == "well_structured":
+        structure_ins.append("Organize the text with clear paragraphs and transitions.")
+    else:
+        structure_ins.append("Write in a more free-flow manner, fewer explicit transitions.")
+    structure_ins.append("Use connectives or transitions as needed for clarity.")
+
+    # 4) Syntax
+    syntax_ins = []
+    if sp["syntax"]["complexity"] == "complex":
+        syntax_ins.append("Use complex sentences with subordinate clauses.")
+    else:
+        syntax_ins.append("Favor simpler sentences with minimal subordination.")
+
+    # 5) Recurrence
+    patterns = sp["recurrence_of_patterns"]
+    patterns_ins = []
+    freq_1grams = patterns.get("frequent_1grams", [])
+    if freq_1grams:
+        top_1gram = freq_1grams[0][0]
+        patterns_ins.append(f"Try to incorporate the frequent word '{top_1gram}' if it fits.")
+    else:
+        patterns_ins.append("No specific frequent words to highlight.")
+
+    # 6) Politeness
+    pol = sp["politeness_and_social_conventions"]
+    pol_ins = []
+    if pol["politeness_score"] > 2.0:
+        pol_ins.append("Use polite expressions frequently (e.g. 'please', 'thank you').")
+    else:
+        pol_ins.append("Use polite expressions sparingly.")
+    if pol["closing_formulas_ratio"] > 0.2:
+        pol_ins.append("End messages with a polite closing (e.g. 'Regards', 'Sincerely').")
+    else:
+        pol_ins.append("Minimal or no formal closing is needed.")
+
+    # 7) Rhythm & Cadence
+    rhythm = sp["rhythm_and_cadence"]
+    rhythm_ins = []
+    if rhythm["std_sentence_length_variation"] > 5:
+        rhythm_ins.append("Vary sentence lengths to create a dynamic flow.")
+    else:
+        rhythm_ins.append("Keep sentences somewhat uniform in length.")
+    if rhythm["punctuation_ratio"] > 0.05:
+        rhythm_ins.append("Use punctuation (commas, dashes) liberally to break ideas.")
+    else:
+        rhythm_ins.append("Use minimal punctuation for a smooth flow.")
+
+    # Combine
+    lines = []
+    lines.append("### Tone")
+    lines.extend(tone_ins)
+    lines.append("\n### Vocabulary")
+    lines.extend(vocab_ins)
+    lines.append("\n### Structure")
+    lines.extend(structure_ins)
+    lines.append("\n### Syntax")
+    lines.extend(syntax_ins)
+    lines.append("\n### Recurrence of Patterns")
+    lines.extend(patterns_ins)
+    lines.append("\n### Politeness & Social Conventions")
+    lines.extend(pol_ins)
+    lines.append("\n### Rhythm & Cadence")
+    lines.extend(rhythm_ins)
+
+    return "\n".join(lines)
+
+
+def style_juridique():
+    pass
