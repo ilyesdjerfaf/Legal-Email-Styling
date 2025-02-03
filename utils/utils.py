@@ -25,6 +25,8 @@ from sentence_transformers import SentenceTransformer
 from collections import Counter
 from dotenv import load_dotenv
 from langchain_community.chat_models import ChatOpenAI
+import json
+from datetime import datetime
 
 ############################################
 # Configuration
@@ -630,5 +632,25 @@ Use punctuation (commas, dashes) effectively to structure ideas and improve read
 # Graph Parsing to get the facts of a user
 ################################################
 
-def get_facts_from_graph(user: str) -> List[str]:
-    pass
+
+def get_user_descriptions_by_date(json_data, user_email):
+    """
+    Fetches the descriptions of facts for a given user, sorted by date (oldest to newest).
+
+    Args:
+        json_data (dict): JSON object containing user event information.
+        user_email (str): The email of the user to fetch the descriptions for.
+
+    Returns:
+        list: A list of descriptions sorted by date.
+    """
+    if user_email not in json_data:
+        return []
+    events = json_data[user_email]
+
+    sorted_events = sorted(
+        events,
+        key=lambda event: datetime.fromisoformat(event['date'])
+    )
+
+    return [event['description'] for event in sorted_events]

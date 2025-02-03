@@ -1,19 +1,23 @@
+#%%
 import streamlit as st
 import pandas as pd
 import json
 
-from utils import (
+#%%
+from utils.utils import (
     load_enron_emails_from_csv,
     build_user_style_profile,
     style_profile_to_instructions,
     llm
 )
 
+#%%
 #####################################
 # 1) Chargement des données
 #####################################
 CSV_PATH = "mails.csv"
 
+#%%
 @st.cache_data
 def load_data(csv_path):
     return load_enron_emails_from_csv(csv_path)

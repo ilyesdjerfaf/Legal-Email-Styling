@@ -1,0 +1,351 @@
+{
+    "debra.perlingiere@enron.com": [
+        {
+            "id": "event_20010312_budgetplanningmeeting_001",
+            "label": "Evenement",
+            "properties": {
+                "source_email": true,
+                "original_text": "Budget planning session with financial team."
+            },
+            "metadata": {
+                "extraction_source": "email_001",
+                "extraction_date": "2025-02-03T10:00:00"
+            },
+            "type": "meeting",
+            "date": "2001-03-12T14:00:00",
+            "lieu": "Conference Room A, Enron HQ",
+            "description": "Detailed budget planning meeting focusing on Q2 forecasts."
+        },
+        {
+            "id": "event_20010418_hrtrainingworkshop_002",
+            "label": "Evenement",
+            "properties": {
+                "source_email": true,
+                "original_text": "Mandatory HR training on compliance policies."
+            },
+            "metadata": {
+                "extraction_source": "email_002",
+                "extraction_date": "2025-02-03T10:05:00"
+            },
+            "type": "training",
+            "date": "2001-04-18T09:00:00",
+            "lieu": "3rd Floor Training Center",
+            "description": "Annual compliance training led by HR."
+        },
+        {
+            "id": "event_20010510_teambuildingretreat_003",
+            "label": "Evenement",
+            "properties": {
+                "source_email": true,
+                "original_text": "Team building retreat for cross-department collaboration."
+            },
+            "metadata": {
+                "extraction_source": "email_003",
+                "extraction_date": "2025-02-03T10:10:00"
+            },
+            "type": "team_building",
+            "date": "2001-05-10T10:00:00",
+            "lieu": "Lake Conroe Resort",
+            "description": "Day-long retreat aimed at fostering better collaboration among departments."
+        },
+        {
+            "id": "event_20010615_volunteerday_004",
+            "label": "Evenement",
+            "properties": {
+                "source_email": true,
+                "original_text": "Community outreach volunteering at local food bank."
+            },
+            "metadata": {
+                "extraction_source": "email_004",
+                "extraction_date": "2025-02-03T10:15:00"
+            },
+            "type": "community_service",
+            "date": "2001-06-15T08:00:00",
+            "lieu": "Local Food Bank, Houston",
+            "description": "Volunteered at a local food bank as part of Enron's community outreach program."
+        },
+        {
+            "id": "event_20011220_financialreview_0135",
+            "label": "Evenement",
+            "properties": {
+                "source_email": true,
+                "original_text": "End-of-year financial performance review."
+            },
+            "metadata": {
+                "extraction_source": "email_005",
+                "extraction_date": "2025-02-03T10:20:00"
+            },
+            "type": "meeting",
+            "date": "2001-12-20T15:00:00",
+            "lieu": "Executive Boardroom, Enron HQ",
+            "description": "Participated in a high-level review of financial performance for the fiscal year."
+        }
+    ],
+
+    "steven.kean@enron.com": [
+        {
+            "id": "event_20020115_energypolicydiscussion_003",
+            "label": "Evenement",
+            "properties": {
+                "source_email": true,
+                "original_text": "Discussion on the impact of new energy regulations."
+            },
+            "metadata": {
+                "extraction_source": "email_0233",
+                "extraction_date": "2025-02-03T10:10:00"
+            },
+            "type": "meeting",
+            "date": "2002-01-15T11:00:00",
+            "lieu": "Executive Boardroom, Enron HQ",
+            "description": "Steven led a session on new regulatory frameworks and their implications."
+        },
+        {
+            "id": "event_20020722_projectapprovalcommittee_004",
+            "label": "Evenement",
+            "properties": {
+                "source_email": true,
+                "original_text": "Approval of key energy infrastructure projects."
+            },
+            "metadata": {
+                "extraction_source": "email_0434",
+                "extraction_date": "2025-02-03T10:15:00"
+            },
+            "type": "meeting",
+            "date": "2002-07-22T15:00:00",
+            "lieu": "Conference Room B",
+            "description": "Project Approval Committee meeting focusing on three major infrastructure initiatives."
+        },
+        {
+            "id": "event_20010930_energyinnovationexpo_005",
+            "label": "Evenement",
+            "properties": {
+                "source_email": true,
+                "original_text": "Energy Innovation Expo presentation."
+            },
+            "metadata": {
+                "extraction_source": "email_005",
+                "extraction_date": "2025-02-03T10:25:00"
+            },
+            "type": "presentation",
+            "date": "2001-09-30T14:00:00",
+            "lieu": "Expo Center, Houston",
+            "description": "Steven presented on Enron's groundbreaking energy solutions during the annual expo."
+        },
+        {
+            "id": "event_20020615_internationalclientmeeting_006",
+            "label": "Evenement",
+            "properties": {
+                "source_email": true,
+                "original_text": "Meeting with international energy clients."
+            },
+            "metadata": {
+                "extraction_source": "email_006",
+                "extraction_date": "2025-02-03T10:30:00"
+            },
+            "type": "meeting",
+            "date": "2002-06-15T10:00:00",
+            "lieu": "Global Conference Room, Enron HQ",
+            "description": "Strategic discussions with international clients on expanding energy partnerships."
+        }
+    ],
+
+    "kay.mann@enron.com": [
+        {
+            "id": "event_20020115_energypolicydiscussion_003",
+            "label": "Evenement",
+            "properties": {
+                "source_email": true,
+                "original_text": "Discussion on the impact of new energy regulations."
+            },
+            "metadata": {
+                "extraction_source": "email_003",
+                "extraction_date": "2025-02-03T10:10:00"
+            },
+            "type": "meeting",
+            "date": "2002-01-15T11:00:00",
+            "lieu": "Executive Boardroom, Enron HQ",
+            "description": "Steven led a session on new regulatory frameworks and their implications."
+        },
+        {
+            "id": "event_20020722_projectapprovalcommittee_004",
+            "label": "Evenement",
+            "properties": {
+                "source_email": true,
+                "original_text": "Approval of key energy infrastructure projects."
+            },
+            "metadata": {
+                "extraction_source": "email_004",
+                "extraction_date": "2025-02-03T10:15:00"
+            },
+            "type": "meeting",
+            "date": "2002-07-22T15:00:00",
+            "lieu": "Conference Room B",
+            "description": "Project Approval Committee meeting focusing on three major infrastructure initiatives."
+        },
+        {
+            "id": "event_20010930_energyinnovationexpo_005",
+            "label": "Evenement",
+            "properties": {
+                "source_email": true,
+                "original_text": "Energy Innovation Expo presentation."
+            },
+            "metadata": {
+                "extraction_source": "email_005",
+                "extraction_date": "2025-02-03T10:25:00"
+            },
+            "type": "presentation",
+            "date": "2001-09-30T14:00:00",
+            "lieu": "Expo Center, Houston",
+            "description": "Steven presented on Enron's groundbreaking energy solutions during the annual expo."
+        },
+        {
+            "id": "event_20020615_internationalclientmeeting_006",
+            "label": "Evenement",
+            "properties": {
+                "source_email": true,
+                "original_text": "Meeting with international energy clients."
+            },
+            "metadata": {
+                "extraction_source": "email_006",
+                "extraction_date": "2025-02-03T10:30:00"
+            },
+            "type": "meeting",
+            "date": "2002-06-15T10:00:00",
+            "lieu": "Global Conference Room, Enron HQ",
+            "description": "Strategic discussions with international clients on expanding energy partnerships."
+        }
+    ],
+    "chris.germany@enron.com": [
+        {
+            "id": "event_20010305_pipelineupdate_007",
+            "label": "Evenement",
+            "properties": {
+                "source_email": true,
+                "original_text": "Weekly pipeline status update."
+            },
+            "metadata": {
+                "extraction_source": "email_007",
+                "extraction_date": "2025-02-03T10:35:00"
+            },
+            "type": "meeting",
+            "date": "2001-03-05T09:00:00",
+            "lieu": "Operations Room, Enron HQ",
+            "description": "Chris attended a meeting on the current operational status of pipelines."
+        },
+        {
+            "id": "event_20010820_energydistributionseminar_008",
+            "label": "Evenement",
+            "properties": {
+                "source_email": true,
+                "original_text": "Seminar on energy distribution technologies."
+            },
+            "metadata": {
+                "extraction_source": "email_408",
+                "extraction_date": "2025-02-03T10:40:00"
+            },
+            "type": "seminar",
+            "date": "2001-08-20T14:00:00",
+            "lieu": "Seminar Hall, Enron HQ",
+            "description": "Chris participated in a seminar focusing on advancements in energy distribution systems."
+        },
+        {
+            "id": "event_20011105_emergencyresponseplanning_009",
+            "label": "Evenement",
+            "properties": {
+                "source_email": true,
+                "original_text": "Emergency response strategy meeting."
+            },
+            "metadata": {
+                "extraction_source": "email_5009",
+                "extraction_date": "2025-02-03T10:45:00"
+            },
+            "type": "meeting",
+            "date": "2001-11-05T10:30:00",
+            "lieu": "Safety Office, Enron HQ",
+            "description": "Chris was involved in drafting emergency response protocols for pipeline operations."
+        },
+        {
+            "id": "event_20020218_operationalreviewconference_010",
+            "label": "Evenement",
+            "properties": {
+                "source_email": true,
+                "original_text": "Annual operational review conference."
+            },
+            "metadata": {
+                "extraction_source": "email_01130",
+                "extraction_date": "2025-02-03T10:50:00"
+            },
+            "type": "conference",
+            "date": "2002-02-18T13:00:00",
+            "lieu": "Main Conference Hall, Enron HQ",
+            "description": "Chris contributed insights during the annual operational performance review."
+        }
+    ],
+
+    "robert.bruce@enron.com": [
+        {
+            "id": "event_20010112_financialperformanceupdate_014",
+            "label": "Evenement",
+            "properties": {
+                "source_email": true,
+                "original_text": "Update on financial performance metrics."
+            },
+            "metadata": {
+                "extraction_source": "email_01476",
+                "extraction_date": "2025-02-03T11:25:00"
+            },
+            "type": "meeting",
+            "date": "2001-01-12T09:30:00",
+            "lieu": "Finance Department, Enron HQ",
+            "description": "Robert presented quarterly financial results and forecasts."
+        },
+        {
+            "id": "event_20010515_clientportfolioanalysis_015",
+            "label": "Evenement",
+            "properties": {
+                "source_email": true,
+                "original_text": "Discussion on client portfolio performance."
+            },
+            "metadata": {
+                "extraction_source": "email_015",
+                "extraction_date": "2025-02-03T11:30:00"
+            },
+            "type": "meeting",
+            "date": "2001-05-15T10:00:00",
+            "lieu": "Room 205, Enron HQ",
+            "description": "Robert analyzed and discussed trends in client portfolio performance."
+        },
+        {
+            "id": "event_20011022_globalfinanceconference_016",
+            "label": "Evenement",
+            "properties": {
+                "source_email": true,
+                "original_text": "Annual Global Finance Conference."
+            },
+            "metadata": {
+                "extraction_source": "email_4216",
+                "extraction_date": "2025-02-03T11:35:00"
+            },
+            "type": "conference",
+            "date": "2001-10-22T09:00:00",
+            "lieu": "Global Conference Hall, Enron HQ",
+            "description": "Robert participated in discussions on global financial trends and strategies."
+        },
+        {
+            "id": "event_20020310_mergersandacquisitionsbriefing_017",
+            "label": "Evenement",
+            "properties": {
+                "source_email": true,
+                "original_text": "Briefing on mergers and acquisitions strategy."
+            },
+            "metadata": {
+                "extraction_source": "email_017",
+                "extraction_date": "2025-02-03T11:40:00"
+            },
+            "type": "briefing",
+            "date": "2002-03-10T11:00:00",
+            "lieu": "Boardroom, Enron HQ",
+            "description": "Robert provided insights on upcoming mergers and acquisitions."
+        }
+    ]
+}

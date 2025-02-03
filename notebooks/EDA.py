@@ -107,18 +107,14 @@ unique_senders = df['from'].unique()
 concat_good_senders, enron_valid = keep_valid_senders(unique_senders)
 X = df[df['from'].isin(enron_valid)]
 graph_users = [
-    'sally.beck@enron.com',
-    'sarah.davis@enron.com',
-    'daryll.fuentes@enron.com',
-    'lee.fascetti@enron.com',
-    'richard.tomaski@enron.com',
-    'vicki.sharp@enron.com',
+    'debra.perlingiere@enron.com',
     'steven.kean@enron.com',
-    'robin.rodrigue@enron.com',
-    'tana.jones@enron.com',
-    'frank.davis@enron.com',
-    'stephanie.sever@enron.com',
-    'kimberly.watson@enron.com'
+    'chris.germany@enron.com',
+    'kay.mann@enron.com',
+    'robert.bruce@enron.com',
+    'christina.valdez@enron.com',
+    'michael.tribolet@enron.com',
+    'sally.beck@enron.com'
 ]
 X_graph = X[X['from'].isin(graph_users)]
 # number of mails per user
