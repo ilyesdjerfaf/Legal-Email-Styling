@@ -24,7 +24,8 @@ from transformers import pipeline
 from sentence_transformers import SentenceTransformer
 from collections import Counter
 from dotenv import load_dotenv
-from langchain_community.chat_models import ChatOpenAI
+# from langchain_community.chat_models import ChatOpenAI
+from langchain_openai import ChatOpenAI
 import json
 from datetime import datetime
 
@@ -421,13 +422,13 @@ def build_user_style_profile(user_id, emails):
     total_emails = len(emails)
     emotion_list = []
     attitude_list = []
-
     for email in emails:
         form_label = classify_formality_llama(email[:2000])  # Tronque pour éviter de trop longs prompts
         if form_label == "FORMAL":
             formal_count += 1
         emotion_list.append(detect_emotion(email))
         attitude_list.append(detect_attitude(email))
+    
 
     ratio_formal = formal_count / (total_emails + 1e-9)
     if ratio_formal > 0.7:

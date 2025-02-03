@@ -7,7 +7,7 @@ setup(
     author_email='idjerfaf@gmail.com',
     description='Legal Email Styling',
     url='https://github.com/ilyesdjerfaf/Legal-Email-Styling',
-    packages=find_packages(),
+    packages=find_packages(where='.', include=['utils', 'utils.*']),
     include_package_data=True,
     install_requires=[
         'numpy==1.26.4',

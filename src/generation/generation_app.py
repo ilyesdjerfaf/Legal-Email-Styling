@@ -1,28 +1,64 @@
-#%%
 import streamlit as st
 import pandas as pd
 import json
-
-#%%
-from utils.utils import (
+import pickle
+from datetime import datetime
+from utils import (
     load_enron_emails_from_csv,
     build_user_style_profile,
     style_profile_to_instructions,
     llm
 )
 
-#%%
 #####################################
 # 1) Chargement des données
 #####################################
-CSV_PATH = "mails.csv"
+CSV_PATH = "sample_graph.csv"
+link_events = "extracted_facts.json"
+users_path="sample_users_graph.pkl"
 
-#%%
+
+with open(link_events) as f:
+    links = json.load(f)
+
+with open(users_path, 'rb') as f:
+    users = pickle.load(f)
+
+#####################################
+# 2) Functions to get user descriptions
+#####################################
+@st.cache_data
+def get_user_descriptions_by_date(json_data, user_email):
+    """
+    Fetches the descriptions of facts for a given user, sorted by date (oldest to newest).
+
+    Args:
+        json_data (dict): JSON object containing user event information.
+        user_email (str): The email of the user to fetch the descriptions for.
+
+    Returns:
+        list: A list of descriptions sorted by date.
+    """
+    if user_email not in json_data:
+        return []
+    events = json_data[user_email]
+
+    sorted_events = sorted(
+        events,
+        key=lambda event: datetime.fromisoformat(event['date'])
+    )
+
+    ev =  [event['description'] for event in sorted_events]
+
+    # format the ev as : """* event1 : ... \n* event2 : ..."""
+    return "\n".join([f"* {i+1}. {event}" for i, event in enumerate(ev)])
+
 @st.cache_data
 def load_data(csv_path):
     return load_enron_emails_from_csv(csv_path)
 
 user_emails_map = load_data(CSV_PATH)
+
 
 #####################################
 # 2) Configuration Streamlit
@@ -234,3 +270,4 @@ if st.session_state["generated_email_legal"] is not None:
 if st.session_state["generated_penal_statement"] is not None:
     st.subheader("Exposé des faits devant la cour pénale (EN)")
     st.write(st.session_state["generated_penal_statement"])
+
