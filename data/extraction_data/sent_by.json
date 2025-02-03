@@ -1,0 +1,3637 @@
+﻿[
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "Email"
+        ],
+        "properties": {
+          "date": "2000-09-19T03:18:00-07:00",
+          "metadata": "{}",
+          "id": "362686",
+          "label": "Email",
+          "body": "Yes,  I talked to mom last night about the football game, Dallas is her team,
+and warned her we three would be coming.
+
+Debra Perlingiere
+Enron North America Corp.
+Legal Department
+1400 Smith Street, EB 3885
+Houston, Texas 77002
+dperlin@enron.com
+Phone 713-853-7658
+Fax  713-646-3490",
+          "sujet": "Re:",
+          "properties": "{\"file_path\": \"perlingiere-d/sent/584.\"}",
+          "statut": "sent",
+          "list_urls": []
+        },
+        "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:0"
+      },
+      "end": {
+        "identity": 177,
+        "labels": [
+          "Acteur"
+        ],
+        "properties": {
+          "metadata": "{}",
+          "departement": "Legal Department",
+          "roles": [
+            "employee"
+          ],
+          "adresse_email": "debra.perlingiere@enron.com",
+          "id": "actor_debra.perlingiere@enron.com",
+          "label": "Acteur",
+          "poste": "N/A",
+          "nom": "Perlingiere",
+          "prenom": "Debra",
+          "properties": "{}"
+        },
+        "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:177"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "Email"
+            ],
+            "properties": {
+              "date": "2000-09-19T03:18:00-07:00",
+              "metadata": "{}",
+              "id": "362686",
+              "label": "Email",
+              "body": "Yes,  I talked to mom last night about the football game, Dallas is her team,
+and warned her we three would be coming.
+
+Debra Perlingiere
+Enron North America Corp.
+Legal Department
+1400 Smith Street, EB 3885
+Houston, Texas 77002
+dperlin@enron.com
+Phone 713-853-7658
+Fax  713-646-3490",
+              "sujet": "Re:",
+              "properties": "{\"file_path\": \"perlingiere-d/sent/584.\"}",
+              "statut": "sent",
+              "list_urls": []
+            },
+            "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:0"
+          },
+          "relationship": {
+            "identity": 1152927002164985856,
+            "start": 0,
+            "end": 177,
+            "type": "SENT_BY",
+            "properties": {
+              "metadata": "{}",
+              "id": "rel_sent_by_362686_actor_debra.perlingiere@enron.com",
+              "properties": "{}"
+            },
+            "elementId": "5:edbd9c75-fcbb-462b-bb51-2607e177d344:1152927002164985856",
+            "startNodeElementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:0",
+            "endNodeElementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:177"
+          },
+          "end": {
+            "identity": 177,
+            "labels": [
+              "Acteur"
+            ],
+            "properties": {
+              "metadata": "{}",
+              "departement": "Legal Department",
+              "roles": [
+                "employee"
+              ],
+              "adresse_email": "debra.perlingiere@enron.com",
+              "id": "actor_debra.perlingiere@enron.com",
+              "label": "Acteur",
+              "poste": "N/A",
+              "nom": "Perlingiere",
+              "prenom": "Debra",
+              "properties": "{}"
+            },
+            "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:177"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "Email"
+        ],
+        "properties": {
+          "date": "2000-09-19T03:18:00-07:00",
+          "metadata": "{}",
+          "id": "362686",
+          "label": "Email",
+          "body": "Yes,  I talked to mom last night about the football game, Dallas is her team,
+and warned her we three would be coming.
+
+Debra Perlingiere
+Enron North America Corp.
+Legal Department
+1400 Smith Street, EB 3885
+Houston, Texas 77002
+dperlin@enron.com
+Phone 713-853-7658
+Fax  713-646-3490",
+          "sujet": "Re:",
+          "properties": "{\"file_path\": \"perlingiere-d/sent/584.\"}",
+          "statut": "sent",
+          "list_urls": []
+        },
+        "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:0"
+      },
+      "end": {
+        "identity": 594,
+        "labels": [
+          "Acteur"
+        ],
+        "properties": {
+          "metadata": "{}",
+          "departement": "Legal Department",
+          "roles": [
+            "employee"
+          ],
+          "adresse_email": "debra.perlingiere@enron.com",
+          "id": "actor_debra.perlingiere@enron.com",
+          "label": "Acteur",
+          "poste": "N/A",
+          "nom": "Perlingiere",
+          "prenom": "Debra",
+          "properties": "{}"
+        },
+        "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:594"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "Email"
+            ],
+            "properties": {
+              "date": "2000-09-19T03:18:00-07:00",
+              "metadata": "{}",
+              "id": "362686",
+              "label": "Email",
+              "body": "Yes,  I talked to mom last night about the football game, Dallas is her team,
+and warned her we three would be coming.
+
+Debra Perlingiere
+Enron North America Corp.
+Legal Department
+1400 Smith Street, EB 3885
+Houston, Texas 77002
+dperlin@enron.com
+Phone 713-853-7658
+Fax  713-646-3490",
+              "sujet": "Re:",
+              "properties": "{\"file_path\": \"perlingiere-d/sent/584.\"}",
+              "statut": "sent",
+              "list_urls": []
+            },
+            "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:0"
+          },
+          "relationship": {
+            "identity": 1155178801978671104,
+            "start": 0,
+            "end": 594,
+            "type": "SENT_BY",
+            "properties": {
+              "metadata": "{}",
+              "id": "rel_sent_by_362686_actor_debra.perlingiere@enron.com",
+              "properties": "{}"
+            },
+            "elementId": "5:edbd9c75-fcbb-462b-bb51-2607e177d344:1155178801978671104",
+            "startNodeElementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:0",
+            "endNodeElementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:594"
+          },
+          "end": {
+            "identity": 594,
+            "labels": [
+              "Acteur"
+            ],
+            "properties": {
+              "metadata": "{}",
+              "departement": "Legal Department",
+              "roles": [
+                "employee"
+              ],
+              "adresse_email": "debra.perlingiere@enron.com",
+              "id": "actor_debra.perlingiere@enron.com",
+              "label": "Acteur",
+              "poste": "N/A",
+              "nom": "Perlingiere",
+              "prenom": "Debra",
+              "properties": "{}"
+            },
+            "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:594"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 0,
+        "labels": [
+          "Email"
+        ],
+        "properties": {
+          "date": "2000-09-19T03:18:00-07:00",
+          "metadata": "{}",
+          "id": "362686",
+          "label": "Email",
+          "body": "Yes,  I talked to mom last night about the football game, Dallas is her team,
+and warned her we three would be coming.
+
+Debra Perlingiere
+Enron North America Corp.
+Legal Department
+1400 Smith Street, EB 3885
+Houston, Texas 77002
+dperlin@enron.com
+Phone 713-853-7658
+Fax  713-646-3490",
+          "sujet": "Re:",
+          "properties": "{\"file_path\": \"perlingiere-d/sent/584.\"}",
+          "statut": "sent",
+          "list_urls": []
+        },
+        "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:0"
+      },
+      "end": {
+        "identity": 931,
+        "labels": [
+          "Acteur"
+        ],
+        "properties": {
+          "metadata": "{}",
+          "departement": "Legal Department",
+          "roles": [
+            "employee"
+          ],
+          "adresse_email": "debra.perlingiere@enron.com",
+          "id": "actor_debra.perlingiere@enron.com",
+          "label": "Acteur",
+          "poste": "N/A",
+          "nom": "Perlingiere",
+          "prenom": "Debra",
+          "properties": "{}"
+        },
+        "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:931"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 0,
+            "labels": [
+              "Email"
+            ],
+            "properties": {
+              "date": "2000-09-19T03:18:00-07:00",
+              "metadata": "{}",
+              "id": "362686",
+              "label": "Email",
+              "body": "Yes,  I talked to mom last night about the football game, Dallas is her team,
+and warned her we three would be coming.
+
+Debra Perlingiere
+Enron North America Corp.
+Legal Department
+1400 Smith Street, EB 3885
+Houston, Texas 77002
+dperlin@enron.com
+Phone 713-853-7658
+Fax  713-646-3490",
+              "sujet": "Re:",
+              "properties": "{\"file_path\": \"perlingiere-d/sent/584.\"}",
+              "statut": "sent",
+              "list_urls": []
+            },
+            "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:0"
+          },
+          "relationship": {
+            "identity": 1157430601792356352,
+            "start": 0,
+            "end": 931,
+            "type": "SENT_BY",
+            "properties": {
+              "metadata": "{}",
+              "id": "rel_sent_by_362686_actor_debra.perlingiere@enron.com",
+              "properties": "{}"
+            },
+            "elementId": "5:edbd9c75-fcbb-462b-bb51-2607e177d344:1157430601792356352",
+            "startNodeElementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:0",
+            "endNodeElementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:931"
+          },
+          "end": {
+            "identity": 931,
+            "labels": [
+              "Acteur"
+            ],
+            "properties": {
+              "metadata": "{}",
+              "departement": "Legal Department",
+              "roles": [
+                "employee"
+              ],
+              "adresse_email": "debra.perlingiere@enron.com",
+              "id": "actor_debra.perlingiere@enron.com",
+              "label": "Acteur",
+              "poste": "N/A",
+              "nom": "Perlingiere",
+              "prenom": "Debra",
+              "properties": "{}"
+            },
+            "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:931"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 1,
+        "labels": [
+          "Email"
+        ],
+        "properties": {
+          "date": "2001-04-10T00:27:00-07:00",
+          "metadata": "{}",
+          "id": "234322",
+          "label": "Email",
+          "body": "I talked with Ken yesterday.  He would like to keep David on until May 15 to
+finish up some things he is working on for Ken.
+
+
+
+Enron Capital & Trade Resources Corp.
+
+From:  Sherri Sera                           04/09/2001 08:45 PM
+
+
+To: Steven J Kean/NA/Enron@Enron
+cc:
+
+Subject: Re: organizational announcement
+
+Just out of curiosity, did this ever get resolved?  Apologies if I'm being
+too bold!  SRS
+
+
+From: Steven J Kean on 03/14/2001 07:33 AM
+To: Sherri Sera/Corp/Enron@ENRON
+cc:
+
+Subject: Re: organizational announcement
+
+Ken was meeting with him the day before yesterday.  I'm just waiting to hear
+back.
+
+
+
+Sherri Sera
+03/13/2001 10:07 PM
+
+To: Steven J Kean/NA/Enron@Enron
+cc:
+Subject: organizational announcement
+
+Just saw the memo about Sanjay, Diomedes and Jim.  Guess David Haug is still
+around? SRS",
+          "sujet": "Re: organizational announcement",
+          "properties": "{\"file_path\": \"kean-s/archiving/untitled/5255.\"}",
+          "statut": "sent",
+          "list_urls": []
+        },
+        "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:1"
+      },
+      "end": {
+        "identity": 180,
+        "labels": [
+          "Acteur"
+        ],
+        "properties": {
+          "metadata": "{}",
+          "departement": "Corporate",
+          "roles": [
+            "employee"
+          ],
+          "adresse_email": "steven.kean@enron.com",
+          "id": "actor_steven.kean@enron.com",
+          "label": "Acteur",
+          "poste": "NA",
+          "nom": "Kean",
+          "prenom": "Steven",
+          "properties": "{}"
+        },
+        "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:180"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 1,
+            "labels": [
+              "Email"
+            ],
+            "properties": {
+              "date": "2001-04-10T00:27:00-07:00",
+              "metadata": "{}",
+              "id": "234322",
+              "label": "Email",
+              "body": "I talked with Ken yesterday.  He would like to keep David on until May 15 to
+finish up some things he is working on for Ken.
+
+
+
+Enron Capital & Trade Resources Corp.
+
+From:  Sherri Sera                           04/09/2001 08:45 PM
+
+
+To: Steven J Kean/NA/Enron@Enron
+cc:
+
+Subject: Re: organizational announcement
+
+Just out of curiosity, did this ever get resolved?  Apologies if I'm being
+too bold!  SRS
+
+
+From: Steven J Kean on 03/14/2001 07:33 AM
+To: Sherri Sera/Corp/Enron@ENRON
+cc:
+
+Subject: Re: organizational announcement
+
+Ken was meeting with him the day before yesterday.  I'm just waiting to hear
+back.
+
+
+
+Sherri Sera
+03/13/2001 10:07 PM
+
+To: Steven J Kean/NA/Enron@Enron
+cc:
+Subject: organizational announcement
+
+Just saw the memo about Sanjay, Diomedes and Jim.  Guess David Haug is still
+around? SRS",
+              "sujet": "Re: organizational announcement",
+              "properties": "{\"file_path\": \"kean-s/archiving/untitled/5255.\"}",
+              "statut": "sent",
+              "list_urls": []
+            },
+            "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:1"
+          },
+          "relationship": {
+            "identity": 1152927002164985857,
+            "start": 1,
+            "end": 180,
+            "type": "SENT_BY",
+            "properties": {
+              "metadata": "{}",
+              "id": "rel_sent_by_234322_actor_steven.kean@enron.com",
+              "properties": "{}"
+            },
+            "elementId": "5:edbd9c75-fcbb-462b-bb51-2607e177d344:1152927002164985857",
+            "startNodeElementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:1",
+            "endNodeElementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:180"
+          },
+          "end": {
+            "identity": 180,
+            "labels": [
+              "Acteur"
+            ],
+            "properties": {
+              "metadata": "{}",
+              "departement": "Corporate",
+              "roles": [
+                "employee"
+              ],
+              "adresse_email": "steven.kean@enron.com",
+              "id": "actor_steven.kean@enron.com",
+              "label": "Acteur",
+              "poste": "NA",
+              "nom": "Kean",
+              "prenom": "Steven",
+              "properties": "{}"
+            },
+            "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:180"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 1,
+        "labels": [
+          "Email"
+        ],
+        "properties": {
+          "date": "2001-04-10T00:27:00-07:00",
+          "metadata": "{}",
+          "id": "234322",
+          "label": "Email",
+          "body": "I talked with Ken yesterday.  He would like to keep David on until May 15 to
+finish up some things he is working on for Ken.
+
+
+
+Enron Capital & Trade Resources Corp.
+
+From:  Sherri Sera                           04/09/2001 08:45 PM
+
+
+To: Steven J Kean/NA/Enron@Enron
+cc:
+
+Subject: Re: organizational announcement
+
+Just out of curiosity, did this ever get resolved?  Apologies if I'm being
+too bold!  SRS
+
+
+From: Steven J Kean on 03/14/2001 07:33 AM
+To: Sherri Sera/Corp/Enron@ENRON
+cc:
+
+Subject: Re: organizational announcement
+
+Ken was meeting with him the day before yesterday.  I'm just waiting to hear
+back.
+
+
+
+Sherri Sera
+03/13/2001 10:07 PM
+
+To: Steven J Kean/NA/Enron@Enron
+cc:
+Subject: organizational announcement
+
+Just saw the memo about Sanjay, Diomedes and Jim.  Guess David Haug is still
+around? SRS",
+          "sujet": "Re: organizational announcement",
+          "properties": "{\"file_path\": \"kean-s/archiving/untitled/5255.\"}",
+          "statut": "sent",
+          "list_urls": []
+        },
+        "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:1"
+      },
+      "end": {
+        "identity": 597,
+        "labels": [
+          "Acteur"
+        ],
+        "properties": {
+          "metadata": "{}",
+          "departement": "Corporate",
+          "roles": [
+            "employee"
+          ],
+          "adresse_email": "steven.kean@enron.com",
+          "id": "actor_steven.kean@enron.com",
+          "label": "Acteur",
+          "poste": "NA",
+          "nom": "Kean",
+          "prenom": "Steven",
+          "properties": "{}"
+        },
+        "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:597"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 1,
+            "labels": [
+              "Email"
+            ],
+            "properties": {
+              "date": "2001-04-10T00:27:00-07:00",
+              "metadata": "{}",
+              "id": "234322",
+              "label": "Email",
+              "body": "I talked with Ken yesterday.  He would like to keep David on until May 15 to
+finish up some things he is working on for Ken.
+
+
+
+Enron Capital & Trade Resources Corp.
+
+From:  Sherri Sera                           04/09/2001 08:45 PM
+
+
+To: Steven J Kean/NA/Enron@Enron
+cc:
+
+Subject: Re: organizational announcement
+
+Just out of curiosity, did this ever get resolved?  Apologies if I'm being
+too bold!  SRS
+
+
+From: Steven J Kean on 03/14/2001 07:33 AM
+To: Sherri Sera/Corp/Enron@ENRON
+cc:
+
+Subject: Re: organizational announcement
+
+Ken was meeting with him the day before yesterday.  I'm just waiting to hear
+back.
+
+
+
+Sherri Sera
+03/13/2001 10:07 PM
+
+To: Steven J Kean/NA/Enron@Enron
+cc:
+Subject: organizational announcement
+
+Just saw the memo about Sanjay, Diomedes and Jim.  Guess David Haug is still
+around? SRS",
+              "sujet": "Re: organizational announcement",
+              "properties": "{\"file_path\": \"kean-s/archiving/untitled/5255.\"}",
+              "statut": "sent",
+              "list_urls": []
+            },
+            "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:1"
+          },
+          "relationship": {
+            "identity": 1155178801978671105,
+            "start": 1,
+            "end": 597,
+            "type": "SENT_BY",
+            "properties": {
+              "metadata": "{}",
+              "id": "rel_sent_by_234322_actor_steven.kean@enron.com",
+              "properties": "{}"
+            },
+            "elementId": "5:edbd9c75-fcbb-462b-bb51-2607e177d344:1155178801978671105",
+            "startNodeElementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:1",
+            "endNodeElementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:597"
+          },
+          "end": {
+            "identity": 597,
+            "labels": [
+              "Acteur"
+            ],
+            "properties": {
+              "metadata": "{}",
+              "departement": "Corporate",
+              "roles": [
+                "employee"
+              ],
+              "adresse_email": "steven.kean@enron.com",
+              "id": "actor_steven.kean@enron.com",
+              "label": "Acteur",
+              "poste": "NA",
+              "nom": "Kean",
+              "prenom": "Steven",
+              "properties": "{}"
+            },
+            "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:597"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 1,
+        "labels": [
+          "Email"
+        ],
+        "properties": {
+          "date": "2001-04-10T00:27:00-07:00",
+          "metadata": "{}",
+          "id": "234322",
+          "label": "Email",
+          "body": "I talked with Ken yesterday.  He would like to keep David on until May 15 to
+finish up some things he is working on for Ken.
+
+
+
+Enron Capital & Trade Resources Corp.
+
+From:  Sherri Sera                           04/09/2001 08:45 PM
+
+
+To: Steven J Kean/NA/Enron@Enron
+cc:
+
+Subject: Re: organizational announcement
+
+Just out of curiosity, did this ever get resolved?  Apologies if I'm being
+too bold!  SRS
+
+
+From: Steven J Kean on 03/14/2001 07:33 AM
+To: Sherri Sera/Corp/Enron@ENRON
+cc:
+
+Subject: Re: organizational announcement
+
+Ken was meeting with him the day before yesterday.  I'm just waiting to hear
+back.
+
+
+
+Sherri Sera
+03/13/2001 10:07 PM
+
+To: Steven J Kean/NA/Enron@Enron
+cc:
+Subject: organizational announcement
+
+Just saw the memo about Sanjay, Diomedes and Jim.  Guess David Haug is still
+around? SRS",
+          "sujet": "Re: organizational announcement",
+          "properties": "{\"file_path\": \"kean-s/archiving/untitled/5255.\"}",
+          "statut": "sent",
+          "list_urls": []
+        },
+        "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:1"
+      },
+      "end": {
+        "identity": 934,
+        "labels": [
+          "Acteur"
+        ],
+        "properties": {
+          "metadata": "{}",
+          "departement": "Corporate",
+          "roles": [
+            "employee"
+          ],
+          "adresse_email": "steven.kean@enron.com",
+          "id": "actor_steven.kean@enron.com",
+          "label": "Acteur",
+          "poste": "NA",
+          "nom": "Kean",
+          "prenom": "Steven",
+          "properties": "{}"
+        },
+        "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:934"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 1,
+            "labels": [
+              "Email"
+            ],
+            "properties": {
+              "date": "2001-04-10T00:27:00-07:00",
+              "metadata": "{}",
+              "id": "234322",
+              "label": "Email",
+              "body": "I talked with Ken yesterday.  He would like to keep David on until May 15 to
+finish up some things he is working on for Ken.
+
+
+
+Enron Capital & Trade Resources Corp.
+
+From:  Sherri Sera                           04/09/2001 08:45 PM
+
+
+To: Steven J Kean/NA/Enron@Enron
+cc:
+
+Subject: Re: organizational announcement
+
+Just out of curiosity, did this ever get resolved?  Apologies if I'm being
+too bold!  SRS
+
+
+From: Steven J Kean on 03/14/2001 07:33 AM
+To: Sherri Sera/Corp/Enron@ENRON
+cc:
+
+Subject: Re: organizational announcement
+
+Ken was meeting with him the day before yesterday.  I'm just waiting to hear
+back.
+
+
+
+Sherri Sera
+03/13/2001 10:07 PM
+
+To: Steven J Kean/NA/Enron@Enron
+cc:
+Subject: organizational announcement
+
+Just saw the memo about Sanjay, Diomedes and Jim.  Guess David Haug is still
+around? SRS",
+              "sujet": "Re: organizational announcement",
+              "properties": "{\"file_path\": \"kean-s/archiving/untitled/5255.\"}",
+              "statut": "sent",
+              "list_urls": []
+            },
+            "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:1"
+          },
+          "relationship": {
+            "identity": 1157430601792356353,
+            "start": 1,
+            "end": 934,
+            "type": "SENT_BY",
+            "properties": {
+              "metadata": "{}",
+              "id": "rel_sent_by_234322_actor_steven.kean@enron.com",
+              "properties": "{}"
+            },
+            "elementId": "5:edbd9c75-fcbb-462b-bb51-2607e177d344:1157430601792356353",
+            "startNodeElementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:1",
+            "endNodeElementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:934"
+          },
+          "end": {
+            "identity": 934,
+            "labels": [
+              "Acteur"
+            ],
+            "properties": {
+              "metadata": "{}",
+              "departement": "Corporate",
+              "roles": [
+                "employee"
+              ],
+              "adresse_email": "steven.kean@enron.com",
+              "id": "actor_steven.kean@enron.com",
+              "label": "Acteur",
+              "poste": "NA",
+              "nom": "Kean",
+              "prenom": "Steven",
+              "properties": "{}"
+            },
+            "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:934"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 3,
+        "labels": [
+          "Email"
+        ],
+        "properties": {
+          "date": "2000-05-01T10:02:00-07:00",
+          "metadata": "{}",
+          "id": "129334",
+          "label": "Email",
+          "body": "---------------------- Forwarded by Chris Germany/HOU/ECT on 05/01/2000 05:02
+PM ---------------------------
+
+
+Chris Germany
+04/13/2000 11:31 AM
+To: Brandon Oliveira/Corp/Enron@ENRON
+cc: Don Adam/Corp/Enron@ENRON, Kenneth Gurley/Corp/Enron@Enron
+Subject: Alltrade error
+
+Seen this one?",
+          "sujet": "Alltrade error",
+          "properties": "{\"file_path\": \"germany-c/discussion_threads/1139.\"}",
+          "statut": "sent",
+          "list_urls": []
+        },
+        "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:3"
+      },
+      "end": {
+        "identity": 118,
+        "labels": [
+          "Acteur"
+        ],
+        "properties": {
+          "metadata": "{}",
+          "departement": "Corp",
+          "roles": [
+            "employee"
+          ],
+          "adresse_email": "chris.germany@enron.com",
+          "id": "actor_chris.germany@enron.com",
+          "label": "Acteur",
+          "poste": "Enron@ENRON",
+          "nom": "Germany",
+          "prenom": "Chris",
+          "properties": "{}"
+        },
+        "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:118"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 3,
+            "labels": [
+              "Email"
+            ],
+            "properties": {
+              "date": "2000-05-01T10:02:00-07:00",
+              "metadata": "{}",
+              "id": "129334",
+              "label": "Email",
+              "body": "---------------------- Forwarded by Chris Germany/HOU/ECT on 05/01/2000 05:02
+PM ---------------------------
+
+
+Chris Germany
+04/13/2000 11:31 AM
+To: Brandon Oliveira/Corp/Enron@ENRON
+cc: Don Adam/Corp/Enron@ENRON, Kenneth Gurley/Corp/Enron@Enron
+Subject: Alltrade error
+
+Seen this one?",
+              "sujet": "Alltrade error",
+              "properties": "{\"file_path\": \"germany-c/discussion_threads/1139.\"}",
+              "statut": "sent",
+              "list_urls": []
+            },
+            "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:3"
+          },
+          "relationship": {
+            "identity": 1152927002164985859,
+            "start": 3,
+            "end": 118,
+            "type": "SENT_BY",
+            "properties": {
+              "metadata": "{}",
+              "id": "rel_sent_by_129334_actor_chris.germany@enron.com",
+              "properties": "{}"
+            },
+            "elementId": "5:edbd9c75-fcbb-462b-bb51-2607e177d344:1152927002164985859",
+            "startNodeElementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:3",
+            "endNodeElementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:118"
+          },
+          "end": {
+            "identity": 118,
+            "labels": [
+              "Acteur"
+            ],
+            "properties": {
+              "metadata": "{}",
+              "departement": "Corp",
+              "roles": [
+                "employee"
+              ],
+              "adresse_email": "chris.germany@enron.com",
+              "id": "actor_chris.germany@enron.com",
+              "label": "Acteur",
+              "poste": "Enron@ENRON",
+              "nom": "Germany",
+              "prenom": "Chris",
+              "properties": "{}"
+            },
+            "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:118"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 3,
+        "labels": [
+          "Email"
+        ],
+        "properties": {
+          "date": "2000-05-01T10:02:00-07:00",
+          "metadata": "{}",
+          "id": "129334",
+          "label": "Email",
+          "body": "---------------------- Forwarded by Chris Germany/HOU/ECT on 05/01/2000 05:02
+PM ---------------------------
+
+
+Chris Germany
+04/13/2000 11:31 AM
+To: Brandon Oliveira/Corp/Enron@ENRON
+cc: Don Adam/Corp/Enron@ENRON, Kenneth Gurley/Corp/Enron@Enron
+Subject: Alltrade error
+
+Seen this one?",
+          "sujet": "Alltrade error",
+          "properties": "{\"file_path\": \"germany-c/discussion_threads/1139.\"}",
+          "statut": "sent",
+          "list_urls": []
+        },
+        "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:3"
+      },
+      "end": {
+        "identity": 535,
+        "labels": [
+          "Acteur"
+        ],
+        "properties": {
+          "metadata": "{}",
+          "departement": "Corp",
+          "roles": [
+            "employee"
+          ],
+          "adresse_email": "chris.germany@enron.com",
+          "id": "actor_chris.germany@enron.com",
+          "label": "Acteur",
+          "poste": "Enron@ENRON",
+          "nom": "Germany",
+          "prenom": "Chris",
+          "properties": "{}"
+        },
+        "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:535"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 3,
+            "labels": [
+              "Email"
+            ],
+            "properties": {
+              "date": "2000-05-01T10:02:00-07:00",
+              "metadata": "{}",
+              "id": "129334",
+              "label": "Email",
+              "body": "---------------------- Forwarded by Chris Germany/HOU/ECT on 05/01/2000 05:02
+PM ---------------------------
+
+
+Chris Germany
+04/13/2000 11:31 AM
+To: Brandon Oliveira/Corp/Enron@ENRON
+cc: Don Adam/Corp/Enron@ENRON, Kenneth Gurley/Corp/Enron@Enron
+Subject: Alltrade error
+
+Seen this one?",
+              "sujet": "Alltrade error",
+              "properties": "{\"file_path\": \"germany-c/discussion_threads/1139.\"}",
+              "statut": "sent",
+              "list_urls": []
+            },
+            "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:3"
+          },
+          "relationship": {
+            "identity": 1155178801978671107,
+            "start": 3,
+            "end": 535,
+            "type": "SENT_BY",
+            "properties": {
+              "metadata": "{}",
+              "id": "rel_sent_by_129334_actor_chris.germany@enron.com",
+              "properties": "{}"
+            },
+            "elementId": "5:edbd9c75-fcbb-462b-bb51-2607e177d344:1155178801978671107",
+            "startNodeElementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:3",
+            "endNodeElementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:535"
+          },
+          "end": {
+            "identity": 535,
+            "labels": [
+              "Acteur"
+            ],
+            "properties": {
+              "metadata": "{}",
+              "departement": "Corp",
+              "roles": [
+                "employee"
+              ],
+              "adresse_email": "chris.germany@enron.com",
+              "id": "actor_chris.germany@enron.com",
+              "label": "Acteur",
+              "poste": "Enron@ENRON",
+              "nom": "Germany",
+              "prenom": "Chris",
+              "properties": "{}"
+            },
+            "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:535"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 3,
+        "labels": [
+          "Email"
+        ],
+        "properties": {
+          "date": "2000-05-01T10:02:00-07:00",
+          "metadata": "{}",
+          "id": "129334",
+          "label": "Email",
+          "body": "---------------------- Forwarded by Chris Germany/HOU/ECT on 05/01/2000 05:02
+PM ---------------------------
+
+
+Chris Germany
+04/13/2000 11:31 AM
+To: Brandon Oliveira/Corp/Enron@ENRON
+cc: Don Adam/Corp/Enron@ENRON, Kenneth Gurley/Corp/Enron@Enron
+Subject: Alltrade error
+
+Seen this one?",
+          "sujet": "Alltrade error",
+          "properties": "{\"file_path\": \"germany-c/discussion_threads/1139.\"}",
+          "statut": "sent",
+          "list_urls": []
+        },
+        "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:3"
+      },
+      "end": {
+        "identity": 872,
+        "labels": [
+          "Acteur"
+        ],
+        "properties": {
+          "metadata": "{}",
+          "departement": "Corp",
+          "roles": [
+            "employee"
+          ],
+          "adresse_email": "chris.germany@enron.com",
+          "id": "actor_chris.germany@enron.com",
+          "label": "Acteur",
+          "poste": "Enron@ENRON",
+          "nom": "Germany",
+          "prenom": "Chris",
+          "properties": "{}"
+        },
+        "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:872"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 3,
+            "labels": [
+              "Email"
+            ],
+            "properties": {
+              "date": "2000-05-01T10:02:00-07:00",
+              "metadata": "{}",
+              "id": "129334",
+              "label": "Email",
+              "body": "---------------------- Forwarded by Chris Germany/HOU/ECT on 05/01/2000 05:02
+PM ---------------------------
+
+
+Chris Germany
+04/13/2000 11:31 AM
+To: Brandon Oliveira/Corp/Enron@ENRON
+cc: Don Adam/Corp/Enron@ENRON, Kenneth Gurley/Corp/Enron@Enron
+Subject: Alltrade error
+
+Seen this one?",
+              "sujet": "Alltrade error",
+              "properties": "{\"file_path\": \"germany-c/discussion_threads/1139.\"}",
+              "statut": "sent",
+              "list_urls": []
+            },
+            "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:3"
+          },
+          "relationship": {
+            "identity": 1157430601792356355,
+            "start": 3,
+            "end": 872,
+            "type": "SENT_BY",
+            "properties": {
+              "metadata": "{}",
+              "id": "rel_sent_by_129334_actor_chris.germany@enron.com",
+              "properties": "{}"
+            },
+            "elementId": "5:edbd9c75-fcbb-462b-bb51-2607e177d344:1157430601792356355",
+            "startNodeElementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:3",
+            "endNodeElementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:872"
+          },
+          "end": {
+            "identity": 872,
+            "labels": [
+              "Acteur"
+            ],
+            "properties": {
+              "metadata": "{}",
+              "departement": "Corp",
+              "roles": [
+                "employee"
+              ],
+              "adresse_email": "chris.germany@enron.com",
+              "id": "actor_chris.germany@enron.com",
+              "label": "Acteur",
+              "poste": "Enron@ENRON",
+              "nom": "Germany",
+              "prenom": "Chris",
+              "properties": "{}"
+            },
+            "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:872"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 19,
+        "labels": [
+          "Email"
+        ],
+        "properties": {
+          "date": "2001-01-02T06:20:00-08:00",
+          "metadata": "{}",
+          "id": "305685",
+          "label": "Email",
+          "body": "---------------------- Forwarded by Kay Mann/Corp/Enron on 01/02/2001 02:20
+PM ---------------------------
+
+
+\"Campbell, Carolyn\" <CCampbell@KSLAW.com> on 01/02/2001 02:05:34 PM
+To: \"'kay.mann@enron.com'\" <kay.mann@enron.com>
+cc: \"'Ben.F.Jacoby@enron.com'\" <Ben.F.Jacoby@enron.com>,
+\"'fred.mitro@enron.com'\" <fred.mitro@enron.com>, \"Keffer, John\"
+<JKeffer@KSLAW.com>
+
+Subject: FW: Citibank Fees
+
+
+Kay:
+
+See the attached Citibank Schedule of Fees letter agreement.  Can ENA
+provide wiring instructions for insertion into the Escrow Agreements.  Thank
+you.
+
+Carolyn M. Campbell
+King & Spalding
+713-276-7307 (phone)
+713-751-3280 (fax)
+ccampbell@kslaw.com <mailto:ccampbell@kslaw.com>
+
+
+
+-----Original Message-----
+From: Paradee, Lari [mailto:Lparade@INTERGEN.com]
+Sent: Tuesday, January 02, 2001 1:58 PM
+To: Campbell, Carolyn
+Cc: 'Lawrence, Estelle A'
+Subject: FW: Citibank Fees
+
+
+
+Carolyn,
+
+Happy New Year!
+
+Here is the Citibank Schedule of Fees updated with the \"Waived for initial
+setup\" and the \"F.\" in Ben's name.
+
+Do you have the wiring instructions yet so I can put them in the escrow
+documents and circulate those docs as final??
+
+Thanks,
+Lari
+
+-----Original Message-----
+From:   Steward, Shelly
+Sent:   Tuesday, January 02, 2001 9:24 AM
+To:     Paradee, Lari
+Subject:        Citibank Fees
+
+Good Morning Lari!
+
+<<Citibank Schedule of Fees.doc>>
+
+
+
+
+Confidentiality Notice
+This message is being sent by or on behalf of a lawyer.  It is intended
+exclusively for the individual or entity to which it is addressed.  This
+communication may contain information that is proprietary, privileged or
+confidential or otherwise legally exempt from disclosure.  If you are not the
+named addressee, you are not authorized to read, print, retain, copy or
+disseminate this message or any part of it.  If you have received this
+message in error, please notify the sender immediately by e-mail and delete
+all copies of the message.
+
+
+- Citibank Schedule of Fees.doc",
+          "sujet": "FW: Citibank Fees",
+          "properties": "{\"file_path\": \"mann-k/all_documents/2878.\"}",
+          "statut": "sent",
+          "list_urls": []
+        },
+        "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:19"
+      },
+      "end": {
+        "identity": 175,
+        "labels": [
+          "Acteur"
+        ],
+        "properties": {
+          "metadata": "{}",
+          "departement": "Corp/Enron",
+          "roles": [
+            "employee",
+            "attorney"
+          ],
+          "adresse_email": "kay.mann@enron.com",
+          "id": "actor_kay.mann@enron.com",
+          "label": "Acteur",
+          "poste": "N/A",
+          "nom": "Mann",
+          "prenom": "Kay",
+          "properties": "{}"
+        },
+        "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:175"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 19,
+            "labels": [
+              "Email"
+            ],
+            "properties": {
+              "date": "2001-01-02T06:20:00-08:00",
+              "metadata": "{}",
+              "id": "305685",
+              "label": "Email",
+              "body": "---------------------- Forwarded by Kay Mann/Corp/Enron on 01/02/2001 02:20
+PM ---------------------------
+
+
+\"Campbell, Carolyn\" <CCampbell@KSLAW.com> on 01/02/2001 02:05:34 PM
+To: \"'kay.mann@enron.com'\" <kay.mann@enron.com>
+cc: \"'Ben.F.Jacoby@enron.com'\" <Ben.F.Jacoby@enron.com>,
+\"'fred.mitro@enron.com'\" <fred.mitro@enron.com>, \"Keffer, John\"
+<JKeffer@KSLAW.com>
+
+Subject: FW: Citibank Fees
+
+
+Kay:
+
+See the attached Citibank Schedule of Fees letter agreement.  Can ENA
+provide wiring instructions for insertion into the Escrow Agreements.  Thank
+you.
+
+Carolyn M. Campbell
+King & Spalding
+713-276-7307 (phone)
+713-751-3280 (fax)
+ccampbell@kslaw.com <mailto:ccampbell@kslaw.com>
+
+
+
+-----Original Message-----
+From: Paradee, Lari [mailto:Lparade@INTERGEN.com]
+Sent: Tuesday, January 02, 2001 1:58 PM
+To: Campbell, Carolyn
+Cc: 'Lawrence, Estelle A'
+Subject: FW: Citibank Fees
+
+
+
+Carolyn,
+
+Happy New Year!
+
+Here is the Citibank Schedule of Fees updated with the \"Waived for initial
+setup\" and the \"F.\" in Ben's name.
+
+Do you have the wiring instructions yet so I can put them in the escrow
+documents and circulate those docs as final??
+
+Thanks,
+Lari
+
+-----Original Message-----
+From:   Steward, Shelly
+Sent:   Tuesday, January 02, 2001 9:24 AM
+To:     Paradee, Lari
+Subject:        Citibank Fees
+
+Good Morning Lari!
+
+<<Citibank Schedule of Fees.doc>>
+
+
+
+
+Confidentiality Notice
+This message is being sent by or on behalf of a lawyer.  It is intended
+exclusively for the individual or entity to which it is addressed.  This
+communication may contain information that is proprietary, privileged or
+confidential or otherwise legally exempt from disclosure.  If you are not the
+named addressee, you are not authorized to read, print, retain, copy or
+disseminate this message or any part of it.  If you have received this
+message in error, please notify the sender immediately by e-mail and delete
+all copies of the message.
+
+
+- Citibank Schedule of Fees.doc",
+              "sujet": "FW: Citibank Fees",
+              "properties": "{\"file_path\": \"mann-k/all_documents/2878.\"}",
+              "statut": "sent",
+              "list_urls": []
+            },
+            "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:19"
+          },
+          "relationship": {
+            "identity": 1152927002164985875,
+            "start": 19,
+            "end": 175,
+            "type": "SENT_BY",
+            "properties": {
+              "metadata": "{}",
+              "id": "rel_sent_by_305685_actor_kay.mann@enron.com",
+              "properties": "{}"
+            },
+            "elementId": "5:edbd9c75-fcbb-462b-bb51-2607e177d344:1152927002164985875",
+            "startNodeElementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:19",
+            "endNodeElementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:175"
+          },
+          "end": {
+            "identity": 175,
+            "labels": [
+              "Acteur"
+            ],
+            "properties": {
+              "metadata": "{}",
+              "departement": "Corp/Enron",
+              "roles": [
+                "employee",
+                "attorney"
+              ],
+              "adresse_email": "kay.mann@enron.com",
+              "id": "actor_kay.mann@enron.com",
+              "label": "Acteur",
+              "poste": "N/A",
+              "nom": "Mann",
+              "prenom": "Kay",
+              "properties": "{}"
+            },
+            "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:175"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 19,
+        "labels": [
+          "Email"
+        ],
+        "properties": {
+          "date": "2001-01-02T06:20:00-08:00",
+          "metadata": "{}",
+          "id": "305685",
+          "label": "Email",
+          "body": "---------------------- Forwarded by Kay Mann/Corp/Enron on 01/02/2001 02:20
+PM ---------------------------
+
+
+\"Campbell, Carolyn\" <CCampbell@KSLAW.com> on 01/02/2001 02:05:34 PM
+To: \"'kay.mann@enron.com'\" <kay.mann@enron.com>
+cc: \"'Ben.F.Jacoby@enron.com'\" <Ben.F.Jacoby@enron.com>,
+\"'fred.mitro@enron.com'\" <fred.mitro@enron.com>, \"Keffer, John\"
+<JKeffer@KSLAW.com>
+
+Subject: FW: Citibank Fees
+
+
+Kay:
+
+See the attached Citibank Schedule of Fees letter agreement.  Can ENA
+provide wiring instructions for insertion into the Escrow Agreements.  Thank
+you.
+
+Carolyn M. Campbell
+King & Spalding
+713-276-7307 (phone)
+713-751-3280 (fax)
+ccampbell@kslaw.com <mailto:ccampbell@kslaw.com>
+
+
+
+-----Original Message-----
+From: Paradee, Lari [mailto:Lparade@INTERGEN.com]
+Sent: Tuesday, January 02, 2001 1:58 PM
+To: Campbell, Carolyn
+Cc: 'Lawrence, Estelle A'
+Subject: FW: Citibank Fees
+
+
+
+Carolyn,
+
+Happy New Year!
+
+Here is the Citibank Schedule of Fees updated with the \"Waived for initial
+setup\" and the \"F.\" in Ben's name.
+
+Do you have the wiring instructions yet so I can put them in the escrow
+documents and circulate those docs as final??
+
+Thanks,
+Lari
+
+-----Original Message-----
+From:   Steward, Shelly
+Sent:   Tuesday, January 02, 2001 9:24 AM
+To:     Paradee, Lari
+Subject:        Citibank Fees
+
+Good Morning Lari!
+
+<<Citibank Schedule of Fees.doc>>
+
+
+
+
+Confidentiality Notice
+This message is being sent by or on behalf of a lawyer.  It is intended
+exclusively for the individual or entity to which it is addressed.  This
+communication may contain information that is proprietary, privileged or
+confidential or otherwise legally exempt from disclosure.  If you are not the
+named addressee, you are not authorized to read, print, retain, copy or
+disseminate this message or any part of it.  If you have received this
+message in error, please notify the sender immediately by e-mail and delete
+all copies of the message.
+
+
+- Citibank Schedule of Fees.doc",
+          "sujet": "FW: Citibank Fees",
+          "properties": "{\"file_path\": \"mann-k/all_documents/2878.\"}",
+          "statut": "sent",
+          "list_urls": []
+        },
+        "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:19"
+      },
+      "end": {
+        "identity": 592,
+        "labels": [
+          "Acteur"
+        ],
+        "properties": {
+          "metadata": "{}",
+          "departement": "Corp/Enron",
+          "roles": [
+            "employee",
+            "attorney"
+          ],
+          "adresse_email": "kay.mann@enron.com",
+          "id": "actor_kay.mann@enron.com",
+          "label": "Acteur",
+          "poste": "N/A",
+          "nom": "Mann",
+          "prenom": "Kay",
+          "properties": "{}"
+        },
+        "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:592"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 19,
+            "labels": [
+              "Email"
+            ],
+            "properties": {
+              "date": "2001-01-02T06:20:00-08:00",
+              "metadata": "{}",
+              "id": "305685",
+              "label": "Email",
+              "body": "---------------------- Forwarded by Kay Mann/Corp/Enron on 01/02/2001 02:20
+PM ---------------------------
+
+
+\"Campbell, Carolyn\" <CCampbell@KSLAW.com> on 01/02/2001 02:05:34 PM
+To: \"'kay.mann@enron.com'\" <kay.mann@enron.com>
+cc: \"'Ben.F.Jacoby@enron.com'\" <Ben.F.Jacoby@enron.com>,
+\"'fred.mitro@enron.com'\" <fred.mitro@enron.com>, \"Keffer, John\"
+<JKeffer@KSLAW.com>
+
+Subject: FW: Citibank Fees
+
+
+Kay:
+
+See the attached Citibank Schedule of Fees letter agreement.  Can ENA
+provide wiring instructions for insertion into the Escrow Agreements.  Thank
+you.
+
+Carolyn M. Campbell
+King & Spalding
+713-276-7307 (phone)
+713-751-3280 (fax)
+ccampbell@kslaw.com <mailto:ccampbell@kslaw.com>
+
+
+
+-----Original Message-----
+From: Paradee, Lari [mailto:Lparade@INTERGEN.com]
+Sent: Tuesday, January 02, 2001 1:58 PM
+To: Campbell, Carolyn
+Cc: 'Lawrence, Estelle A'
+Subject: FW: Citibank Fees
+
+
+
+Carolyn,
+
+Happy New Year!
+
+Here is the Citibank Schedule of Fees updated with the \"Waived for initial
+setup\" and the \"F.\" in Ben's name.
+
+Do you have the wiring instructions yet so I can put them in the escrow
+documents and circulate those docs as final??
+
+Thanks,
+Lari
+
+-----Original Message-----
+From:   Steward, Shelly
+Sent:   Tuesday, January 02, 2001 9:24 AM
+To:     Paradee, Lari
+Subject:        Citibank Fees
+
+Good Morning Lari!
+
+<<Citibank Schedule of Fees.doc>>
+
+
+
+
+Confidentiality Notice
+This message is being sent by or on behalf of a lawyer.  It is intended
+exclusively for the individual or entity to which it is addressed.  This
+communication may contain information that is proprietary, privileged or
+confidential or otherwise legally exempt from disclosure.  If you are not the
+named addressee, you are not authorized to read, print, retain, copy or
+disseminate this message or any part of it.  If you have received this
+message in error, please notify the sender immediately by e-mail and delete
+all copies of the message.
+
+
+- Citibank Schedule of Fees.doc",
+              "sujet": "FW: Citibank Fees",
+              "properties": "{\"file_path\": \"mann-k/all_documents/2878.\"}",
+              "statut": "sent",
+              "list_urls": []
+            },
+            "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:19"
+          },
+          "relationship": {
+            "identity": 1155178801978671123,
+            "start": 19,
+            "end": 592,
+            "type": "SENT_BY",
+            "properties": {
+              "metadata": "{}",
+              "id": "rel_sent_by_305685_actor_kay.mann@enron.com",
+              "properties": "{}"
+            },
+            "elementId": "5:edbd9c75-fcbb-462b-bb51-2607e177d344:1155178801978671123",
+            "startNodeElementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:19",
+            "endNodeElementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:592"
+          },
+          "end": {
+            "identity": 592,
+            "labels": [
+              "Acteur"
+            ],
+            "properties": {
+              "metadata": "{}",
+              "departement": "Corp/Enron",
+              "roles": [
+                "employee",
+                "attorney"
+              ],
+              "adresse_email": "kay.mann@enron.com",
+              "id": "actor_kay.mann@enron.com",
+              "label": "Acteur",
+              "poste": "N/A",
+              "nom": "Mann",
+              "prenom": "Kay",
+              "properties": "{}"
+            },
+            "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:592"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 19,
+        "labels": [
+          "Email"
+        ],
+        "properties": {
+          "date": "2001-01-02T06:20:00-08:00",
+          "metadata": "{}",
+          "id": "305685",
+          "label": "Email",
+          "body": "---------------------- Forwarded by Kay Mann/Corp/Enron on 01/02/2001 02:20
+PM ---------------------------
+
+
+\"Campbell, Carolyn\" <CCampbell@KSLAW.com> on 01/02/2001 02:05:34 PM
+To: \"'kay.mann@enron.com'\" <kay.mann@enron.com>
+cc: \"'Ben.F.Jacoby@enron.com'\" <Ben.F.Jacoby@enron.com>,
+\"'fred.mitro@enron.com'\" <fred.mitro@enron.com>, \"Keffer, John\"
+<JKeffer@KSLAW.com>
+
+Subject: FW: Citibank Fees
+
+
+Kay:
+
+See the attached Citibank Schedule of Fees letter agreement.  Can ENA
+provide wiring instructions for insertion into the Escrow Agreements.  Thank
+you.
+
+Carolyn M. Campbell
+King & Spalding
+713-276-7307 (phone)
+713-751-3280 (fax)
+ccampbell@kslaw.com <mailto:ccampbell@kslaw.com>
+
+
+
+-----Original Message-----
+From: Paradee, Lari [mailto:Lparade@INTERGEN.com]
+Sent: Tuesday, January 02, 2001 1:58 PM
+To: Campbell, Carolyn
+Cc: 'Lawrence, Estelle A'
+Subject: FW: Citibank Fees
+
+
+
+Carolyn,
+
+Happy New Year!
+
+Here is the Citibank Schedule of Fees updated with the \"Waived for initial
+setup\" and the \"F.\" in Ben's name.
+
+Do you have the wiring instructions yet so I can put them in the escrow
+documents and circulate those docs as final??
+
+Thanks,
+Lari
+
+-----Original Message-----
+From:   Steward, Shelly
+Sent:   Tuesday, January 02, 2001 9:24 AM
+To:     Paradee, Lari
+Subject:        Citibank Fees
+
+Good Morning Lari!
+
+<<Citibank Schedule of Fees.doc>>
+
+
+
+
+Confidentiality Notice
+This message is being sent by or on behalf of a lawyer.  It is intended
+exclusively for the individual or entity to which it is addressed.  This
+communication may contain information that is proprietary, privileged or
+confidential or otherwise legally exempt from disclosure.  If you are not the
+named addressee, you are not authorized to read, print, retain, copy or
+disseminate this message or any part of it.  If you have received this
+message in error, please notify the sender immediately by e-mail and delete
+all copies of the message.
+
+
+- Citibank Schedule of Fees.doc",
+          "sujet": "FW: Citibank Fees",
+          "properties": "{\"file_path\": \"mann-k/all_documents/2878.\"}",
+          "statut": "sent",
+          "list_urls": []
+        },
+        "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:19"
+      },
+      "end": {
+        "identity": 929,
+        "labels": [
+          "Acteur"
+        ],
+        "properties": {
+          "metadata": "{}",
+          "departement": "Corp/Enron",
+          "roles": [
+            "employee",
+            "attorney"
+          ],
+          "adresse_email": "kay.mann@enron.com",
+          "id": "actor_kay.mann@enron.com",
+          "label": "Acteur",
+          "poste": "N/A",
+          "nom": "Mann",
+          "prenom": "Kay",
+          "properties": "{}"
+        },
+        "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:929"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 19,
+            "labels": [
+              "Email"
+            ],
+            "properties": {
+              "date": "2001-01-02T06:20:00-08:00",
+              "metadata": "{}",
+              "id": "305685",
+              "label": "Email",
+              "body": "---------------------- Forwarded by Kay Mann/Corp/Enron on 01/02/2001 02:20
+PM ---------------------------
+
+
+\"Campbell, Carolyn\" <CCampbell@KSLAW.com> on 01/02/2001 02:05:34 PM
+To: \"'kay.mann@enron.com'\" <kay.mann@enron.com>
+cc: \"'Ben.F.Jacoby@enron.com'\" <Ben.F.Jacoby@enron.com>,
+\"'fred.mitro@enron.com'\" <fred.mitro@enron.com>, \"Keffer, John\"
+<JKeffer@KSLAW.com>
+
+Subject: FW: Citibank Fees
+
+
+Kay:
+
+See the attached Citibank Schedule of Fees letter agreement.  Can ENA
+provide wiring instructions for insertion into the Escrow Agreements.  Thank
+you.
+
+Carolyn M. Campbell
+King & Spalding
+713-276-7307 (phone)
+713-751-3280 (fax)
+ccampbell@kslaw.com <mailto:ccampbell@kslaw.com>
+
+
+
+-----Original Message-----
+From: Paradee, Lari [mailto:Lparade@INTERGEN.com]
+Sent: Tuesday, January 02, 2001 1:58 PM
+To: Campbell, Carolyn
+Cc: 'Lawrence, Estelle A'
+Subject: FW: Citibank Fees
+
+
+
+Carolyn,
+
+Happy New Year!
+
+Here is the Citibank Schedule of Fees updated with the \"Waived for initial
+setup\" and the \"F.\" in Ben's name.
+
+Do you have the wiring instructions yet so I can put them in the escrow
+documents and circulate those docs as final??
+
+Thanks,
+Lari
+
+-----Original Message-----
+From:   Steward, Shelly
+Sent:   Tuesday, January 02, 2001 9:24 AM
+To:     Paradee, Lari
+Subject:        Citibank Fees
+
+Good Morning Lari!
+
+<<Citibank Schedule of Fees.doc>>
+
+
+
+
+Confidentiality Notice
+This message is being sent by or on behalf of a lawyer.  It is intended
+exclusively for the individual or entity to which it is addressed.  This
+communication may contain information that is proprietary, privileged or
+confidential or otherwise legally exempt from disclosure.  If you are not the
+named addressee, you are not authorized to read, print, retain, copy or
+disseminate this message or any part of it.  If you have received this
+message in error, please notify the sender immediately by e-mail and delete
+all copies of the message.
+
+
+- Citibank Schedule of Fees.doc",
+              "sujet": "FW: Citibank Fees",
+              "properties": "{\"file_path\": \"mann-k/all_documents/2878.\"}",
+              "statut": "sent",
+              "list_urls": []
+            },
+            "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:19"
+          },
+          "relationship": {
+            "identity": 1157430601792356371,
+            "start": 19,
+            "end": 929,
+            "type": "SENT_BY",
+            "properties": {
+              "metadata": "{}",
+              "id": "rel_sent_by_305685_actor_kay.mann@enron.com",
+              "properties": "{}"
+            },
+            "elementId": "5:edbd9c75-fcbb-462b-bb51-2607e177d344:1157430601792356371",
+            "startNodeElementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:19",
+            "endNodeElementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:929"
+          },
+          "end": {
+            "identity": 929,
+            "labels": [
+              "Acteur"
+            ],
+            "properties": {
+              "metadata": "{}",
+              "departement": "Corp/Enron",
+              "roles": [
+                "employee",
+                "attorney"
+              ],
+              "adresse_email": "kay.mann@enron.com",
+              "id": "actor_kay.mann@enron.com",
+              "label": "Acteur",
+              "poste": "N/A",
+              "nom": "Mann",
+              "prenom": "Kay",
+              "properties": "{}"
+            },
+            "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:929"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 23,
+        "labels": [
+          "Email"
+        ],
+        "properties": {
+          "date": "2000-07-20T02:12:00-07:00",
+          "metadata": "{}",
+          "id": "423121",
+          "label": "Email",
+          "body": "You guys may have already come across these, but if you haven't, check out
+www.icecorp.com, www.cybercrop.com, and www.e-markets.com
+
+On-line ag trading is obviously one of the issues we're looking into from a
+legal/regulatory perspective; fyi, just b/c these sites are up and running
+doesn't necessarily mean that they pass regulatory muster",
+          "sujet": "grain exchange sites",
+          "properties": "{\"file_path\": \"shackleton-s/notes_inbox/1571.\"}",
+          "statut": "received",
+          "list_urls": []
+        },
+        "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:23"
+      },
+      "end": {
+        "identity": 184,
+        "labels": [
+          "Acteur"
+        ],
+        "properties": {
+          "metadata": "{}",
+          "departement": "Legal/Regulatory Affairs",
+          "roles": [
+            "employee",
+            "regulator"
+          ],
+          "adresse_email": "robert.bruce@enron.com",
+          "id": "actor_robert.bruce@enron.com",
+          "label": "Acteur",
+          "poste": "Legal/Regulatory Specialist",
+          "nom": "Bruce",
+          "prenom": "Robert",
+          "properties": "{}"
+        },
+        "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:184"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 23,
+            "labels": [
+              "Email"
+            ],
+            "properties": {
+              "date": "2000-07-20T02:12:00-07:00",
+              "metadata": "{}",
+              "id": "423121",
+              "label": "Email",
+              "body": "You guys may have already come across these, but if you haven't, check out
+www.icecorp.com, www.cybercrop.com, and www.e-markets.com
+
+On-line ag trading is obviously one of the issues we're looking into from a
+legal/regulatory perspective; fyi, just b/c these sites are up and running
+doesn't necessarily mean that they pass regulatory muster",
+              "sujet": "grain exchange sites",
+              "properties": "{\"file_path\": \"shackleton-s/notes_inbox/1571.\"}",
+              "statut": "received",
+              "list_urls": []
+            },
+            "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:23"
+          },
+          "relationship": {
+            "identity": 1152927002164985879,
+            "start": 23,
+            "end": 184,
+            "type": "SENT_BY",
+            "properties": {
+              "metadata": "{}",
+              "id": "rel_sent_by_423121_actor_robert.bruce@enron.com",
+              "properties": "{}"
+            },
+            "elementId": "5:edbd9c75-fcbb-462b-bb51-2607e177d344:1152927002164985879",
+            "startNodeElementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:23",
+            "endNodeElementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:184"
+          },
+          "end": {
+            "identity": 184,
+            "labels": [
+              "Acteur"
+            ],
+            "properties": {
+              "metadata": "{}",
+              "departement": "Legal/Regulatory Affairs",
+              "roles": [
+                "employee",
+                "regulator"
+              ],
+              "adresse_email": "robert.bruce@enron.com",
+              "id": "actor_robert.bruce@enron.com",
+              "label": "Acteur",
+              "poste": "Legal/Regulatory Specialist",
+              "nom": "Bruce",
+              "prenom": "Robert",
+              "properties": "{}"
+            },
+            "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:184"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 23,
+        "labels": [
+          "Email"
+        ],
+        "properties": {
+          "date": "2000-07-20T02:12:00-07:00",
+          "metadata": "{}",
+          "id": "423121",
+          "label": "Email",
+          "body": "You guys may have already come across these, but if you haven't, check out
+www.icecorp.com, www.cybercrop.com, and www.e-markets.com
+
+On-line ag trading is obviously one of the issues we're looking into from a
+legal/regulatory perspective; fyi, just b/c these sites are up and running
+doesn't necessarily mean that they pass regulatory muster",
+          "sujet": "grain exchange sites",
+          "properties": "{\"file_path\": \"shackleton-s/notes_inbox/1571.\"}",
+          "statut": "received",
+          "list_urls": []
+        },
+        "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:23"
+      },
+      "end": {
+        "identity": 601,
+        "labels": [
+          "Acteur"
+        ],
+        "properties": {
+          "metadata": "{}",
+          "departement": "Legal/Regulatory Affairs",
+          "roles": [
+            "employee",
+            "regulator"
+          ],
+          "adresse_email": "robert.bruce@enron.com",
+          "id": "actor_robert.bruce@enron.com",
+          "label": "Acteur",
+          "poste": "Legal/Regulatory Specialist",
+          "nom": "Bruce",
+          "prenom": "Robert",
+          "properties": "{}"
+        },
+        "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:601"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 23,
+            "labels": [
+              "Email"
+            ],
+            "properties": {
+              "date": "2000-07-20T02:12:00-07:00",
+              "metadata": "{}",
+              "id": "423121",
+              "label": "Email",
+              "body": "You guys may have already come across these, but if you haven't, check out
+www.icecorp.com, www.cybercrop.com, and www.e-markets.com
+
+On-line ag trading is obviously one of the issues we're looking into from a
+legal/regulatory perspective; fyi, just b/c these sites are up and running
+doesn't necessarily mean that they pass regulatory muster",
+              "sujet": "grain exchange sites",
+              "properties": "{\"file_path\": \"shackleton-s/notes_inbox/1571.\"}",
+              "statut": "received",
+              "list_urls": []
+            },
+            "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:23"
+          },
+          "relationship": {
+            "identity": 1155178801978671127,
+            "start": 23,
+            "end": 601,
+            "type": "SENT_BY",
+            "properties": {
+              "metadata": "{}",
+              "id": "rel_sent_by_423121_actor_robert.bruce@enron.com",
+              "properties": "{}"
+            },
+            "elementId": "5:edbd9c75-fcbb-462b-bb51-2607e177d344:1155178801978671127",
+            "startNodeElementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:23",
+            "endNodeElementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:601"
+          },
+          "end": {
+            "identity": 601,
+            "labels": [
+              "Acteur"
+            ],
+            "properties": {
+              "metadata": "{}",
+              "departement": "Legal/Regulatory Affairs",
+              "roles": [
+                "employee",
+                "regulator"
+              ],
+              "adresse_email": "robert.bruce@enron.com",
+              "id": "actor_robert.bruce@enron.com",
+              "label": "Acteur",
+              "poste": "Legal/Regulatory Specialist",
+              "nom": "Bruce",
+              "prenom": "Robert",
+              "properties": "{}"
+            },
+            "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:601"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 23,
+        "labels": [
+          "Email"
+        ],
+        "properties": {
+          "date": "2000-07-20T02:12:00-07:00",
+          "metadata": "{}",
+          "id": "423121",
+          "label": "Email",
+          "body": "You guys may have already come across these, but if you haven't, check out
+www.icecorp.com, www.cybercrop.com, and www.e-markets.com
+
+On-line ag trading is obviously one of the issues we're looking into from a
+legal/regulatory perspective; fyi, just b/c these sites are up and running
+doesn't necessarily mean that they pass regulatory muster",
+          "sujet": "grain exchange sites",
+          "properties": "{\"file_path\": \"shackleton-s/notes_inbox/1571.\"}",
+          "statut": "received",
+          "list_urls": []
+        },
+        "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:23"
+      },
+      "end": {
+        "identity": 938,
+        "labels": [
+          "Acteur"
+        ],
+        "properties": {
+          "metadata": "{}",
+          "departement": "Legal/Regulatory Affairs",
+          "roles": [
+            "employee",
+            "regulator"
+          ],
+          "adresse_email": "robert.bruce@enron.com",
+          "id": "actor_robert.bruce@enron.com",
+          "label": "Acteur",
+          "poste": "Legal/Regulatory Specialist",
+          "nom": "Bruce",
+          "prenom": "Robert",
+          "properties": "{}"
+        },
+        "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:938"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 23,
+            "labels": [
+              "Email"
+            ],
+            "properties": {
+              "date": "2000-07-20T02:12:00-07:00",
+              "metadata": "{}",
+              "id": "423121",
+              "label": "Email",
+              "body": "You guys may have already come across these, but if you haven't, check out
+www.icecorp.com, www.cybercrop.com, and www.e-markets.com
+
+On-line ag trading is obviously one of the issues we're looking into from a
+legal/regulatory perspective; fyi, just b/c these sites are up and running
+doesn't necessarily mean that they pass regulatory muster",
+              "sujet": "grain exchange sites",
+              "properties": "{\"file_path\": \"shackleton-s/notes_inbox/1571.\"}",
+              "statut": "received",
+              "list_urls": []
+            },
+            "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:23"
+          },
+          "relationship": {
+            "identity": 1157430601792356375,
+            "start": 23,
+            "end": 938,
+            "type": "SENT_BY",
+            "properties": {
+              "metadata": "{}",
+              "id": "rel_sent_by_423121_actor_robert.bruce@enron.com",
+              "properties": "{}"
+            },
+            "elementId": "5:edbd9c75-fcbb-462b-bb51-2607e177d344:1157430601792356375",
+            "startNodeElementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:23",
+            "endNodeElementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:938"
+          },
+          "end": {
+            "identity": 938,
+            "labels": [
+              "Acteur"
+            ],
+            "properties": {
+              "metadata": "{}",
+              "departement": "Legal/Regulatory Affairs",
+              "roles": [
+                "employee",
+                "regulator"
+              ],
+              "adresse_email": "robert.bruce@enron.com",
+              "id": "actor_robert.bruce@enron.com",
+              "label": "Acteur",
+              "poste": "Legal/Regulatory Specialist",
+              "nom": "Bruce",
+              "prenom": "Robert",
+              "properties": "{}"
+            },
+            "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:938"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 26,
+        "labels": [
+          "Email"
+        ],
+        "properties": {
+          "date": "2001-08-08T10:53:37-07:00",
+          "metadata": "{}",
+          "id": "24983",
+          "label": "Email",
+          "body": "Requested by Jim Scribner",
+          "sujet": "SB w/James Scribner - Re:  Common Settlements Process (Jim x39641)",
+          "properties": "{\"file_path\": \"beck-s/calendar/85.\"}",
+          "statut": "sent",
+          "list_urls": []
+        },
+        "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:26"
+      },
+      "end": {
+        "identity": 122,
+        "labels": [
+          "Acteur"
+        ],
+        "properties": {
+          "metadata": "{}",
+          "departement": "Unknown",
+          "roles": [
+            "employee"
+          ],
+          "adresse_email": "christina.valdez@enron.com",
+          "id": "actor_christina.valdez@enron.com",
+          "label": "Acteur",
+          "poste": "Unknown",
+          "nom": "Valdez",
+          "prenom": "Christina",
+          "properties": "{}"
+        },
+        "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:122"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 26,
+            "labels": [
+              "Email"
+            ],
+            "properties": {
+              "date": "2001-08-08T10:53:37-07:00",
+              "metadata": "{}",
+              "id": "24983",
+              "label": "Email",
+              "body": "Requested by Jim Scribner",
+              "sujet": "SB w/James Scribner - Re:  Common Settlements Process (Jim x39641)",
+              "properties": "{\"file_path\": \"beck-s/calendar/85.\"}",
+              "statut": "sent",
+              "list_urls": []
+            },
+            "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:26"
+          },
+          "relationship": {
+            "identity": 1152927002164985882,
+            "start": 26,
+            "end": 122,
+            "type": "SENT_BY",
+            "properties": {
+              "metadata": "{}",
+              "id": "rel_sent_by_24983_actor_christina.valdez@enron.com",
+              "properties": "{}"
+            },
+            "elementId": "5:edbd9c75-fcbb-462b-bb51-2607e177d344:1152927002164985882",
+            "startNodeElementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:26",
+            "endNodeElementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:122"
+          },
+          "end": {
+            "identity": 122,
+            "labels": [
+              "Acteur"
+            ],
+            "properties": {
+              "metadata": "{}",
+              "departement": "Unknown",
+              "roles": [
+                "employee"
+              ],
+              "adresse_email": "christina.valdez@enron.com",
+              "id": "actor_christina.valdez@enron.com",
+              "label": "Acteur",
+              "poste": "Unknown",
+              "nom": "Valdez",
+              "prenom": "Christina",
+              "properties": "{}"
+            },
+            "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:122"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 26,
+        "labels": [
+          "Email"
+        ],
+        "properties": {
+          "date": "2001-08-08T10:53:37-07:00",
+          "metadata": "{}",
+          "id": "24983",
+          "label": "Email",
+          "body": "Requested by Jim Scribner",
+          "sujet": "SB w/James Scribner - Re:  Common Settlements Process (Jim x39641)",
+          "properties": "{\"file_path\": \"beck-s/calendar/85.\"}",
+          "statut": "sent",
+          "list_urls": []
+        },
+        "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:26"
+      },
+      "end": {
+        "identity": 539,
+        "labels": [
+          "Acteur"
+        ],
+        "properties": {
+          "metadata": "{}",
+          "departement": "Unknown",
+          "roles": [
+            "employee"
+          ],
+          "adresse_email": "christina.valdez@enron.com",
+          "id": "actor_christina.valdez@enron.com",
+          "label": "Acteur",
+          "poste": "Unknown",
+          "nom": "Valdez",
+          "prenom": "Christina",
+          "properties": "{}"
+        },
+        "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:539"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 26,
+            "labels": [
+              "Email"
+            ],
+            "properties": {
+              "date": "2001-08-08T10:53:37-07:00",
+              "metadata": "{}",
+              "id": "24983",
+              "label": "Email",
+              "body": "Requested by Jim Scribner",
+              "sujet": "SB w/James Scribner - Re:  Common Settlements Process (Jim x39641)",
+              "properties": "{\"file_path\": \"beck-s/calendar/85.\"}",
+              "statut": "sent",
+              "list_urls": []
+            },
+            "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:26"
+          },
+          "relationship": {
+            "identity": 1155178801978671130,
+            "start": 26,
+            "end": 539,
+            "type": "SENT_BY",
+            "properties": {
+              "metadata": "{}",
+              "id": "rel_sent_by_24983_actor_christina.valdez@enron.com",
+              "properties": "{}"
+            },
+            "elementId": "5:edbd9c75-fcbb-462b-bb51-2607e177d344:1155178801978671130",
+            "startNodeElementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:26",
+            "endNodeElementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:539"
+          },
+          "end": {
+            "identity": 539,
+            "labels": [
+              "Acteur"
+            ],
+            "properties": {
+              "metadata": "{}",
+              "departement": "Unknown",
+              "roles": [
+                "employee"
+              ],
+              "adresse_email": "christina.valdez@enron.com",
+              "id": "actor_christina.valdez@enron.com",
+              "label": "Acteur",
+              "poste": "Unknown",
+              "nom": "Valdez",
+              "prenom": "Christina",
+              "properties": "{}"
+            },
+            "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:539"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 26,
+        "labels": [
+          "Email"
+        ],
+        "properties": {
+          "date": "2001-08-08T10:53:37-07:00",
+          "metadata": "{}",
+          "id": "24983",
+          "label": "Email",
+          "body": "Requested by Jim Scribner",
+          "sujet": "SB w/James Scribner - Re:  Common Settlements Process (Jim x39641)",
+          "properties": "{\"file_path\": \"beck-s/calendar/85.\"}",
+          "statut": "sent",
+          "list_urls": []
+        },
+        "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:26"
+      },
+      "end": {
+        "identity": 876,
+        "labels": [
+          "Acteur"
+        ],
+        "properties": {
+          "metadata": "{}",
+          "departement": "Unknown",
+          "roles": [
+            "employee"
+          ],
+          "adresse_email": "christina.valdez@enron.com",
+          "id": "actor_christina.valdez@enron.com",
+          "label": "Acteur",
+          "poste": "Unknown",
+          "nom": "Valdez",
+          "prenom": "Christina",
+          "properties": "{}"
+        },
+        "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:876"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 26,
+            "labels": [
+              "Email"
+            ],
+            "properties": {
+              "date": "2001-08-08T10:53:37-07:00",
+              "metadata": "{}",
+              "id": "24983",
+              "label": "Email",
+              "body": "Requested by Jim Scribner",
+              "sujet": "SB w/James Scribner - Re:  Common Settlements Process (Jim x39641)",
+              "properties": "{\"file_path\": \"beck-s/calendar/85.\"}",
+              "statut": "sent",
+              "list_urls": []
+            },
+            "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:26"
+          },
+          "relationship": {
+            "identity": 1157430601792356378,
+            "start": 26,
+            "end": 876,
+            "type": "SENT_BY",
+            "properties": {
+              "metadata": "{}",
+              "id": "rel_sent_by_24983_actor_christina.valdez@enron.com",
+              "properties": "{}"
+            },
+            "elementId": "5:edbd9c75-fcbb-462b-bb51-2607e177d344:1157430601792356378",
+            "startNodeElementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:26",
+            "endNodeElementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:876"
+          },
+          "end": {
+            "identity": 876,
+            "labels": [
+              "Acteur"
+            ],
+            "properties": {
+              "metadata": "{}",
+              "departement": "Unknown",
+              "roles": [
+                "employee"
+              ],
+              "adresse_email": "christina.valdez@enron.com",
+              "id": "actor_christina.valdez@enron.com",
+              "label": "Acteur",
+              "poste": "Unknown",
+              "nom": "Valdez",
+              "prenom": "Christina",
+              "properties": "{}"
+            },
+            "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:876"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 37,
+        "labels": [
+          "Email"
+        ],
+        "properties": {
+          "date": "2001-02-24T00:07:00-08:00",
+          "metadata": "{}",
+          "id": "230399",
+          "label": "Email",
+          "body": "FYI:
+
+
+
+-----Original Message-----
+From:  Gary Ackerman <foothill@lmi.net>@ENRON
+[mailto:IMCEANOTES-Gary+20Ackerman+20+3Cfoothill+40lmi+2Enet+3E+40ENRON@ENRON.
+com]
+Sent: Friday, February 23, 2001 8:28 PM
+To: Tribolet, Michael
+Subject: Your advice on Saybrook Letter
+
+Michael,
+
+I received today the attached letter from Jonathon Rosenthal of Saybrook
+Capital.
+
+Based on the conversation you and I had yesterday, I think that a proper
+counter proposal would be to meet in LA, organize a credit committee,
+and instruct Saybrook to seek funding from PG&E and SCE.  But, I would
+be interested in hearing your thoughts.
+
+gba
+
+- WPTF jmw_.doc",
+          "sujet": "FW: Your advice on Saybrook Letter",
+          "properties": "{\"file_path\": \"kean-s/all_documents/5780.\"}",
+          "statut": "sent",
+          "list_urls": []
+        },
+        "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:37"
+      },
+      "end": {
+        "identity": 186,
+        "labels": [
+          "Acteur"
+        ],
+        "properties": {
+          "metadata": "{}",
+          "departement": "Corporate",
+          "roles": [
+            "employee"
+          ],
+          "adresse_email": "michael.tribolet@enron.com",
+          "id": "actor_michael.tribolet@enron.com",
+          "label": "Acteur",
+          "poste": "Business Development Officer",
+          "nom": "Tribolet",
+          "prenom": "Michael",
+          "properties": "{}"
+        },
+        "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:186"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 37,
+            "labels": [
+              "Email"
+            ],
+            "properties": {
+              "date": "2001-02-24T00:07:00-08:00",
+              "metadata": "{}",
+              "id": "230399",
+              "label": "Email",
+              "body": "FYI:
+
+
+
+-----Original Message-----
+From:  Gary Ackerman <foothill@lmi.net>@ENRON
+[mailto:IMCEANOTES-Gary+20Ackerman+20+3Cfoothill+40lmi+2Enet+3E+40ENRON@ENRON.
+com]
+Sent: Friday, February 23, 2001 8:28 PM
+To: Tribolet, Michael
+Subject: Your advice on Saybrook Letter
+
+Michael,
+
+I received today the attached letter from Jonathon Rosenthal of Saybrook
+Capital.
+
+Based on the conversation you and I had yesterday, I think that a proper
+counter proposal would be to meet in LA, organize a credit committee,
+and instruct Saybrook to seek funding from PG&E and SCE.  But, I would
+be interested in hearing your thoughts.
+
+gba
+
+- WPTF jmw_.doc",
+              "sujet": "FW: Your advice on Saybrook Letter",
+              "properties": "{\"file_path\": \"kean-s/all_documents/5780.\"}",
+              "statut": "sent",
+              "list_urls": []
+            },
+            "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:37"
+          },
+          "relationship": {
+            "identity": 1152927002164985893,
+            "start": 37,
+            "end": 186,
+            "type": "SENT_BY",
+            "properties": {
+              "metadata": "{}",
+              "id": "rel_sent_by_230399_actor_michael.tribolet@enron.com",
+              "properties": "{}"
+            },
+            "elementId": "5:edbd9c75-fcbb-462b-bb51-2607e177d344:1152927002164985893",
+            "startNodeElementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:37",
+            "endNodeElementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:186"
+          },
+          "end": {
+            "identity": 186,
+            "labels": [
+              "Acteur"
+            ],
+            "properties": {
+              "metadata": "{}",
+              "departement": "Corporate",
+              "roles": [
+                "employee"
+              ],
+              "adresse_email": "michael.tribolet@enron.com",
+              "id": "actor_michael.tribolet@enron.com",
+              "label": "Acteur",
+              "poste": "Business Development Officer",
+              "nom": "Tribolet",
+              "prenom": "Michael",
+              "properties": "{}"
+            },
+            "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:186"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 37,
+        "labels": [
+          "Email"
+        ],
+        "properties": {
+          "date": "2001-02-24T00:07:00-08:00",
+          "metadata": "{}",
+          "id": "230399",
+          "label": "Email",
+          "body": "FYI:
+
+
+
+-----Original Message-----
+From:  Gary Ackerman <foothill@lmi.net>@ENRON
+[mailto:IMCEANOTES-Gary+20Ackerman+20+3Cfoothill+40lmi+2Enet+3E+40ENRON@ENRON.
+com]
+Sent: Friday, February 23, 2001 8:28 PM
+To: Tribolet, Michael
+Subject: Your advice on Saybrook Letter
+
+Michael,
+
+I received today the attached letter from Jonathon Rosenthal of Saybrook
+Capital.
+
+Based on the conversation you and I had yesterday, I think that a proper
+counter proposal would be to meet in LA, organize a credit committee,
+and instruct Saybrook to seek funding from PG&E and SCE.  But, I would
+be interested in hearing your thoughts.
+
+gba
+
+- WPTF jmw_.doc",
+          "sujet": "FW: Your advice on Saybrook Letter",
+          "properties": "{\"file_path\": \"kean-s/all_documents/5780.\"}",
+          "statut": "sent",
+          "list_urls": []
+        },
+        "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:37"
+      },
+      "end": {
+        "identity": 603,
+        "labels": [
+          "Acteur"
+        ],
+        "properties": {
+          "metadata": "{}",
+          "departement": "Corporate",
+          "roles": [
+            "employee"
+          ],
+          "adresse_email": "michael.tribolet@enron.com",
+          "id": "actor_michael.tribolet@enron.com",
+          "label": "Acteur",
+          "poste": "Business Development Officer",
+          "nom": "Tribolet",
+          "prenom": "Michael",
+          "properties": "{}"
+        },
+        "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:603"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 37,
+            "labels": [
+              "Email"
+            ],
+            "properties": {
+              "date": "2001-02-24T00:07:00-08:00",
+              "metadata": "{}",
+              "id": "230399",
+              "label": "Email",
+              "body": "FYI:
+
+
+
+-----Original Message-----
+From:  Gary Ackerman <foothill@lmi.net>@ENRON
+[mailto:IMCEANOTES-Gary+20Ackerman+20+3Cfoothill+40lmi+2Enet+3E+40ENRON@ENRON.
+com]
+Sent: Friday, February 23, 2001 8:28 PM
+To: Tribolet, Michael
+Subject: Your advice on Saybrook Letter
+
+Michael,
+
+I received today the attached letter from Jonathon Rosenthal of Saybrook
+Capital.
+
+Based on the conversation you and I had yesterday, I think that a proper
+counter proposal would be to meet in LA, organize a credit committee,
+and instruct Saybrook to seek funding from PG&E and SCE.  But, I would
+be interested in hearing your thoughts.
+
+gba
+
+- WPTF jmw_.doc",
+              "sujet": "FW: Your advice on Saybrook Letter",
+              "properties": "{\"file_path\": \"kean-s/all_documents/5780.\"}",
+              "statut": "sent",
+              "list_urls": []
+            },
+            "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:37"
+          },
+          "relationship": {
+            "identity": 1155178801978671141,
+            "start": 37,
+            "end": 603,
+            "type": "SENT_BY",
+            "properties": {
+              "metadata": "{}",
+              "id": "rel_sent_by_230399_actor_michael.tribolet@enron.com",
+              "properties": "{}"
+            },
+            "elementId": "5:edbd9c75-fcbb-462b-bb51-2607e177d344:1155178801978671141",
+            "startNodeElementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:37",
+            "endNodeElementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:603"
+          },
+          "end": {
+            "identity": 603,
+            "labels": [
+              "Acteur"
+            ],
+            "properties": {
+              "metadata": "{}",
+              "departement": "Corporate",
+              "roles": [
+                "employee"
+              ],
+              "adresse_email": "michael.tribolet@enron.com",
+              "id": "actor_michael.tribolet@enron.com",
+              "label": "Acteur",
+              "poste": "Business Development Officer",
+              "nom": "Tribolet",
+              "prenom": "Michael",
+              "properties": "{}"
+            },
+            "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:603"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 37,
+        "labels": [
+          "Email"
+        ],
+        "properties": {
+          "date": "2001-02-24T00:07:00-08:00",
+          "metadata": "{}",
+          "id": "230399",
+          "label": "Email",
+          "body": "FYI:
+
+
+
+-----Original Message-----
+From:  Gary Ackerman <foothill@lmi.net>@ENRON
+[mailto:IMCEANOTES-Gary+20Ackerman+20+3Cfoothill+40lmi+2Enet+3E+40ENRON@ENRON.
+com]
+Sent: Friday, February 23, 2001 8:28 PM
+To: Tribolet, Michael
+Subject: Your advice on Saybrook Letter
+
+Michael,
+
+I received today the attached letter from Jonathon Rosenthal of Saybrook
+Capital.
+
+Based on the conversation you and I had yesterday, I think that a proper
+counter proposal would be to meet in LA, organize a credit committee,
+and instruct Saybrook to seek funding from PG&E and SCE.  But, I would
+be interested in hearing your thoughts.
+
+gba
+
+- WPTF jmw_.doc",
+          "sujet": "FW: Your advice on Saybrook Letter",
+          "properties": "{\"file_path\": \"kean-s/all_documents/5780.\"}",
+          "statut": "sent",
+          "list_urls": []
+        },
+        "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:37"
+      },
+      "end": {
+        "identity": 940,
+        "labels": [
+          "Acteur"
+        ],
+        "properties": {
+          "metadata": "{}",
+          "departement": "Corporate",
+          "roles": [
+            "employee"
+          ],
+          "adresse_email": "michael.tribolet@enron.com",
+          "id": "actor_michael.tribolet@enron.com",
+          "label": "Acteur",
+          "poste": "Business Development Officer",
+          "nom": "Tribolet",
+          "prenom": "Michael",
+          "properties": "{}"
+        },
+        "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:940"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 37,
+            "labels": [
+              "Email"
+            ],
+            "properties": {
+              "date": "2001-02-24T00:07:00-08:00",
+              "metadata": "{}",
+              "id": "230399",
+              "label": "Email",
+              "body": "FYI:
+
+
+
+-----Original Message-----
+From:  Gary Ackerman <foothill@lmi.net>@ENRON
+[mailto:IMCEANOTES-Gary+20Ackerman+20+3Cfoothill+40lmi+2Enet+3E+40ENRON@ENRON.
+com]
+Sent: Friday, February 23, 2001 8:28 PM
+To: Tribolet, Michael
+Subject: Your advice on Saybrook Letter
+
+Michael,
+
+I received today the attached letter from Jonathon Rosenthal of Saybrook
+Capital.
+
+Based on the conversation you and I had yesterday, I think that a proper
+counter proposal would be to meet in LA, organize a credit committee,
+and instruct Saybrook to seek funding from PG&E and SCE.  But, I would
+be interested in hearing your thoughts.
+
+gba
+
+- WPTF jmw_.doc",
+              "sujet": "FW: Your advice on Saybrook Letter",
+              "properties": "{\"file_path\": \"kean-s/all_documents/5780.\"}",
+              "statut": "sent",
+              "list_urls": []
+            },
+            "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:37"
+          },
+          "relationship": {
+            "identity": 1157430601792356389,
+            "start": 37,
+            "end": 940,
+            "type": "SENT_BY",
+            "properties": {
+              "metadata": "{}",
+              "id": "rel_sent_by_230399_actor_michael.tribolet@enron.com",
+              "properties": "{}"
+            },
+            "elementId": "5:edbd9c75-fcbb-462b-bb51-2607e177d344:1157430601792356389",
+            "startNodeElementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:37",
+            "endNodeElementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:940"
+          },
+          "end": {
+            "identity": 940,
+            "labels": [
+              "Acteur"
+            ],
+            "properties": {
+              "metadata": "{}",
+              "departement": "Corporate",
+              "roles": [
+                "employee"
+              ],
+              "adresse_email": "michael.tribolet@enron.com",
+              "id": "actor_michael.tribolet@enron.com",
+              "label": "Acteur",
+              "poste": "Business Development Officer",
+              "nom": "Tribolet",
+              "prenom": "Michael",
+              "properties": "{}"
+            },
+            "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:940"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 45,
+        "labels": [
+          "Email"
+        ],
+        "properties": {
+          "date": "2000-01-25T07:13:00-08:00",
+          "metadata": "{}",
+          "id": "23454",
+          "label": "Email",
+          "body": "I can not attend as I will be in the London office for the remainder of the
+week.  Hope that all is well with you.  We will have to catch up soon.",
+          "sujet": "Re: A/A Mentoring Program",
+          "properties": "{\"file_path\": \"beck-s/all_documents/2680.\"}",
+          "statut": "sent",
+          "list_urls": []
+        },
+        "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:45"
+      },
+      "end": {
+        "identity": 100,
+        "labels": [
+          "Acteur"
+        ],
+        "properties": {
+          "metadata": "{}",
+          "departement": "HR",
+          "roles": [
+            "employee"
+          ],
+          "adresse_email": "sally.beck@enron.com",
+          "id": "actor_sally.beck@enron.com",
+          "label": "Acteur",
+          "poste": "Manager",
+          "nom": "Beck",
+          "prenom": "Sally",
+          "properties": "{}"
+        },
+        "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:100"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 45,
+            "labels": [
+              "Email"
+            ],
+            "properties": {
+              "date": "2000-01-25T07:13:00-08:00",
+              "metadata": "{}",
+              "id": "23454",
+              "label": "Email",
+              "body": "I can not attend as I will be in the London office for the remainder of the
+week.  Hope that all is well with you.  We will have to catch up soon.",
+              "sujet": "Re: A/A Mentoring Program",
+              "properties": "{\"file_path\": \"beck-s/all_documents/2680.\"}",
+              "statut": "sent",
+              "list_urls": []
+            },
+            "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:45"
+          },
+          "relationship": {
+            "identity": 1152927002164985901,
+            "start": 45,
+            "end": 100,
+            "type": "SENT_BY",
+            "properties": {
+              "metadata": "{}",
+              "id": "rel_sent_by_23454_actor_sally.beck@enron.com",
+              "properties": "{}"
+            },
+            "elementId": "5:edbd9c75-fcbb-462b-bb51-2607e177d344:1152927002164985901",
+            "startNodeElementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:45",
+            "endNodeElementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:100"
+          },
+          "end": {
+            "identity": 100,
+            "labels": [
+              "Acteur"
+            ],
+            "properties": {
+              "metadata": "{}",
+              "departement": "HR",
+              "roles": [
+                "employee"
+              ],
+              "adresse_email": "sally.beck@enron.com",
+              "id": "actor_sally.beck@enron.com",
+              "label": "Acteur",
+              "poste": "Manager",
+              "nom": "Beck",
+              "prenom": "Sally",
+              "properties": "{}"
+            },
+            "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:100"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 45,
+        "labels": [
+          "Email"
+        ],
+        "properties": {
+          "date": "2000-01-25T07:13:00-08:00",
+          "metadata": "{}",
+          "id": "23454",
+          "label": "Email",
+          "body": "I can not attend as I will be in the London office for the remainder of the
+week.  Hope that all is well with you.  We will have to catch up soon.",
+          "sujet": "Re: A/A Mentoring Program",
+          "properties": "{\"file_path\": \"beck-s/all_documents/2680.\"}",
+          "statut": "sent",
+          "list_urls": []
+        },
+        "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:45"
+      },
+      "end": {
+        "identity": 517,
+        "labels": [
+          "Acteur"
+        ],
+        "properties": {
+          "metadata": "{}",
+          "departement": "HR",
+          "roles": [
+            "employee"
+          ],
+          "adresse_email": "sally.beck@enron.com",
+          "id": "actor_sally.beck@enron.com",
+          "label": "Acteur",
+          "poste": "Manager",
+          "nom": "Beck",
+          "prenom": "Sally",
+          "properties": "{}"
+        },
+        "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:517"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 45,
+            "labels": [
+              "Email"
+            ],
+            "properties": {
+              "date": "2000-01-25T07:13:00-08:00",
+              "metadata": "{}",
+              "id": "23454",
+              "label": "Email",
+              "body": "I can not attend as I will be in the London office for the remainder of the
+week.  Hope that all is well with you.  We will have to catch up soon.",
+              "sujet": "Re: A/A Mentoring Program",
+              "properties": "{\"file_path\": \"beck-s/all_documents/2680.\"}",
+              "statut": "sent",
+              "list_urls": []
+            },
+            "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:45"
+          },
+          "relationship": {
+            "identity": 1155178801978671149,
+            "start": 45,
+            "end": 517,
+            "type": "SENT_BY",
+            "properties": {
+              "metadata": "{}",
+              "id": "rel_sent_by_23454_actor_sally.beck@enron.com",
+              "properties": "{}"
+            },
+            "elementId": "5:edbd9c75-fcbb-462b-bb51-2607e177d344:1155178801978671149",
+            "startNodeElementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:45",
+            "endNodeElementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:517"
+          },
+          "end": {
+            "identity": 517,
+            "labels": [
+              "Acteur"
+            ],
+            "properties": {
+              "metadata": "{}",
+              "departement": "HR",
+              "roles": [
+                "employee"
+              ],
+              "adresse_email": "sally.beck@enron.com",
+              "id": "actor_sally.beck@enron.com",
+              "label": "Acteur",
+              "poste": "Manager",
+              "nom": "Beck",
+              "prenom": "Sally",
+              "properties": "{}"
+            },
+            "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:517"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 45,
+        "labels": [
+          "Email"
+        ],
+        "properties": {
+          "date": "2000-01-25T07:13:00-08:00",
+          "metadata": "{}",
+          "id": "23454",
+          "label": "Email",
+          "body": "I can not attend as I will be in the London office for the remainder of the
+week.  Hope that all is well with you.  We will have to catch up soon.",
+          "sujet": "Re: A/A Mentoring Program",
+          "properties": "{\"file_path\": \"beck-s/all_documents/2680.\"}",
+          "statut": "sent",
+          "list_urls": []
+        },
+        "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:45"
+      },
+      "end": {
+        "identity": 854,
+        "labels": [
+          "Acteur"
+        ],
+        "properties": {
+          "metadata": "{}",
+          "departement": "HR",
+          "roles": [
+            "employee"
+          ],
+          "adresse_email": "sally.beck@enron.com",
+          "id": "actor_sally.beck@enron.com",
+          "label": "Acteur",
+          "poste": "Manager",
+          "nom": "Beck",
+          "prenom": "Sally",
+          "properties": "{}"
+        },
+        "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:854"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 45,
+            "labels": [
+              "Email"
+            ],
+            "properties": {
+              "date": "2000-01-25T07:13:00-08:00",
+              "metadata": "{}",
+              "id": "23454",
+              "label": "Email",
+              "body": "I can not attend as I will be in the London office for the remainder of the
+week.  Hope that all is well with you.  We will have to catch up soon.",
+              "sujet": "Re: A/A Mentoring Program",
+              "properties": "{\"file_path\": \"beck-s/all_documents/2680.\"}",
+              "statut": "sent",
+              "list_urls": []
+            },
+            "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:45"
+          },
+          "relationship": {
+            "identity": 1157430601792356397,
+            "start": 45,
+            "end": 854,
+            "type": "SENT_BY",
+            "properties": {
+              "metadata": "{}",
+              "id": "rel_sent_by_23454_actor_sally.beck@enron.com",
+              "properties": "{}"
+            },
+            "elementId": "5:edbd9c75-fcbb-462b-bb51-2607e177d344:1157430601792356397",
+            "startNodeElementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:45",
+            "endNodeElementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:854"
+          },
+          "end": {
+            "identity": 854,
+            "labels": [
+              "Acteur"
+            ],
+            "properties": {
+              "metadata": "{}",
+              "departement": "HR",
+              "roles": [
+                "employee"
+              ],
+              "adresse_email": "sally.beck@enron.com",
+              "id": "actor_sally.beck@enron.com",
+              "label": "Acteur",
+              "poste": "Manager",
+              "nom": "Beck",
+              "prenom": "Sally",
+              "properties": "{}"
+            },
+            "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:854"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  },
+  {
+    "p": {
+      "start": {
+        "identity": 47,
+        "labels": [
+          "Email"
+        ],
+        "properties": {
+          "date": "2001-11-22T00:00:00-08:00",
+          "metadata": "{}",
+          "id": "357847",
+          "label": "Email",
+          "body": "=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Come play game shows online for free for a chance to win cash and
+prizes at Uproar!
+http://by.advertising.com/1/c/62072/34057/114911/114911
+
+<a href=\"http://by.advertising.com/1/c/62072/34057/114911/114911\">
+AOL users click here </a>
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Word of the Day for Thursday November 22, 2001:
+
+repletion \rih-PLEE-shun\, noun:
+1. The condition of being completely filled or supplied.
+2. Excessive fullness, as from overeating.
+
+We  have  to earn silence, then, to work for it: to make it
+not an absence but a presence; not emptiness but repletion.
+--Pico  Iyer,  \"The  Eloquent  Sounds of Silence,\" [1]Time,
+January 1993
+
+With  distended  belly  and  bursting  waistcoat,  his eyes
+glazed  with  repletion,  he  picks listlessly at his teeth
+with a fork.
+--Kenneth  Rose,  \"Madness  of King George's son,\" [2]Daily
+Telegraph, November 14, 1998
+
+He lay like a filthy leech, exhausted with his repletion.
+--Jeff  Guinn,  \"The  Ghoul, the Bad, the Ugly,\" [3]Arizona
+Republic, June 7, 1999
+_________________________________________________________
+
+Repletion  is  derived  from Latin replere, \"to fill again, to
+fill  up,\"  from  re- + plere, \" to fill.\" Plenty is a related
+word.
+
+References
+
+1. http://www.time.com/time/
+2. http://www.dailytelegraph.co.uk/
+3. http://www.arizonarepublic.com/
+
+
+_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._
+
+You are currently subscribed to Dictionary.com Word of the Day as:
+susan.w.pereira@enron.com
+
+To subscribe to the list by email, send a blank message to:
+join-WordoftheDay@lists.lexico.com
+
+To unsubscribe via email, send a blank message to:
+leave-wordoftheday-301289Q@lists.lexico.com
+
+Subscriptions can be turned on and off from the Web at
+http://www.dictionary.com/wordoftheday/list/
+
+Dictionary.com Word of the Day
+http://www.dictionary.com/wordoftheday/
+(C) 2001, Lexico LLC.",
+          "sujet": "repletion: Dictionary.com Word of the Day",
+          "properties": "{\"file_path\": \"pereira-s/deleted_items/164.\"}",
+          "statut": "deleted",
+          "list_urls": [
+            "http://by.advertising.com/1/c/62072/34057/114911/114911",
+            "http://by.advertising.com/1/c/62072/34057/114911/114911",
+            "http://www.time.com/time/",
+            "http://www.dailytelegraph.co.uk/",
+            "http://www.arizonarepublic.com/",
+            "http://www.dictionary.com/wordoftheday/list/",
+            "http://www.dictionary.com/wordoftheday/"
+          ]
+        },
+        "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:47"
+      },
+      "end": {
+        "identity": 190,
+        "labels": [
+          "Acteur"
+        ],
+        "properties": {
+          "metadata": "{}",
+          "departement": "N/A",
+          "roles": [
+            "employee"
+          ],
+          "adresse_email": "doctor@dictionary.com",
+          "id": "actor_doctor@dictionary.com",
+          "label": "Acteur",
+          "poste": "N/A",
+          "nom": "",
+          "prenom": "Doctor",
+          "properties": "{}"
+        },
+        "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:190"
+      },
+      "segments": [
+        {
+          "start": {
+            "identity": 47,
+            "labels": [
+              "Email"
+            ],
+            "properties": {
+              "date": "2001-11-22T00:00:00-08:00",
+              "metadata": "{}",
+              "id": "357847",
+              "label": "Email",
+              "body": "=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Come play game shows online for free for a chance to win cash and
+prizes at Uproar!
+http://by.advertising.com/1/c/62072/34057/114911/114911
+
+<a href=\"http://by.advertising.com/1/c/62072/34057/114911/114911\">
+AOL users click here </a>
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+
+Word of the Day for Thursday November 22, 2001:
+
+repletion \rih-PLEE-shun\, noun:
+1. The condition of being completely filled or supplied.
+2. Excessive fullness, as from overeating.
+
+We  have  to earn silence, then, to work for it: to make it
+not an absence but a presence; not emptiness but repletion.
+--Pico  Iyer,  \"The  Eloquent  Sounds of Silence,\" [1]Time,
+January 1993
+
+With  distended  belly  and  bursting  waistcoat,  his eyes
+glazed  with  repletion,  he  picks listlessly at his teeth
+with a fork.
+--Kenneth  Rose,  \"Madness  of King George's son,\" [2]Daily
+Telegraph, November 14, 1998
+
+He lay like a filthy leech, exhausted with his repletion.
+--Jeff  Guinn,  \"The  Ghoul, the Bad, the Ugly,\" [3]Arizona
+Republic, June 7, 1999
+_________________________________________________________
+
+Repletion  is  derived  from Latin replere, \"to fill again, to
+fill  up,\"  from  re- + plere, \" to fill.\" Plenty is a related
+word.
+
+References
+
+1. http://www.time.com/time/
+2. http://www.dailytelegraph.co.uk/
+3. http://www.arizonarepublic.com/
+
+
+_._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._._
+
+You are currently subscribed to Dictionary.com Word of the Day as:
+susan.w.pereira@enron.com
+
+To subscribe to the list by email, send a blank message to:
+join-WordoftheDay@lists.lexico.com
+
+To unsubscribe via email, send a blank message to:
+leave-wordoftheday-301289Q@lists.lexico.com
+
+Subscriptions can be turned on and off from the Web at
+http://www.dictionary.com/wordoftheday/list/
+
+Dictionary.com Word of the Day
+http://www.dictionary.com/wordoftheday/
+(C) 2001, Lexico LLC.",
+              "sujet": "repletion: Dictionary.com Word of the Day",
+              "properties": "{\"file_path\": \"pereira-s/deleted_items/164.\"}",
+              "statut": "deleted",
+              "list_urls": [
+                "http://by.advertising.com/1/c/62072/34057/114911/114911",
+                "http://by.advertising.com/1/c/62072/34057/114911/114911",
+                "http://www.time.com/time/",
+                "http://www.dailytelegraph.co.uk/",
+                "http://www.arizonarepublic.com/",
+                "http://www.dictionary.com/wordoftheday/list/",
+                "http://www.dictionary.com/wordoftheday/"
+              ]
+            },
+            "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:47"
+          },
+          "relationship": {
+            "identity": 1152927002164985903,
+            "start": 47,
+            "end": 190,
+            "type": "SENT_BY",
+            "properties": {
+              "metadata": "{}",
+              "id": "rel_sent_by_357847_actor_doctor@dictionary.com",
+              "properties": "{}"
+            },
+            "elementId": "5:edbd9c75-fcbb-462b-bb51-2607e177d344:1152927002164985903",
+            "startNodeElementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:47",
+            "endNodeElementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:190"
+          },
+          "end": {
+            "identity": 190,
+            "labels": [
+              "Acteur"
+            ],
+            "properties": {
+              "metadata": "{}",
+              "departement": "N/A",
+              "roles": [
+                "employee"
+              ],
+              "adresse_email": "doctor@dictionary.com",
+              "id": "actor_doctor@dictionary.com",
+              "label": "Acteur",
+              "poste": "N/A",
+              "nom": "",
+              "prenom": "Doctor",
+              "properties": "{}"
+            },
+            "elementId": "4:edbd9c75-fcbb-462b-bb51-2607e177d344:190"
+          }
+        }
+      ],
+      "length": 1.0
+    }
+  }
+]
