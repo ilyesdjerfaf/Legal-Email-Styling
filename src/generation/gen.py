@@ -7,7 +7,7 @@ from utils import (
     load_enron_emails_from_csv,
     build_user_style_profile,
     style_profile_to_instructions,
-    llm
+    llm, style_juridique
 )
 
 #####################################
@@ -62,6 +62,20 @@ user_emails_map = load_data(CSV_PATH)
 #####################################
 st.title("Application de génération d'e-mails selon le style d'utilisateur")
 
+# Définition des instructions pour le style juridique
+
+LEGAL_STYLE_INSTRUCTIONS = """
+Characteristics of a legal email:
+
+1. The email must contain a clear and concise subject line.
+2. Use a professional salutation, such as 'Dear Sir/Madam,' 'Hello Mr. X,' or 'Maître Y' if relevant.
+3. Favor a medium-length structure: avoid bullet points, organize content into paragraphs and line breaks.
+4. Body: adopt a formal, direct tone; use sophisticated or technical language; optionally cite laws/articles (GREEN FLAG); avoid emotional expressions.
+5. Use formal valedictions such as 'Kind regards,' or 'Yours sincerely.'
+6. Include a complete signature.
+7. Employ abbreviations and acronyms to indicate professionalism (e.g., references to codes, articles, or legal citations).
+"""
+
 # Initialisation de l'état
 if "style_profile" not in st.session_state:
     st.session_state["style_profile"] = None
@@ -74,6 +88,9 @@ if "facts" not in st.session_state:
 
 if "generated_email" not in st.session_state:
     st.session_state["generated_email"] = None
+
+if "generated_email_legal" not in st.session_state:
+    st.session_state["generated_email_legal"] = None
 
 #####################################
 # 4) Sélection de l'utilisateur
@@ -94,6 +111,7 @@ if st.button("Générer la carte ID"):
     st.session_state["style_instructions"] = instructions
     st.session_state["facts"] = None
     st.session_state["generated_email"] = None
+    st.session_state["generated_email_legal"] = None
 
 # Affichage de la carte ID
 if st.session_state["style_profile"] is not None:
@@ -114,38 +132,87 @@ if st.session_state["facts"] is not None:
     st.text(st.session_state["facts"])
 
 #####################################
-# 7) Bouton : Générer l'e-mail
+# 7) Boutons : Générer les e-mails
 #####################################
-if st.session_state["facts"] is not None and st.session_state["style_instructions"] is not None:
-    if st.button("Générer l'e-mail"):
-        system_prompt = f"""
-        You are a professional AI writing assistant.
-        You will receive some style instructions and some facts.
-        Your task is to produce an email in the style described by the instructions.
+if st.session_state["facts"] is not None:
+    col1, col2 = st.columns(2)
 
-        Style Instructions:
-        {st.session_state["style_instructions"]}
+    with col1:
+        if st.button("Générer l'e-mail style utilisateur"):
+            system_prompt = f"""
+            You are a professional AI writing assistant.
+            You will receive some style instructions and some facts.
+            Your task is to produce an email in the style described by the instructions.
 
-        Constraints:
-        1. Follow the style instructions carefully.
-        2. Use the facts provided to shape the content of the email.
-        3. Write in English.
-        """
+            Style Instructions:
+            {st.session_state["style_instructions"]}
 
-        user_prompt = f"""
-        Please write an email using the following facts:
+            Constraints:
+            1. Follow the style instructions carefully.
+            2. Use the facts provided to shape the content of the email.
+            3. Write in English.
+            """
 
-        {st.session_state["facts"]}
-        """
+            user_prompt = f"""
+            Please write an email using the following facts:
 
-        response = llm.invoke([
-            ("system", system_prompt),
-            ("human", user_prompt)
-        ])
+            {st.session_state["facts"]}
+            """
 
-        st.session_state["generated_email"] = response.content
+            response = llm.invoke([
+                ("system", system_prompt),
+                ("human", user_prompt)
+            ])
 
-# Affichage de l'e-mail généré
-if st.session_state["generated_email"] is not None:
-    st.subheader("E-mail généré")
+            st.session_state["generated_email"] = response.content
+
+    with col2:
+        if st.button("Générer l'e-mail juridique (EN)"):
+            system_prompt_legal2 = f"""
+            You are an AI assistant specialized in drafting legal emails.
+
+            Below are the defining characteristics of a proper legal-style email:
+            {LEGAL_STYLE_INSTRUCTIONS}
+
+            Constraints:
+            1. Carefully follow the listed characteristics for a legal email.
+            2. Use the facts provided below to shape the content of the email.
+            3. Write the email in English, in a formal and professional tone.
+            """
+            
+            inst = style_juridique()
+            system_prompt_legal = f"""
+            You are an AI assistant specialized in drafting legal emails.
+
+            Below are the defining characteristics of a proper legal-style email:
+            {inst}
+
+            Constraints:
+            1. Carefully follow the listed characteristics for a legal email.
+            2. Use the facts provided below to shape the content of the email.
+            3. Write the email in English, in a formal and professional tone.
+            """
+
+            user_prompt_legal = f"""
+            Here are the facts to include in the legal email:
+
+            {st.session_state["facts"]}
+            """
+
+            response_legal = llm.invoke([
+                ("system", system_prompt_legal),
+                ("human", user_prompt_legal)
+            ])
+
+            st.session_state["generated_email_legal"] = response_legal.content
+
+#####################################
+# 8) Affichage des e-mails générés
+#####################################
+if st.session_state.get("generated_email") is not None:
+    st.subheader("E-mail généré (style utilisateur)")
     st.write(st.session_state["generated_email"])
+
+if st.session_state.get("generated_email_legal") is not None:
+    st.subheader("E-mail généré (juridique)")
+    st.write(st.session_state["generated_email_legal"])
