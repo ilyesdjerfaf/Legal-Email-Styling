@@ -115,7 +115,8 @@ def add_logo_and_icons():
         "Home": ("1_Home", "home"),
         "Dashboard": ("pages.2_Dashboard", "circle-nodes"),  # Modifié
         "Chatbot": ("pages.3_Chatbot", "apps"),  # Modifié
-        "Knowledge Graph": ("pages.4_Knowledge_Graph", "kg")  # Modifié
+        "Knowledge Graph": ("pages.4_Knowledge_Graph", "kg"),  # Modifié
+        "Email Generator": ("pages.5_Gen", "envelope")  # Added new page
     }
 
     for label, (page_script, icon_name) in pages.items():
