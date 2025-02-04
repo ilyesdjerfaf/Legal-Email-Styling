@@ -26,6 +26,15 @@ body {
     background-color: #202141;
 }
 
+/* Style pour tous les textes dans Streamlit */
+[data-testid="stMarkdown"] {
+    color: white !important;
+}
+
+[data-testid="stMarkdown"] p {
+    color: white !important;
+}
+
 /* Style des boutons unifié */
 .stButton > button {
     background-color: var(--bg-light) !important;
@@ -729,4 +738,28 @@ div[data-testid="stHorizontalBlock"] [data-testid="element-container"] .stButton
 div[data-testid="stHorizontalBlock"] [data-testid="element-container"] .stButton > button::before,
 div[data-testid="stHorizontalBlock"] [data-testid="element-container"] .stButton > button::after {
     display: none !important;
+}
+
+/* Style des titres Streamlit */
+[data-testid="stMarkdown"] h1,
+[data-testid="stMarkdown"] h2,
+[data-testid="stMarkdown"] h3,
+[data-testid="stMarkdown"] h4,
+[data-testid="stMarkdown"] h5,
+[data-testid="stMarkdown"] h6 {
+    color: white !important;
+    font-family: 'Sofia Pro', -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* Style pour tous les textes dans Streamlit */
+[data-testid="stMarkdown"] {
+    color: white !important;
+}
+
+[data-testid="stMarkdown"] p,
+[data-testid="stMarkdown"] span,
+[data-testid="stMarkdown"] li,
+[data-testid="stMarkdown"] a {
+    color: white !important;
+    font-family: 'Sofia Pro', -apple-system, BlinkMacSystemFont, sans-serif;
 }
