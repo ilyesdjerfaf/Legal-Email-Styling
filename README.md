@@ -4,8 +4,6 @@
 
 ## 🔄 Project Workflow
 
-![Architecture Diagram](docs/archi.jpg)
-
 ---
 
 ## 🚀 Future Work
