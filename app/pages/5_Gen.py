@@ -225,7 +225,6 @@ with st.container():
                 # Add view toggle and auto-generation for compare mode
                 view_col1, view_col2 = st.columns([3, 1])
                 with view_col2:
-                    # Modify view toggle handling to update completed state
                     previous_mode = st.session_state.get("view_mode", "single")
                     view_mode = st.radio(
                         "View Mode",
@@ -235,69 +234,76 @@ with st.container():
                         label_visibility="collapsed"
                     )
                     
-                    # Update email_generated state when switching to compare
+                    # Only trigger generation when switching TO compare mode for the first time
                     if view_mode.lower() == "compare" and previous_mode != "compare":
-                        # Si au moins un email existe déjà, marquer comme complété
+                        # Check if we need to generate emails
+                        need_generation = not (st.session_state.get("generated_email") and 
+                                            st.session_state.get("generated_email_legal"))
+                        
+                        if need_generation:
+                            with st.spinner('Generating both email styles...'):
+                                if not st.session_state.get("generated_email"):
+                                    # Generate user-style email
+                                    system_prompt = f"""
+                                    You are a professional AI writing assistant.
+                                    You will receive some style instructions and some facts.
+                                    Your task is to produce an email in the style described by the instructions.
+
+                                    Style Instructions:
+                                    {st.session_state["style_instructions"]}
+
+                                    Constraints:
+                                    1. Follow the style instructions carefully.
+                                    2. Use the facts provided to shape the content of the email.
+                                    3. Write in English.
+                                    """
+
+                                    user_prompt = f"""
+                                    Please write an email using the following facts:
+
+                                    {st.session_state["facts"]}
+                                    """
+
+                                    with st.spinner('Generating user-style email...'):
+                                        response = llm.invoke([
+                                            ("system", system_prompt),
+                                            ("human", user_prompt)
+                                        ])
+                                        st.session_state["generated_email"] = response.content
+                                
+                                if not st.session_state.get("generated_email_legal"):
+                                    # Generate legal-style email
+                                    inst = style_juridique()
+                                    system_prompt_legal = f"""
+                                    You are an AI assistant specialized in drafting legal emails.
+
+                                    Below are the defining characteristics of a proper legal-style email:
+                                    {inst}
+
+                                    Constraints:
+                                    1. Carefully follow the listed characteristics for a legal email.
+                                    2. Use the facts provided below to shape the content of the email.
+                                    3. Write the email in English, in a formal and professional tone.
+                                    """
+
+                                    user_prompt_legal = f"""
+                                    Here are the facts to include in the legal email:
+
+                                    {st.session_state["facts"]}
+                                    """
+
+                                    with st.spinner('Generating legal email...'):
+                                        response_legal = llm.invoke([
+                                            ("system", system_prompt_legal),
+                                            ("human", user_prompt_legal)
+                                        ])
+                                        st.session_state["generated_email_legal"] = response_legal.content
+                            
+                        # Marquer comme complété si au moins un email existe
                         if st.session_state.get("generated_email") or st.session_state.get("generated_email_legal"):
                             st.session_state.funnel_state["email_generated"] = True
-                        else:
-                            # Generate both emails only if they don't exist
-                            with st.spinner('Generating both email styles...'):
-                                # Generate user-style email
-                                system_prompt = f"""
-                                You are a professional AI writing assistant.
-                                You will receive some style instructions and some facts.
-                                Your task is to produce an email in the style described by the instructions.
-
-                                Style Instructions:
-                                {st.session_state["style_instructions"]}
-
-                                Constraints:
-                                1. Follow the style instructions carefully.
-                                2. Use the facts provided to shape the content of the email.
-                                3. Write in English.
-                                """
-
-                                user_prompt = f"""
-                                Please write an email using the following facts:
-
-                                {st.session_state["facts"]}
-                                """
-
-                                response = llm.invoke([
-                                    ("system", system_prompt),
-                                    ("human", user_prompt)
-                                ])
-                                st.session_state["generated_email"] = response.content
-
-                                # Generate legal-style email
-                                inst = style_juridique()
-                                system_prompt_legal = f"""
-                                You are an AI assistant specialized in drafting legal emails.
-
-                                Below are the defining characteristics of a proper legal-style email:
-                                {inst}
-
-                                Constraints:
-                                1. Carefully follow the listed characteristics for a legal email.
-                                2. Use the facts provided below to shape the content of the email.
-                                3. Write the email in English, in a formal and professional tone.
-                                """
-
-                                user_prompt_legal = f"""
-                                Here are the facts to include in the legal email:
-
-                                {st.session_state["facts"]}
-                                """
-
-                                response_legal = llm.invoke([
-                                    ("system", system_prompt_legal),
-                                    ("human", user_prompt_legal)
-                                ])
-                                st.session_state["generated_email_legal"] = response_legal.content
-                            st.session_state.funnel_state["email_generated"] = True
-                        st.rerun()
-                    
+                            st.rerun()
+                            
                     st.session_state["view_mode"] = view_mode.lower()
 
                 # Generation buttons (only show in single mode)
