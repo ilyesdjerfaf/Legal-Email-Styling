@@ -1,0 +1,172 @@
+Question,Expected Answer,llm_response,similarity,levenshtein_distance,normalized_levenshtein,rouge1
+What system replaced IPASS for remote connectivity to Enron's network?,eConnect replaced IPASS for remote connectivity to Enron's network.,The system that replaced IPASS for remote connectivity to Enron's network is eConnect.,0.9284074,24,0.3582089552238806,0.8333333333333333
+Where can Enron employees access email remotely?,Enron employees can access email remotely through Outlook Web Access at http:\\mail.enron.com.,"According to the context, Enron employees can access their email remotely through Outlook Web Access (OWA) at http:\\mail.enron.com using their NT login ID and password. However, they need to establish an eConnect connection first.",0.85611945,137,1.4574468085106382,0.5769230769230769
+What is the deadline mentioned for a contract extension for Sempra?,The contract extension for Sempra is from 12/31/01 to 12/31/02.,The deadline mentioned for the contract extension for Sempra is 12/31/01 to 12/31/02.,0.9149561,32,0.5079365079365079,0.8387096774193549
+What should be done if differences are identified in a contract at Enron?,The differences should be discussed and corrected before bringing the contract in.,"Based on the provided email chain, it appears that if differences are identified in a contract at Enron, the following steps should be taken:
+
+1. Coordinate with Stepheny Augustus to create necessary contracts and approve contractual rates.
+2. Review the contracts, particularly if there are changes, as mentioned in the email.
+3. If further clarification is needed, call the relevant person (in this case, it seems to be Christi L Nicolay, who can be reached at 713.853.7007).
+
+It also seems that Enron has a process for revising and finalizing contracts, involving multiple stakeholders and a review process. In the email chain, Richard Ingersoll is asked to lead a discussion on the revised agreement, and Gloria Solis is requested to circulate the revised copy to Jim, Kevin, Elizabeth, and others deemed appropriate.",0.5648555,744,9.073170731707316,0.1241379310344827
+Who needs to be coordinated with to draft side letter agreements?,Side letters need to be coordinated with Mark or Tana Jones.,"According to the context, Tana Jones needs to be coordinated with to draft side letter agreements.",0.67582196,56,0.9333333333333332,0.6666666666666666
+How can one request authorization to use eConnect?,Authorization for eConnect can be requested via the eRequest system on IT Central.,"According to the context, authorization to use eConnect may be requested via the eRequest system, which can be found at http://itcentral.enron.com.",0.93671393,72,0.8780487804878049,0.4864864864864864
+What are the concerns regarding the receipt meter on deal 235367?,The receipt meter needs to be changed from meter 7126 to meter 010902.,"Based on the provided context, it seems that the concern is that you are unable to change the Receipt Point (From) for meter 7126 on deal 235367, specifically the Interconnect point.",0.70344937,132,1.8857142857142857,0.3181818181818182
+What happens if items in a buy.com order are not shipped together?,"Items will arrive in separate packages, as buy.com ships from multiple warehouses.","According to the context, if items in an order are not shipped together, they may arrive in separate packages. This is done to ensure quicker delivery, as buy.com ships from multiple warehouses throughout the country. Additionally, the customer will not be charged extra shipping fees for separate shipments.",0.85525423,230,2.804878048780488,0.4193548387096774
+What should be done to track a buy.com order?,Visit the buy.com support page or use the provided tracking instructions.,"According to the provided context, to track a buy.com order, you can track it online by visiting http://www.us.buy.com/corp/support/login.asp or track directly from your mobile device by visiting http://www.us.buy.com/retail/wireless/toc_feature.asp?loc=13676.",0.7202997,212,2.904109589041096,0.2666666666666666
+What was the issue with the flow rate of meter #1591 Lamay gas lift?,"It had very little flow, potentially affecting the risk numbers.","According to the email, the issue with meter #1591 Lamay gas lift was that it was ""showing nom volume"" which could ""adversely affect risk numbers."" This suggests that there was a discrepancy in the flow rate being reported by the meter that could impact the risk calculations.",0.466214,228,3.5625,0.2105263157894736
+How should payment for Reliant Energy HL&P bills be made with Auto Pay?,"The bank account will be automatically drafted, and no action is needed.","According to the context, payment for Reliant Energy HL&P bills with Auto Pay can be made by participating in the Automatic Payment Plan (APP), which allows the bank account to be automatically drafted for the amount due. This can be done online, and the payment can be scheduled for a later date.",0.38721168,236,3.2777777777777777,0.2153846153846154
+What is required for a browser to support Reliant Energy’s upgraded eBill security?,A browser capable of supporting 128-bit encryption technology.,"According to the context, to support Reliant Energy's upgraded eBill security, a browser must be capable of 128-bit encryption technology.",0.79210675,90,1.4516129032258065,0.5806451612903226
+What information is needed for a pipeline spur interest?,"Contact information for the interested party, such as the Enron affiliate number provided.","Based on the provided context, it appears that the information needed for a pipeline spur interest includes the contact information of a pipeline contractor, specifically:
+
+* Name: Clark Ashton
+* Company: Rooney Engineering
+* Address: 1418 Millstream Lane, Salt Lake City, UT 84106
+* Phone Number: 801-463-7981
+
+Additionally, it is mentioned that Clark is a business development guy, well-connected in the power industry, and specializes in pipeline installation.",0.32409078,392,4.355555555555555,0.1999999999999999
+What are the assumptions for the cash flow study in the DPC strategy session?,Decrease in losses from 40% to 25% and collection efficiency increase from 83% to 92%.,"According to the provided context, the assumptions for the cash flow study discussed in the DPC strategy session are:
+
+1. A 40% decrease in losses
+2. A 25% increase in collection efficiency, from 83% to 92% between 2000-01 and 2006-07
+3. One block DPC operates in 2006-07
+4. Two scenarios based on average realisation are illustrated, with different tariff increases:
+   a. Realistic cash flow study with accompanying tariffs, assuming a state subsidy in 2006-07, resulting in an MSEB cash flow deficit of R34 Cr.
+   b. Annual tariff increases needed for MSEB to break even with a 3% profit, assuming industrial and commercial classes are held flat.",0.44288272,575,6.686046511627907,0.2239999999999999
+What event does Operation Hope address?,Community concerns about September 11th and ongoing national issues.,"According to the context, Operation Hope addresses the ongoing issues the nation faces after the September 11th incident, providing a blueprint for healing and adapting to challenging times.",0.40200955,137,2.014705882352941,0.3243243243243243
+What is the recommendation for managing projects in early planning stages?,Take pictures during route flyovers and prepare preliminary maps.,"Based on the context, the recommendation for managing projects in early planning stages involves the following steps:
+
+1. Develop preliminary maps and identify primary routes, as well as solidify alternate routes.
+2. Conduct a ""fatal-flaw"" desk-top analysis (e.g., ENSR analysis) to identify potential issues.
+3. Hold strategic meetings with key stakeholders, including TNC, State Land Managing agencies, and US Forest Service, to discuss project potential and garner support.
+4. Develop a Public Relations and Government Affairs strategy to inform local, state, and federal jurisdictional governing bodies and politicians about the project.
+5. Coordinate early events and meetings to ensure a smooth project rollout.
+
+Additionally, it is suggested to have visual aids like pictures (slides) to help with the planning stages, and to involve key stakeholders early on to ensure everyone is on the same page.",0.388386,847,13.03076923076923,0.0680272108843537
+Who handles HR matters for Brent Price’s group?,Norma Villarreal is the HR Generalist for Brent Price’s group.,"According to the context, Norma Villarreal, the HR Generalist, handles HR matters for Brent Price's group.",0.8898242,50,0.8064516129032258,0.7142857142857143
+What steps are suggested after the ENSR fatal-flaw analysis?,Schedule meetings with strategic groups and develop an environmental strategy.,"According to the context, after the ENSR fatal-flaw analysis, the suggested steps are:
+
+1. Begin working on developing a full-scoped Environmental Strategy for the Sun Devil project, which includes immediately soliciting bids for Resource Reports and permits.
+2. Schedule a meeting with FERC Staff, State Land Managing Agencies, and US Forest Service to introduce the project and solicit their commitment to collaborate on the FERC NEPA review.
+3. Develop a Public Relations and Government Affairs strategy, which includes identifying early meetings to be held with local, state, and federal jurisdictional governing bodies and politicians to give them a heads-up on the project before it hits the news media, and developing a strategy for a formal project announcement (e.g., news conferences in Phoenix and Houston).",0.53436756,747,9.576923076923077,0.1014492753623188
+How should feedback be provided for Reliant Energy’s eBill service?,Through the Contact Us section of the eBill service website.,"According to the context, feedback for Reliant Energy's eBill service can be provided through the ""Contact Us"" section of the website.",0.6625805,93,1.55,0.625
+How is length in the energy system managed at Enron?,Details such as 50 MW heavy load from Portland are logged with specific deal numbers.,"Based on the provided email chain, it appears that the management of length in the energy system at Enron is not explicitly discussed. The emails seem to focus on internal company matters, such as a reorganization memo, setting up a new counterparty on EnronOnline, and sharing an industry report on broadband topics. There is no mention of how length is managed in the energy system.",0.28426352,327,3.847058823529412,0.05
+How should new legal contracts be approved for steel products?,Identify the lawyer responsible for the approvals in the group.,"Based on the provided context, it appears that new legal contracts for steel products should be approved through the following steps:
+
+1. Click the START button
+2. Select PROGRAMS
+3. Select TEST APPLICATIONS
+4. Select ENRONONLINE CLUSTER (PROD)
+5. Proceed with usual LOGIN/PASSWORD
+6. Click the ""START"" button on the Enron Online Production Cluster
+7. Select EnronOnLine (EOL Datamanager)
+8. Proceed with EOL LOGIN/PASSWORD
+9. Click the ""+"" button on EnronOnLine
+10. Click ""+"" on Product Types
+11. Click ""+"" on ""Awaiting Approval"" (or ""Partially Approved"")
+12. Select the product requiring review as stated in the email
+13. Right-click on ""properties"" to view the product set-up
+14. Right-click ""Approved"" to approve the contract.
+
+Additionally, it is mentioned that Legal Regulatory has already approved certain contracts, and Marcus Power Group is involved in the approval process.",0.3915708,825,13.095238095238097,0.0952380952380952
+How should an Enron conference call be scheduled?,"Provide date, time, dial-in number, participant code, and host code.","Based on the provided context, to schedule an Enron conference call, follow these steps:
+
+1. Decide on a date and time for the call.
+2. Identify the participants and notify them of the call.
+3. Set up a dial-in number and participant code for the call.
+4. Distribute the call-in information to the participants, including the dial-in number and participant code.
+5. Assign a host code to the lead person, if necessary (in this case, Laura Wente).
+6. Designate a point of contact for questions or assistance (in this case, 503-464-3748).
+7. Circulate the call information to the necessary parties, including anyone who needs to be informed (e.g., Joe Dick, Felicia Doan).
+8. Consider any potential conflicts with other senior personnel's schedules.
+
+Example of a scheduled conference call:
+
+""Conference Call set-up Monday, September 27th @ 11:00 (CST). Dial Number: 1.800.998.2462 Pin #: 2144042. Questions, please call Christi @ 713.853.7007.""
+
+or 
+
+""Scheduled conference call Thursday, Oct. 19, 4:30 p.m. Pacific Daylight Time. Call-in information follows: Dial-in number: 1-888-830-6260 Host code (for Laura Wente only): 609790 Participant code: 105143 need assistance questions, please call 503-464-3748.""",0.49925435,1142,16.794117647058822,0.102803738317757
+What should be included in a Transaction Agreement form?,"Details about delivery points, volume, and pricing mechanisms.","Based on the provided context, a Transaction Agreement form should include the following elements:
+
+1. Clear definition of the Relationship and Delivery Point: Specify whether the delivery point is upstream or downstream, and if it's interruptible transport on the Northwest Pipeline, with EWEB as the contracted party.
+
+2. Volume details: Include the estimated quantity with a 20% tolerance (DCQ), and clarify the penalty or pricing for excess volumes (above 20% of estimated quantity) and deficiency (below 20% of estimated quantity).
+
+3. Requirements for the transaction: Outline the envisioned requirements, including the price and volume details for excess quantities, and any arrangements for incremental gas.
+
+Additionally, the agreement may also address other aspects, such as accounting issues, lender requirements, and tax implications, as hinted at in the attached files and emails.",0.57744455,835,13.46774193548387,0.0863309352517985
+What is the purpose of a Unanimous Consent at Enron?,To appoint Kevin as an Officer of the pipes with the title of Vice President.,"Based on the provided context, it appears that the purpose of a Unanimous Consent at Enron is related to corporate resolutions, specifically in the context of EPCA (Electric Power Company of America) and Gridco structure rate proposals. It seems to be a document or agreement that requires approval and signatures from various stakeholders, including lawyers, to move forward with certain business decisions or proposals. In the email from Nancy Muchmore, she mentions attaching a draft corporate resolution and asks for comments before forwarding it to Hope and Duggan, suggesting that the Unanimous Consent is a necessary step in the approval process. However, without further context, the exact purpose and details of a Unanimous Consent at Enron remain unclear.",0.18395767,697,9.051948051948052,0.0902255639097744
+Who handles compensation for Sally Beck’s group?,Yvonne Laing is the Compensation Specialist for Sally Beck’s group.,"According to the context, Yvonne Laing, the Compensation Specialist, handles compensation for Sally Beck's group.",0.89191735,52,0.7761194029850746,0.7407407407407406
+What does Dynegydirect apologize for?,System problems causing inconvenience to customers.,Dynegydirect apologizes for the inconvenience caused by the system problems they experienced in the morning.,0.36262465,77,1.5098039215686274,0.3809523809523809
+What items were shipped in order #11695228?,One STAR WARS 1-PH(S)DVD.,"According to the context, the item shipped in order #11695228 is:
+
+* STAR WARS 1-PH(S)DVD, quantity: 1, with SKU 40157515.",0.65643245,98,3.92,0.4137931034482758
+Who hosted a meeting at Stanford University about research collaboration?,Professor Nicholas Bambos discussed a program supported by Enron.,"There is no mention of a meeting at Stanford University about research collaboration in the provided context. The mention of Stanford is in the context of Greg wanting to combine a trip to Santa Fe with a visit to Stanford on Thursday, the day before the trip to Santa Fe.",0.27858114,230,3.5384615384615383,0.0338983050847457
+What tariff increases were recommended for MSEB to break even?,"Increases varied by category, e.g., 15% for agriculture and 8% for domestic.","According to the context, the tariff increases recommended for MSEB to break even with a 3% profit are:
+
+* Domestic: 8% 
+* LT Public Water Works: 35.60%
+* LT Agriculture Poultry: 26%
+* Street Light: 10.8%
+* HT Agricultural & Poultry: 26.9%
+* Mula Pravara Electric Coop Soc: 24.30%
+* Interstate sales: 6.5%
+
+These increases are mentioned in the first email, assuming industrial and commercial classes are held flat.",0.43443996,357,4.697368421052632,0.1518987341772152
+Who is the contact for reservations at The Inn at Penn?,Mention it is related to University business and confirm with Tom Piazze.,"According to the context, the contact for confirming reservations at The Inn at Penn is Tom Piazze, and his phone number is (215) 898-1615.",0.3418175,108,1.4794520547945205,0.3243243243243243
+What should be done before announcing a $580 million project?,Develop a public relations strategy and coordinate with governing bodies.,"Based on the provided context, it appears that before announcing a project, it's essential to:
+
+1. Define a research agenda and prioritize problems to be addressed.
+2. Ensure a good understanding of the problem space (in this case, Enron's problems).
+3. Formulate a set of research issues that are of high practical importance, have high innovation potential, and have serious scope.
+4. Discuss and get feedback on the problems and research strategy execution path.
+5. Establish a clear process and structure for the program.
+
+It's also crucial to have a clear agreement on the terms of the collaboration, including funding and support, as indicated by the DRAFT letter sent to Stanford University. In this case, Enron is providing $100,000 per year for three years to support the research program.
+
+Additionally, it seems that corporate resolutions and legal agreements may need to be drafted and reviewed by lawyers before proceeding, as indicated in Nancy's email regarding the EPCA project.
+
+It's essential to have a solid foundation and clear understanding among all parties involved before announcing a large-scale project like the $580 million one.",0.24095394,1086,14.876712328767123,0.0301507537688442
+How can one obtain customer support for Dynegydirect?,Call e-Care at (877) 396-3493.,"According to the context, one can obtain customer support for Dynegydirect by calling the e-Care information line at (877) 396-3493 or faxing them at (877) 396-3492. Additionally, you can also contact Don (no phone number provided) or Stephanie at 408-212-2607 (work) or 408-873-8720 (apt) for assistance.",0.5538789,276,9.2,0.2333333333333333
+What was the request made to Steve about Northwest business?,Wire specific amounts to AEP and AVISTA to manage Northwest transactions.,"According to the email, the request made to Steve was to provide a list of customer names and contacts, including Nanci McKenzie from USGT, Frank Tsuru from Red Cedar, and others from various companies such as PG&E, PNM, Burlington Resources, Amoco, Duke, and Texaco.",0.20636174,224,3.068493150684932,0.1071428571428571
+What program does EnronNet Works integrate IT into?,It became part of the 5th business unit at Enron.,"This context doesn't mention EnronNet Works or any program it integrates IT into. It appears to be an email discussing IntelliBytes, a market research and intelligence publication, and some IT-related announcements about remote connectivity and accessing email.",0.46875498,223,4.551020408163265,0.0408163265306122
+Who authored the economist letter for free market pricing?,The Independent Institute coordinated the effort.,"According to the context, the economist letter for free market pricing is to be written by economists from the Independent Institute, specifically with the involvement of David Theroux, the founder and president of the Institute.",0.36991617,189,3.857142857142857,0.1951219512195121
+What information should be shared about hotels for a December 6th meeting?,"Hotel details, including contact numbers and purpose related to university business.","According to the context, for the December 6th meeting, the following hotel information should be shared:
+
+* Hotel: INN PENN, Sansom Common
+* Address: 3600 Sansom Street, Philadelphia, PA 19104
+* Phone: 1-800-809-7001
+* Fax: 215-222-4600
+* Mention ""University business"" when making a reservation
+* Contact: Tom Piazze (215) 898 1615
+
+Additionally, the meeting details are:
+
+* Date: December 6th
+* Time: 9:00 - 12:00",0.5995479,359,4.273809523809524,0.1621621621621621
+What change was made to the Midway project documents?,Adjustments in language regarding the storm water system.,"According to the context, the change made to the Midway project documents (specifically, the Bylaws) was related to the language guaranteeing the operation of the storm water system in Paragraph 3.2, as discussed by Chris Boehler and Greg Krause.",0.56907827,195,3.421052631578948,0.2499999999999999
+What is a recommended approach for funding Ph.D. research at Stanford?,"Provide $100,000 per year over three years for specific research topics.","Based on the context, a recommended approach for funding Ph.D. research at Stanford appears to be partnering with a company like Enron, which can provide gift funds to support research activities, including Ph.D. student work and research seminars. In this case, Enron is offering $100,000 per year for three years to support a research program related to Bandwidth Markets/Trading and Networking Technologies. This partnership can also provide opportunities for Ph.D. students to participate in summer internships at Enron, aligned with their research interests.",0.54830134,498,6.916666666666667,0.18
+What is the suggested action after a discrepancy in ERMS data?,Investigate if it coincides with changes like unwinding Wholesale positions.,"Based on the provided email chain, it appears that the suggested action after a discrepancy in ERMS data is to manually review and correct the data, as Richard had to devote 10 hours to resolve the issue. Additionally, the email suggests that the automation process should be previewed and set correctly to avoid such mistakes in the future.",0.238173,288,3.789473684210526,0.0294117647058823
+What was suggested for the DPC's annual tariff increases?,"Differentiated increases based on the class of consumers, e.g., domestic and industrial.","According to the context, for the DPC's annual tariff increases, two scenarios were proposed:
+
+Scenario 1:
+- 15% increase for LT HT agriculture, LT public water works
+- 10% increase for domestic, street lights, and interstate sales
+- 4% increase for LT industrial powerloom
+- 1% increase for LT commercial HT industrial, public water works, and railways
+
+Scenario 2 (to break even with a 3% profit):
+- 8% increase for domestic
+- 35.60% increase for LT Public Water Works
+- 26% increase for LT Agriculture Poultry
+- 26.9% increase for HT Agricultural & Poultry
+- 24.30% increase for Mula Pravara Electric Coop Soc.
+- 6.5% increase for Interstate sales",0.49190652,577,6.556818181818182,0.0862068965517241
+How should feedback be collected for the OSBA Report Online?,Use the linked survey to provide suggestions and feedback.,"Based on the provided context, there is no specific information about collecting feedback for the OSBA Report Online. The context seems to be related to Enron's Performance Management process and a discussion about steel products, approvals, and profiles. However, it's mentioned that feedback plays an important role in the Performance Management process, and employees can complete a request for feedback by accessing PEP at http://pep.enron.com and selecting ""Complete Feedback"" from the Main Menu. If you have questions regarding the PEP responsibility process, you can contact the PEP Help Desk.",0.37561417,549,9.46551724137931,0.0970873786407767
+What did employees need to adjust for Reliant Energy’s encryption upgrade?,Upgrade their browsers to the latest versions supporting 128-bit encryption.,"According to the context, employees needed to use an internet browser capable of supporting 128-bit encryption technology to take advantage of Reliant Energy's upgraded security for eBill transactions. They could download the latest browsers, such as Microsoft's Internet Explorer or Netscape, to meet this standard.",0.6368729,261,3.4342105263157894,0.3050847457627118
+Who is the recruiter for Sally Beck’s group?,Toni Graham.,"According to the context, the recruiter for Sally Beck's group is Toni Graham.",0.5014231,66,5.5,0.25
+How should market changes like EnronOnline be perceived?,As a method to innovate and stay ahead of competitors by disrupting own markets.,"According to the text, market changes like EnronOnline should be perceived as a necessary step to stay competitive and ahead of the curve. The concept of EnronOnline, which changed the way natural gas is traded, is an example of ""cannibalizing"" a successful business and adapting to changes in the market. This approach is seen as a way to stay innovative and ahead of the competition. As Scott said, ""We cannibalize businesses. I think in five years, the world will look totally different."" This implies that Enron is willing to disrupt its own business models to stay relevant and innovative, even if it means changing the way it operates.",0.5509071,567,7.0875,0.180327868852459
+What does the NYISO reserve in Real-Time Markets?,Specific hours and prices based on market conditions.,"According to the context, NYISO reserves hours in the Real-Time Market. Specifically, on January 19, 2002, the reserved hours are 10:00, and additionally, 0:00-11:00, 13:00, 14:00, and 17:00-23:00. On December 1, 2000, the reserved hours are 14:00 and 16:00.",0.43846434,225,4.245283018867925,0.1694915254237288
+Who should be notified about VaR discrepancies?,Relevant team members responsible for ERMS and financial metrics.,"According to the email, Vince should be notified about the VaR discrepancies.",0.16985464,57,0.8769230769230769,0.0
+What event is Vince planning to attend to prioritize research?,A mid-August visit to Enron to finalize research strategies.,"Based on the provided context, it appears that Vince is planning to attend a conference call on Friday, September 7, possibly related to a trip to Santa Fe, where he wants to discuss an NDA (Non-Disclosure Agreement) and may include a lawyer, Mark Taylor. Additionally, he has a meeting scheduled at Rice University on Thursday to discuss Rice's Action Learning Program. It seems that Vince is prioritizing research related to the Action Learning Program at Rice University.",0.24837019,426,7.1,0.0898876404494382

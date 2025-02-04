@@ -163,6 +163,6 @@ cython_debug/
 
 # notebooks 
 .ipynb_checkpoints/
-*.ipynb
 x.csv
 ny.csv
+.DS_Store

@@ -1,0 +1,150 @@
+1. Q: What system replaced IPASS for remote connectivity to Enron's network?
+A: eConnect replaced IPASS for remote connectivity to Enron's network.
+
+2. Q: Where can Enron employees access email remotely?
+A: Enron employees can access email remotely through Outlook Web Access at http:\\mail.enron.com.
+
+3. Q: What is the deadline mentioned for a contract extension for Sempra?
+A: The contract extension for Sempra is from 12/31/01 to 12/31/02.
+
+4. Q: What should be done if differences are identified in a contract at Enron?
+A: The differences should be discussed and corrected before bringing the contract in.
+
+5. Q: Who needs to be coordinated with to draft side letter agreements?
+A: Side letters need to be coordinated with Mark or Tana Jones.
+
+6. Q: How can one request authorization to use eConnect?
+A: Authorization for eConnect can be requested via the eRequest system on IT Central.
+
+7. Q: What are the concerns regarding the receipt meter on deal 235367?
+A: The receipt meter needs to be changed from meter 7126 to meter 010902.
+
+8. Q: What happens if items in a buy.com order are not shipped together?
+A: Items will arrive in separate packages, as buy.com ships from multiple warehouses.
+
+9. Q: What should be done to track a buy.com order?
+A: Visit the buy.com support page or use the provided tracking instructions.
+
+10. Q: What was the issue with the flow rate of meter #1591 Lamay gas lift?
+A: It had very little flow, potentially affecting the risk numbers.
+
+11. Q: How should payment for Reliant Energy HL&P bills be made with Auto Pay?
+A: The bank account will be automatically drafted, and no action is needed.
+
+12. Q: What is required for a browser to support Reliant Energy’s upgraded eBill security?
+A: A browser capable of supporting 128-bit encryption technology.
+
+13. Q: What information is needed for a pipeline spur interest?
+A: Contact information for the interested party, such as the Enron affiliate number provided.
+
+14. Q: What are the assumptions for the cash flow study in the DPC strategy session?
+A: Decrease in losses from 40% to 25% and collection efficiency increase from 83% to 92%.
+
+15. Q: How should deviations in VaR be addressed at Enron?
+A: Identify if deviations are related to automated processes or specific transactions.
+
+16. Q: What event does Operation Hope address?
+A: Community concerns about September 11th and ongoing national issues.
+
+17. Q: What is the recommendation for managing projects in early planning stages?
+A: Take pictures during route flyovers and prepare preliminary maps.
+
+18. Q: Who handles HR matters for Brent Price’s group?
+A: Norma Villarreal is the HR Generalist for Brent Price’s group.
+
+19. Q: What steps are suggested after the ENSR fatal-flaw analysis?
+A: Schedule meetings with strategic groups and develop an environmental strategy.
+
+20. Q: How should feedback be provided for Reliant Energy’s eBill service?
+A: Through the Contact Us section of the eBill service website.
+
+21. Q: How is length in the energy system managed at Enron?
+A: Details such as 50 MW heavy load from Portland are logged with specific deal numbers.
+
+22. Q: How should new legal contracts be approved for steel products?
+A: Identify the lawyer responsible for the approvals in the group.
+
+23. Q: How should an Enron conference call be scheduled?
+A: Provide date, time, dial-in number, participant code, and host code.
+
+24. Q: What should be included in a Transaction Agreement form?
+A: Details about delivery points, volume, and pricing mechanisms.
+
+25. Q: What is the purpose of a Unanimous Consent at Enron?
+A: To appoint Kevin as an Officer of the pipes with the title of Vice President.
+
+26. Q: Who handles compensation for Sally Beck’s group?
+A: Yvonne Laing is the Compensation Specialist for Sally Beck’s group.
+
+27. Q: How should discrepancies in PX amount calculations be resolved?
+A: Coordinate between the Services group and reconcile curves to actual bills.
+
+28. Q: What does Dynegydirect apologize for?
+A: System problems causing inconvenience to customers.
+
+29. Q: What items were shipped in order #11695228?
+A: One STAR WARS 1-PH(S)DVD.
+
+30. Q: Who hosted a meeting at Stanford University about research collaboration?
+A: Professor Nicholas Bambos discussed a program supported by Enron.
+
+31. Q: What tariff increases were recommended for MSEB to break even?
+A: Increases varied by category, e.g., 15% for agriculture and 8% for domestic.
+
+32. Q: Who is the contact for reservations at The Inn at Penn?
+A: Mention it is related to University business and confirm with Tom Piazze.
+
+33. Q: What should be done before announcing a $580 million project?
+A: Develop a public relations strategy and coordinate with governing bodies.
+
+34. Q: How can one obtain customer support for Dynegydirect?
+A: Call e-Care at (877) 396-3493.
+
+35. Q: What was the request made to Steve about Northwest business?
+A: Wire specific amounts to AEP and AVISTA to manage Northwest transactions.
+
+36. Q: What program does EnronNet Works integrate IT into?
+A: It became part of the 5th business unit at Enron.
+
+37. Q: Who authored the economist letter for free market pricing?
+A: The Independent Institute coordinated the effort.
+
+38. Q: What information should be shared about hotels for a December 6th meeting?
+A: Hotel details, including contact numbers and purpose related to university business.
+
+39. Q: What change was made to the Midway project documents?
+A: Adjustments in language regarding the storm water system.
+
+40. Q: How are pipeline spurs coordinated within Enron affiliates?
+A: Contact relevant personnel within Enron affiliates for discussions.
+
+41. Q: What is a recommended approach for funding Ph.D. research at Stanford?
+A: Provide $100,000 per year over three years for specific research topics.
+
+42. Q: What is the suggested action after a discrepancy in ERMS data?
+A: Investigate if it coincides with changes like unwinding Wholesale positions.
+
+43. Q: What was suggested for the DPC's annual tariff increases?
+A: Differentiated increases based on the class of consumers, e.g., domestic and industrial.
+
+44. Q: How should feedback be collected for the OSBA Report Online?
+A: Use the linked survey to provide suggestions and feedback.
+
+45. Q: What did employees need to adjust for Reliant Energy’s encryption upgrade?
+A: Upgrade their browsers to the latest versions supporting 128-bit encryption.
+
+46. Q: Who is the recruiter for Sally Beck’s group?
+A: Toni Graham.
+
+47. Q: How should market changes like EnronOnline be perceived?
+A: As a method to innovate and stay ahead of competitors by disrupting own markets.
+
+48. Q: What does the NYISO reserve in Real-Time Markets?
+A: Specific hours and prices based on market conditions.
+
+49. Q: Who should be notified about VaR discrepancies?
+A: Relevant team members responsible for ERMS and financial metrics.
+
+50. Q: What event is Vince planning to attend to prioritize research?
+A: A mid-August visit to Enron to finalize research strategies.
+
