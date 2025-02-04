@@ -57,7 +57,7 @@ with st.container():
         if sort_option == "Valeur (croissant)":
             data.sort(key=lambda x: x["value"])
         elif sort_option == "Valeur (décroissant)":
-            data.sort(key=lambda x: x["value"], reverse=True)  # Correction ici - x["value"] au lieu de x: x["value"]
+            data.sort(key=lambda x: x["value"], reverse=True)
         elif sort_option == "Titre (A-Z)":
             data.sort(key=lambda x: x["title"])
         elif sort_option == "Titre (Z-A)":

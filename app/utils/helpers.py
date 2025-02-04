@@ -114,7 +114,8 @@ def add_logo_and_icons():
     pages = {
         "Home": ("1_Home", "home"),
         "Dashboard": ("pages.2_Dashboard", "circle-nodes"),  # Modifié
-        "Chatbot": ("pages.3_Chatbot", "apps")  # Modifié
+        "Chatbot": ("pages.3_Chatbot", "apps"),  # Modifié
+        "Knowledge Graph": ("pages.4_Knowledge_Graph", "kg")  # Modifié
     }
 
     for label, (page_script, icon_name) in pages.items():
