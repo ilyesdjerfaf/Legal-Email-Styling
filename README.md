@@ -76,20 +76,26 @@ Follow these steps to run the project:
    cd Legal-Email-Styling
    ```
 
-2. **Create a virtual environment**:
+2. **Make sure to add a `.env` file in the generation folder with an OpenAi API Key :
+   ```python
+   OPENAI_API_KEY = "sk..."
+   ```
+
+3. **Create a virtual environment**:
    ```bash
    python -m venv venv
    source venv/bin/activate    # On Windows: venv\Scripts\activate
    ```
 
-3. **Install dependencies**:
+4. **Install dependencies**:
    ```bash
    pip install -e .
    ```
 
-4. **Run App**:
+5. **Run App**:
    ```bash
-   streamlit run app/1_Home.py
+   cd app
+   streamlit run 1_Home.py
    ```
 
 ---
